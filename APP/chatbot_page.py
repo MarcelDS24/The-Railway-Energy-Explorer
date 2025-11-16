@@ -4,7 +4,7 @@ import pandas as pd
 from ollama import chat
 
 def chatbot_page():
-    st.markdown("### 💬 Chatbot Assistant")
+    st.markdown("Chatbot Assistant")
     st.write(
         "Ask about your dataset — e.g. *What’s the highest EPI value?* or *Which route has the best potential?*"
     )
@@ -13,7 +13,7 @@ def chatbot_page():
     try:
         df = pd.read_csv("../data/oebb_gtfs/stop_times_geo_with_startEnd_calc.csv")
     except FileNotFoundError:
-        st.error("❌ Could not load dataset. Please check the file path.")
+        st.error("Could not load dataset. Please check the file path.")
         return
 
     # --- Keep chat history in session state ---
@@ -63,7 +63,7 @@ def chatbot_page():
                     )
                     answer = response["message"]["content"]
                 except Exception as e:
-                    answer = f"⚠️ There was an error communicating with the model: {e}"
+                    answer = f"There was an error communicating with the model: {e}"
 
                 st.markdown(answer)
 
