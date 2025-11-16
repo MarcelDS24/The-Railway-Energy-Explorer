@@ -1,8 +1,3 @@
-level_id,level_index,level_name
-"Level 0","0",""
-"Level 1","1",""
-"Level -1","-1",""
-"Level -2","-2",""
-"Level 2","2",""
-"Level -3","-3",""
-"Level 3","3",""
+version https://git-lfs.github.com/spec/v1
+oid sha256:508004e08552db58fa69b7f448734427cd13ece3562c0d19bda5dc19ed572a5f
+size 157
