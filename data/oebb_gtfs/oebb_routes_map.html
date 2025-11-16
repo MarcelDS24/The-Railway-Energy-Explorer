@@ -1,0 +1,2803 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b97c24eb70ca3875de8541f00136e335 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b97c24eb70ca3875de8541f00136e335" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b97c24eb70ca3875de8541f00136e335 = L.map(
+                "map_b97c24eb70ca3875de8541f00136e335",
+                {
+                    center: [47.5, 14.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f2682e81463d583836527f434eb82a5a = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f2682e81463d583836527f434eb82a5a.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var feature_group_7b814451af873ce22aa293150cbd22a2 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_7b814451af873ce22aa293150cbd22a2.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_93204fd5753b7ace1e5a870816a7a4a8 = L.circleMarker(
+                [47.07958465, 9.91759837],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_bc9a8b33c3c6b10b39fe23572f36c099 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c18cf6f38d3e370921a26419937796ac = $(`<div id="html_c18cf6f38d3e370921a26419937796ac" style="width: 100.0%; height: 100.0%;">Schruns Bahnhof</div>`)[0];
+                popup_bc9a8b33c3c6b10b39fe23572f36c099.setContent(html_c18cf6f38d3e370921a26419937796ac);
+            
+        
+
+        circle_marker_93204fd5753b7ace1e5a870816a7a4a8.bindPopup(popup_bc9a8b33c3c6b10b39fe23572f36c099)
+        ;
+
+        
+    
+    
+            var circle_marker_ceba6be007cc350255ff018c6a2fdc2b = L.circleMarker(
+                [47.07911972, 9.90476144],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_b3379405ac1ab2357103eb2843eec555 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fef14f6e3c6cda47c08084529402d70 = $(`<div id="html_6fef14f6e3c6cda47c08084529402d70" style="width: 100.0%; height: 100.0%;">Tschagguns Bahnhof</div>`)[0];
+                popup_b3379405ac1ab2357103eb2843eec555.setContent(html_6fef14f6e3c6cda47c08084529402d70);
+            
+        
+
+        circle_marker_ceba6be007cc350255ff018c6a2fdc2b.bindPopup(popup_b3379405ac1ab2357103eb2843eec555)
+        ;
+
+        
+    
+    
+            var circle_marker_1e260569688eab9adde7a56470091b48 = L.circleMarker(
+                [47.08538359, 9.88816058],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_3aee7fe88e32bd4c9946744d18bcaebb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6bac62ce83238bb6ab29366b8256dd6 = $(`<div id="html_c6bac62ce83238bb6ab29366b8256dd6" style="width: 100.0%; height: 100.0%;">Kaltenbrunnen Bahnhof</div>`)[0];
+                popup_3aee7fe88e32bd4c9946744d18bcaebb.setContent(html_c6bac62ce83238bb6ab29366b8256dd6);
+            
+        
+
+        circle_marker_1e260569688eab9adde7a56470091b48.bindPopup(popup_3aee7fe88e32bd4c9946744d18bcaebb)
+        ;
+
+        
+    
+    
+            var circle_marker_214db5dff3a8272601c78464c6783ee3 = L.circleMarker(
+                [47.09877136, 9.868739],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_e9dc557139183650fea746291bf79bb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3f9403d6e35b5ca648ea845d3acd063 = $(`<div id="html_b3f9403d6e35b5ca648ea845d3acd063" style="width: 100.0%; height: 100.0%;">Vandans Bahnhof</div>`)[0];
+                popup_e9dc557139183650fea746291bf79bb6.setContent(html_b3f9403d6e35b5ca648ea845d3acd063);
+            
+        
+
+        circle_marker_214db5dff3a8272601c78464c6783ee3.bindPopup(popup_e9dc557139183650fea746291bf79bb6)
+        ;
+
+        
+    
+    
+            var circle_marker_d1bac32d7e3f6889450c2da3c4ee42b5 = L.circleMarker(
+                [47.10996704, 9.86622372],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_9f771bded785ff00c89fc5dbb2dedf1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d8d0fd86869e2b1551b39af605f1208 = $(`<div id="html_7d8d0fd86869e2b1551b39af605f1208" style="width: 100.0%; height: 100.0%;">St. Anton im Montafon Bahnhof</div>`)[0];
+                popup_9f771bded785ff00c89fc5dbb2dedf1a.setContent(html_7d8d0fd86869e2b1551b39af605f1208);
+            
+        
+
+        circle_marker_d1bac32d7e3f6889450c2da3c4ee42b5.bindPopup(popup_9f771bded785ff00c89fc5dbb2dedf1a)
+        ;
+
+        
+    
+    
+            var circle_marker_4cc7e73397d21a4f3edffb2945ba7f78 = L.circleMarker(
+                [47.13100073, 9.85291068],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_941a37b78f21b9e0f8ed3db0d152d18c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72708a1468b55532f867326f2e9d432c = $(`<div id="html_72708a1468b55532f867326f2e9d432c" style="width: 100.0%; height: 100.0%;">Lorüns Bahnhof</div>`)[0];
+                popup_941a37b78f21b9e0f8ed3db0d152d18c.setContent(html_72708a1468b55532f867326f2e9d432c);
+            
+        
+
+        circle_marker_4cc7e73397d21a4f3edffb2945ba7f78.bindPopup(popup_941a37b78f21b9e0f8ed3db0d152d18c)
+        ;
+
+        
+    
+    
+            var circle_marker_a0df61fc5c057cda38c619196fc2a5d6 = L.circleMarker(
+                [47.13625021, 9.83888798],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_4bde18c8858ec5710138050ef407a293 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38bafd1b40e5fbd80325eea31bc77ec2 = $(`<div id="html_38bafd1b40e5fbd80325eea31bc77ec2" style="width: 100.0%; height: 100.0%;">Bludenz Brunnenfeld Bahnhof</div>`)[0];
+                popup_4bde18c8858ec5710138050ef407a293.setContent(html_38bafd1b40e5fbd80325eea31bc77ec2);
+            
+        
+
+        circle_marker_a0df61fc5c057cda38c619196fc2a5d6.bindPopup(popup_4bde18c8858ec5710138050ef407a293)
+        ;
+
+        
+    
+    
+            var circle_marker_24974dbb63816ae2c8a057438f9ac1af = L.circleMarker(
+                [47.14212242, 9.83104569],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_20c9b3e4332d80420bbc8d32962b0114 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fdf6063b07655b6067229228fa756da = $(`<div id="html_3fdf6063b07655b6067229228fa756da" style="width: 100.0%; height: 100.0%;">Bludenz Moos Bahnhof</div>`)[0];
+                popup_20c9b3e4332d80420bbc8d32962b0114.setContent(html_3fdf6063b07655b6067229228fa756da);
+            
+        
+
+        circle_marker_24974dbb63816ae2c8a057438f9ac1af.bindPopup(popup_20c9b3e4332d80420bbc8d32962b0114)
+        ;
+
+        
+    
+    
+            var circle_marker_ae43f00788dc0f2584bedae925b42ee5 = L.circleMarker(
+                [47.15501334, 9.81470533],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_b8f9c12a93116cd11a8d9491b1c40c1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aad01d6a6746350cfd4c66bd82ceb5ff = $(`<div id="html_aad01d6a6746350cfd4c66bd82ceb5ff" style="width: 100.0%; height: 100.0%;">Bludenz Bahnhof</div>`)[0];
+                popup_b8f9c12a93116cd11a8d9491b1c40c1d.setContent(html_aad01d6a6746350cfd4c66bd82ceb5ff);
+            
+        
+
+        circle_marker_ae43f00788dc0f2584bedae925b42ee5.bindPopup(popup_b8f9c12a93116cd11a8d9491b1c40c1d)
+        ;
+
+        
+    
+    
+            var poly_line_50cd36cb7b2fdb0cfbf31582926dd3e8 = L.polyline(
+                [[47.07958465, 9.91759837], [47.07911972, 9.90476144], [47.08538359, 9.88816058], [47.09877136, 9.868739], [47.10996704, 9.86622372], [47.13100073, 9.85291068], [47.13625021, 9.83888798], [47.14212242, 9.83104569], [47.15501334, 9.81470533]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_63d435053a4b75bd964c4b010d3b2429 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67326b6b6f374a6ed4af4b00740521f7 = $(`<div id="html_67326b6b6f374a6ed4af4b00740521f7" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-MB4-j25-1.1.R</div>`)[0];
+                popup_63d435053a4b75bd964c4b010d3b2429.setContent(html_67326b6b6f374a6ed4af4b00740521f7);
+            
+        
+
+        poly_line_50cd36cb7b2fdb0cfbf31582926dd3e8.bindPopup(popup_63d435053a4b75bd964c4b010d3b2429)
+        ;
+
+        
+    
+    
+            var feature_group_09dd252a28147fa7d59b20b64a57efe3 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_09dd252a28147fa7d59b20b64a57efe3.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_aa3fbd66c4b6ea795174838c6a718265 = L.circleMarker(
+                [47.15501334, 9.81470533],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_bbf414e0e7e1d93693b588694331036f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b00cc4b0bc0990107aadc6f228a42122 = $(`<div id="html_b00cc4b0bc0990107aadc6f228a42122" style="width: 100.0%; height: 100.0%;">Bludenz Bahnhof</div>`)[0];
+                popup_bbf414e0e7e1d93693b588694331036f.setContent(html_b00cc4b0bc0990107aadc6f228a42122);
+            
+        
+
+        circle_marker_aa3fbd66c4b6ea795174838c6a718265.bindPopup(popup_bbf414e0e7e1d93693b588694331036f)
+        ;
+
+        
+    
+    
+            var circle_marker_26f6c3be1b26d0bcd9dae237f5dc3777 = L.circleMarker(
+                [47.17113785, 9.79361289],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_7c207c875e0d39554ba4e70bea839014 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaf7f6c5308439016946967c1603aebc = $(`<div id="html_eaf7f6c5308439016946967c1603aebc" style="width: 100.0%; height: 100.0%;">Nüziders Bahnhof</div>`)[0];
+                popup_7c207c875e0d39554ba4e70bea839014.setContent(html_eaf7f6c5308439016946967c1603aebc);
+            
+        
+
+        circle_marker_26f6c3be1b26d0bcd9dae237f5dc3777.bindPopup(popup_7c207c875e0d39554ba4e70bea839014)
+        ;
+
+        
+    
+    
+            var circle_marker_310e16a8b564d39ea3238726328b8d00 = L.circleMarker(
+                [47.18024238, 9.77150535],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_8159cdb0eed0301adcd8e911e8c3c6a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5729de891b8864f6365237d4608d9efe = $(`<div id="html_5729de891b8864f6365237d4608d9efe" style="width: 100.0%; height: 100.0%;">Ludesch Bahnhof</div>`)[0];
+                popup_8159cdb0eed0301adcd8e911e8c3c6a0.setContent(html_5729de891b8864f6365237d4608d9efe);
+            
+        
+
+        circle_marker_310e16a8b564d39ea3238726328b8d00.bindPopup(popup_8159cdb0eed0301adcd8e911e8c3c6a0)
+        ;
+
+        
+    
+    
+            var circle_marker_1f6a9a49a584c792086fd9fb0b2c1513 = L.circleMarker(
+                [47.19144533, 9.70875803],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_b6c1b34d5abef7ec1e3253cf808ed308 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79d05625956614b05eaa3f5e3b3c3b23 = $(`<div id="html_79d05625956614b05eaa3f5e3b3c3b23" style="width: 100.0%; height: 100.0%;">Nenzing Bahnhof</div>`)[0];
+                popup_b6c1b34d5abef7ec1e3253cf808ed308.setContent(html_79d05625956614b05eaa3f5e3b3c3b23);
+            
+        
+
+        circle_marker_1f6a9a49a584c792086fd9fb0b2c1513.bindPopup(popup_b6c1b34d5abef7ec1e3253cf808ed308)
+        ;
+
+        
+    
+    
+            var circle_marker_28e6ccea961da22466848edf1384f419 = L.circleMarker(
+                [47.194937, 9.6904863],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_4a57fb5d5fc040269f4df1e4b099a41b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f3272cfc9090f19b581ff81ec9b2541 = $(`<div id="html_1f3272cfc9090f19b581ff81ec9b2541" style="width: 100.0%; height: 100.0%;">Schlins Bahnhof</div>`)[0];
+                popup_4a57fb5d5fc040269f4df1e4b099a41b.setContent(html_1f3272cfc9090f19b581ff81ec9b2541);
+            
+        
+
+        circle_marker_28e6ccea961da22466848edf1384f419.bindPopup(popup_4a57fb5d5fc040269f4df1e4b099a41b)
+        ;
+
+        
+    
+    
+            var circle_marker_334cb5285aeb1d588e3bea612280ea86 = L.circleMarker(
+                [47.22000065, 9.63921046],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_f0226c609b185e849b76b09495bdeffa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72bb69d505802c35f5089671cd943b61 = $(`<div id="html_72bb69d505802c35f5089671cd943b61" style="width: 100.0%; height: 100.0%;">Frastanz Bahnhof</div>`)[0];
+                popup_f0226c609b185e849b76b09495bdeffa.setContent(html_72bb69d505802c35f5089671cd943b61);
+            
+        
+
+        circle_marker_334cb5285aeb1d588e3bea612280ea86.bindPopup(popup_f0226c609b185e849b76b09495bdeffa)
+        ;
+
+        
+    
+    
+            var circle_marker_c58e540b05f6164195c5d52ae8917bb2 = L.circleMarker(
+                [47.24103959, 9.60450854],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_c313ccfa584b51def2b14effd323fb7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be500f2c64676c36194ab962b3d8c6e8 = $(`<div id="html_be500f2c64676c36194ab962b3d8c6e8" style="width: 100.0%; height: 100.0%;">Feldkirch Bahnhof</div>`)[0];
+                popup_c313ccfa584b51def2b14effd323fb7a.setContent(html_be500f2c64676c36194ab962b3d8c6e8);
+            
+        
+
+        circle_marker_c58e540b05f6164195c5d52ae8917bb2.bindPopup(popup_c313ccfa584b51def2b14effd323fb7a)
+        ;
+
+        
+    
+    
+            var circle_marker_e6bf34bb98047634cad46acd82583751 = L.circleMarker(
+                [47.25535764, 9.62140585],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_3851e4613b4c1ad333db67d945c49774 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22136ad295ae728aceb8f2282eb723a5 = $(`<div id="html_22136ad295ae728aceb8f2282eb723a5" style="width: 100.0%; height: 100.0%;">Feldkirch Amberg Bahnhof</div>`)[0];
+                popup_3851e4613b4c1ad333db67d945c49774.setContent(html_22136ad295ae728aceb8f2282eb723a5);
+            
+        
+
+        circle_marker_e6bf34bb98047634cad46acd82583751.bindPopup(popup_3851e4613b4c1ad333db67d945c49774)
+        ;
+
+        
+    
+    
+            var circle_marker_067aeb441b40838fed3462ba7edd2679 = L.circleMarker(
+                [47.27293892, 9.63736891],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_954916bbc6c79832d9e41b28c2b814db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48b3b8fe4aa90071224cc3957c347e34 = $(`<div id="html_48b3b8fe4aa90071224cc3957c347e34" style="width: 100.0%; height: 100.0%;">Rankweil Bahnhof</div>`)[0];
+                popup_954916bbc6c79832d9e41b28c2b814db.setContent(html_48b3b8fe4aa90071224cc3957c347e34);
+            
+        
+
+        circle_marker_067aeb441b40838fed3462ba7edd2679.bindPopup(popup_954916bbc6c79832d9e41b28c2b814db)
+        ;
+
+        
+    
+    
+            var circle_marker_3f024dab70262bba794d8a15931de27a = L.circleMarker(
+                [47.29404823, 9.63470092],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_ab8fe7904996374a20ef9260093cf9e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9a49e37b8573d35f705d79eae71a0b0 = $(`<div id="html_c9a49e37b8573d35f705d79eae71a0b0" style="width: 100.0%; height: 100.0%;">Sulz-Röthis Bahnhof</div>`)[0];
+                popup_ab8fe7904996374a20ef9260093cf9e1.setContent(html_c9a49e37b8573d35f705d79eae71a0b0);
+            
+        
+
+        circle_marker_3f024dab70262bba794d8a15931de27a.bindPopup(popup_ab8fe7904996374a20ef9260093cf9e1)
+        ;
+
+        
+    
+    
+            var circle_marker_0bafbe054dc1371864d245a925269c6a = L.circleMarker(
+                [47.30887578, 9.62432538],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_3cdf67d0f2937f1f347febd9eec93988 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5782d144796b59dfeeedeba7bdfeac2 = $(`<div id="html_b5782d144796b59dfeeedeba7bdfeac2" style="width: 100.0%; height: 100.0%;">Klaus Bahnhof</div>`)[0];
+                popup_3cdf67d0f2937f1f347febd9eec93988.setContent(html_b5782d144796b59dfeeedeba7bdfeac2);
+            
+        
+
+        circle_marker_0bafbe054dc1371864d245a925269c6a.bindPopup(popup_3cdf67d0f2937f1f347febd9eec93988)
+        ;
+
+        
+    
+    
+            var circle_marker_7a340039600ac632fd898abb0e3bd64f = L.circleMarker(
+                [47.33738001, 9.63744078],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_a96db223e8e018f6f3bfe76ccd0185aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37d762535af76823d2833ae248176bb1 = $(`<div id="html_37d762535af76823d2833ae248176bb1" style="width: 100.0%; height: 100.0%;">Götzis Bahnhof</div>`)[0];
+                popup_a96db223e8e018f6f3bfe76ccd0185aa.setContent(html_37d762535af76823d2833ae248176bb1);
+            
+        
+
+        circle_marker_7a340039600ac632fd898abb0e3bd64f.bindPopup(popup_a96db223e8e018f6f3bfe76ccd0185aa)
+        ;
+
+        
+    
+    
+            var circle_marker_1ef12825cf1266612471e893b6cb50da = L.circleMarker(
+                [47.35192153, 9.66098562],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_12f5d99a34c4f03d432dc04f15a59e84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e8d88563abbd6c34631d94642dad1dd = $(`<div id="html_4e8d88563abbd6c34631d94642dad1dd" style="width: 100.0%; height: 100.0%;">Altach Bahnhof</div>`)[0];
+                popup_12f5d99a34c4f03d432dc04f15a59e84.setContent(html_4e8d88563abbd6c34631d94642dad1dd);
+            
+        
+
+        circle_marker_1ef12825cf1266612471e893b6cb50da.bindPopup(popup_12f5d99a34c4f03d432dc04f15a59e84)
+        ;
+
+        
+    
+    
+            var circle_marker_77c77d30c9e49da5fb2c29b8498da0d5 = L.circleMarker(
+                [47.3647554, 9.68114382],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_08418768ab9f6bf5ab2f38e7708de297 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7912115f8908a0ae7547760eb7d44bf3 = $(`<div id="html_7912115f8908a0ae7547760eb7d44bf3" style="width: 100.0%; height: 100.0%;">Hohenems Bahnhof</div>`)[0];
+                popup_08418768ab9f6bf5ab2f38e7708de297.setContent(html_7912115f8908a0ae7547760eb7d44bf3);
+            
+        
+
+        circle_marker_77c77d30c9e49da5fb2c29b8498da0d5.bindPopup(popup_08418768ab9f6bf5ab2f38e7708de297)
+        ;
+
+        
+    
+    
+            var circle_marker_e05942e17d5811e374741854426a8c94 = L.circleMarker(
+                [47.39903676, 9.72493669],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_391e135de0194fa447b57b606237af57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7108fa37233591df3a905f01b80ce72 = $(`<div id="html_b7108fa37233591df3a905f01b80ce72" style="width: 100.0%; height: 100.0%;">Dornbirn Hatlerdorf Bahnhof</div>`)[0];
+                popup_391e135de0194fa447b57b606237af57.setContent(html_b7108fa37233591df3a905f01b80ce72);
+            
+        
+
+        circle_marker_e05942e17d5811e374741854426a8c94.bindPopup(popup_391e135de0194fa447b57b606237af57)
+        ;
+
+        
+    
+    
+            var circle_marker_de9ec0214844ab9f41c2385786fba5e0 = L.circleMarker(
+                [47.41313577, 9.72673332],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_8e96f412b68fb3ca97bb1cb3d3467a65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_123c7998ba142b05934207c27dbc5bde = $(`<div id="html_123c7998ba142b05934207c27dbc5bde" style="width: 100.0%; height: 100.0%;">Dornbirn Schoren Bahnhof</div>`)[0];
+                popup_8e96f412b68fb3ca97bb1cb3d3467a65.setContent(html_123c7998ba142b05934207c27dbc5bde);
+            
+        
+
+        circle_marker_de9ec0214844ab9f41c2385786fba5e0.bindPopup(popup_8e96f412b68fb3ca97bb1cb3d3467a65)
+        ;
+
+        
+    
+    
+            var circle_marker_946174a1fb63b461c48a4643b2d34266 = L.circleMarker(
+                [47.41748812, 9.73853718],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_f7cea883ba61f294f9cc1996b192e729 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8ef00d563b2b73000ebc088f71e867e = $(`<div id="html_c8ef00d563b2b73000ebc088f71e867e" style="width: 100.0%; height: 100.0%;">Dornbirn Bahnhof</div>`)[0];
+                popup_f7cea883ba61f294f9cc1996b192e729.setContent(html_c8ef00d563b2b73000ebc088f71e867e);
+            
+        
+
+        circle_marker_946174a1fb63b461c48a4643b2d34266.bindPopup(popup_f7cea883ba61f294f9cc1996b192e729)
+        ;
+
+        
+    
+    
+            var circle_marker_5b813f28a214e3088c9ee19387c349ed = L.circleMarker(
+                [47.43270639, 9.74925408],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_00ba8538bdcbe8500a1e4d311c1b9ce7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_940117366ab7e296660619bd353e3124 = $(`<div id="html_940117366ab7e296660619bd353e3124" style="width: 100.0%; height: 100.0%;">Dornbirn Haselstauden Bahnhof</div>`)[0];
+                popup_00ba8538bdcbe8500a1e4d311c1b9ce7.setContent(html_940117366ab7e296660619bd353e3124);
+            
+        
+
+        circle_marker_5b813f28a214e3088c9ee19387c349ed.bindPopup(popup_00ba8538bdcbe8500a1e4d311c1b9ce7)
+        ;
+
+        
+    
+    
+            var circle_marker_dd02d43567e282cba172b5a97653d123 = L.circleMarker(
+                [47.44607952, 9.75446431],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_1b46edbb7ad8ee99cfc14a9cfe404fca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61474d868d3832157f349d7931804c32 = $(`<div id="html_61474d868d3832157f349d7931804c32" style="width: 100.0%; height: 100.0%;">Schwarzach Bahnhof</div>`)[0];
+                popup_1b46edbb7ad8ee99cfc14a9cfe404fca.setContent(html_61474d868d3832157f349d7931804c32);
+            
+        
+
+        circle_marker_dd02d43567e282cba172b5a97653d123.bindPopup(popup_1b46edbb7ad8ee99cfc14a9cfe404fca)
+        ;
+
+        
+    
+    
+            var circle_marker_6e30210ebaf6ffc069f2f2a5deb089d4 = L.circleMarker(
+                [47.45711693, 9.74115128],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_871ffc27b32e79bcb6a724b72ead18f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98e7a98f52765c0cbb85b858bf110dea = $(`<div id="html_98e7a98f52765c0cbb85b858bf110dea" style="width: 100.0%; height: 100.0%;">Wolfurt Bahnhof</div>`)[0];
+                popup_871ffc27b32e79bcb6a724b72ead18f0.setContent(html_98e7a98f52765c0cbb85b858bf110dea);
+            
+        
+
+        circle_marker_6e30210ebaf6ffc069f2f2a5deb089d4.bindPopup(popup_871ffc27b32e79bcb6a724b72ead18f0)
+        ;
+
+        
+    
+    
+            var circle_marker_5809652e1a4e19125c6068b4ac597538 = L.circleMarker(
+                [47.47739979, 9.7244516],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_cb912760e19e6bdfcfbe1ff0d0babed1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82d52fc72d15398ae96f5b96d05ea082 = $(`<div id="html_82d52fc72d15398ae96f5b96d05ea082" style="width: 100.0%; height: 100.0%;">Lauterach Bahnhof</div>`)[0];
+                popup_cb912760e19e6bdfcfbe1ff0d0babed1.setContent(html_82d52fc72d15398ae96f5b96d05ea082);
+            
+        
+
+        circle_marker_5809652e1a4e19125c6068b4ac597538.bindPopup(popup_cb912760e19e6bdfcfbe1ff0d0babed1)
+        ;
+
+        
+    
+    
+            var circle_marker_42f2333c7fc60dda935a55ae6bb64543 = L.circleMarker(
+                [47.49366294, 9.72121766],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_88e9a5cf000c37766a29b7413b72b881 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_281e43241622430f437d3a15dd8b9ead = $(`<div id="html_281e43241622430f437d3a15dd8b9ead" style="width: 100.0%; height: 100.0%;">Bregenz Riedenburg Bahnhof</div>`)[0];
+                popup_88e9a5cf000c37766a29b7413b72b881.setContent(html_281e43241622430f437d3a15dd8b9ead);
+            
+        
+
+        circle_marker_42f2333c7fc60dda935a55ae6bb64543.bindPopup(popup_88e9a5cf000c37766a29b7413b72b881)
+        ;
+
+        
+    
+    
+            var circle_marker_2e715d121a229fec86480c3702555242 = L.circleMarker(
+                [47.50336136, 9.74104348],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_4dcac6988691b415b91adb41887e1b37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d518ced88d8bfa9807cd63b086cd6409 = $(`<div id="html_d518ced88d8bfa9807cd63b086cd6409" style="width: 100.0%; height: 100.0%;">Bregenz Bahnhof</div>`)[0];
+                popup_4dcac6988691b415b91adb41887e1b37.setContent(html_d518ced88d8bfa9807cd63b086cd6409);
+            
+        
+
+        circle_marker_2e715d121a229fec86480c3702555242.bindPopup(popup_4dcac6988691b415b91adb41887e1b37)
+        ;
+
+        
+    
+    
+            var poly_line_8750fc93aa4f634821ca4b96cb4b5787 = L.polyline(
+                [[47.15501334, 9.81470533], [47.17113785, 9.79361289], [47.18024238, 9.77150535], [47.19144533, 9.70875803], [47.194937, 9.6904863], [47.22000065, 9.63921046], [47.24103959, 9.60450854], [47.25535764, 9.62140585], [47.27293892, 9.63736891], [47.29404823, 9.63470092], [47.30887578, 9.62432538], [47.33738001, 9.63744078], [47.35192153, 9.66098562], [47.3647554, 9.68114382], [47.39903676, 9.72493669], [47.41313577, 9.72673332], [47.41748812, 9.73853718], [47.43270639, 9.74925408], [47.44607952, 9.75446431], [47.45711693, 9.74115128], [47.47739979, 9.7244516], [47.49366294, 9.72121766], [47.50336136, 9.74104348]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_2f7bd2c450f01d985acddfb5d68ce8d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aef25f2f7830707c535b1ddf740485ef = $(`<div id="html_aef25f2f7830707c535b1ddf740485ef" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-MS1-V-j25-1.1.R</div>`)[0];
+                popup_2f7bd2c450f01d985acddfb5d68ce8d5.setContent(html_aef25f2f7830707c535b1ddf740485ef);
+            
+        
+
+        poly_line_8750fc93aa4f634821ca4b96cb4b5787.bindPopup(popup_2f7bd2c450f01d985acddfb5d68ce8d5)
+        ;
+
+        
+    
+    
+            var feature_group_fba8a93078327bb4df51941631d658b9 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_fba8a93078327bb4df51941631d658b9.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_28d93f16e8dfb6ede4d1a841a7a73019 = L.circleMarker(
+                [46.61898517, 13.84880571],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_70b81cb0cc2c820879b9aa355814abf3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_317506f4ea9bb6adef3e0e28c8bd9611 = $(`<div id="html_317506f4ea9bb6adef3e0e28c8bd9611" style="width: 100.0%; height: 100.0%;">Villach Hauptbahnhof</div>`)[0];
+                popup_70b81cb0cc2c820879b9aa355814abf3.setContent(html_317506f4ea9bb6adef3e0e28c8bd9611);
+            
+        
+
+        circle_marker_28d93f16e8dfb6ede4d1a841a7a73019.bindPopup(popup_70b81cb0cc2c820879b9aa355814abf3)
+        ;
+
+        
+    
+    
+            var circle_marker_81e40f6c721a0b45a672302fcc5f537f = L.circleMarker(
+                [46.62104592, 13.87331176],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_909b0163ddb0fbffe184490ff523c398 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbf536169f63a10d7129b4be88d36de6 = $(`<div id="html_fbf536169f63a10d7129b4be88d36de6" style="width: 100.0%; height: 100.0%;">Villach Seebach Bahnhst</div>`)[0];
+                popup_909b0163ddb0fbffe184490ff523c398.setContent(html_fbf536169f63a10d7129b4be88d36de6);
+            
+        
+
+        circle_marker_81e40f6c721a0b45a672302fcc5f537f.bindPopup(popup_909b0163ddb0fbffe184490ff523c398)
+        ;
+
+        
+    
+    
+            var circle_marker_666838bc9186c99fed5bd3bb2aff9024 = L.circleMarker(
+                [46.60213214, 13.95905595],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_46e87255f95d0c117fe4a0f8304314a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_607a20ecaf1700b2081fe5df307dcde3 = $(`<div id="html_607a20ecaf1700b2081fe5df307dcde3" style="width: 100.0%; height: 100.0%;">Föderlach Bahnhof</div>`)[0];
+                popup_46e87255f95d0c117fe4a0f8304314a8.setContent(html_607a20ecaf1700b2081fe5df307dcde3);
+            
+        
+
+        circle_marker_666838bc9186c99fed5bd3bb2aff9024.bindPopup(popup_46e87255f95d0c117fe4a0f8304314a8)
+        ;
+
+        
+    
+    
+            var poly_line_27f58a98da7635faf734c39c57f051fc = L.polyline(
+                [[46.61898517, 13.84880571], [46.62104592, 13.87331176], [46.60213214, 13.95905595]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_0d99a98dfae06ef5afb22d18b32d1177 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0c826d484a1a6b3f68fc29be5885eaf = $(`<div id="html_a0c826d484a1a6b3f68fc29be5885eaf" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S1-K-j25-1.1.R</div>`)[0];
+                popup_0d99a98dfae06ef5afb22d18b32d1177.setContent(html_a0c826d484a1a6b3f68fc29be5885eaf);
+            
+        
+
+        poly_line_27f58a98da7635faf734c39c57f051fc.bindPopup(popup_0d99a98dfae06ef5afb22d18b32d1177)
+        ;
+
+        
+    
+    
+            var feature_group_ad563f78377b310cfca3b219d3fbeb87 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_ad563f78377b310cfca3b219d3fbeb87.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_d4ef04d7a48b268a3f6b6006e46c77a8 = L.circleMarker(
+                [47.07262875, 15.4163569],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_a326385aa071648d37b60d1bae4b4896 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae810e01f245b907d44a058feb9cb958 = $(`<div id="html_ae810e01f245b907d44a058feb9cb958" style="width: 100.0%; height: 100.0%;">Graz Hbf 4</div>`)[0];
+                popup_a326385aa071648d37b60d1bae4b4896.setContent(html_ae810e01f245b907d44a058feb9cb958);
+            
+        
+
+        circle_marker_d4ef04d7a48b268a3f6b6006e46c77a8.bindPopup(popup_a326385aa071648d37b60d1bae4b4896)
+        ;
+
+        
+    
+    
+            var circle_marker_a1fc9b1b1831ac0e530faf4a3eb21a38 = L.circleMarker(
+                [47.11859913, 15.34326997],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_028831860cffb5b24c18d63f57f81a5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5635171833148a41bcb0977289cf9b2f = $(`<div id="html_5635171833148a41bcb0977289cf9b2f" style="width: 100.0%; height: 100.0%;">Judendorf-Straßengel Bahnhof 2</div>`)[0];
+                popup_028831860cffb5b24c18d63f57f81a5b.setContent(html_5635171833148a41bcb0977289cf9b2f);
+            
+        
+
+        circle_marker_a1fc9b1b1831ac0e530faf4a3eb21a38.bindPopup(popup_028831860cffb5b24c18d63f57f81a5b)
+        ;
+
+        
+    
+    
+            var circle_marker_04b0caad8d308953125aaaee65525ecd = L.circleMarker(
+                [47.12878833, 15.32333635],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_2b4b6b3adf9da35fdeb3b722f0832af6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2315e33f2e36a3850c8f498f47d48dd = $(`<div id="html_d2315e33f2e36a3850c8f498f47d48dd" style="width: 100.0%; height: 100.0%;">Gratwein-Gratkorn Bahnhof 1</div>`)[0];
+                popup_2b4b6b3adf9da35fdeb3b722f0832af6.setContent(html_d2315e33f2e36a3850c8f498f47d48dd);
+            
+        
+
+        circle_marker_04b0caad8d308953125aaaee65525ecd.bindPopup(popup_2b4b6b3adf9da35fdeb3b722f0832af6)
+        ;
+
+        
+    
+    
+            var circle_marker_1055b092a844fa7d19319dc8adfad856 = L.circleMarker(
+                [47.17754965, 15.32232126],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_eb44877279100a46cd0d6a941a0ad95e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51dbbb8c9cc39ace8de0f3230970ceb7 = $(`<div id="html_51dbbb8c9cc39ace8de0f3230970ceb7" style="width: 100.0%; height: 100.0%;">Stübing Bahnhof 2</div>`)[0];
+                popup_eb44877279100a46cd0d6a941a0ad95e.setContent(html_51dbbb8c9cc39ace8de0f3230970ceb7);
+            
+        
+
+        circle_marker_1055b092a844fa7d19319dc8adfad856.bindPopup(popup_eb44877279100a46cd0d6a941a0ad95e)
+        ;
+
+        
+    
+    
+            var circle_marker_b000a2f308998e6c5348758e85354bb9 = L.circleMarker(
+                [47.20752218, 15.34313522],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_6920df5b6ec34a3ae1b5f7d4c713d6db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45c85afa51b8418d9859f2e99319589c = $(`<div id="html_45c85afa51b8418d9859f2e99319589c" style="width: 100.0%; height: 100.0%;">Peggau-Deutschfeistritz Bahnhof 2</div>`)[0];
+                popup_6920df5b6ec34a3ae1b5f7d4c713d6db.setContent(html_45c85afa51b8418d9859f2e99319589c);
+            
+        
+
+        circle_marker_b000a2f308998e6c5348758e85354bb9.bindPopup(popup_6920df5b6ec34a3ae1b5f7d4c713d6db)
+        ;
+
+        
+    
+    
+            var circle_marker_771467b86a29ed2503c248b5f803efff = L.circleMarker(
+                [47.26649597, 15.32728894],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_54e81448c726e8a8070000bcef4fc867 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c34d52484350d9cc4ec4039342ef39bc = $(`<div id="html_c34d52484350d9cc4ec4039342ef39bc" style="width: 100.0%; height: 100.0%;">Frohnleiten Bahnhof 1</div>`)[0];
+                popup_54e81448c726e8a8070000bcef4fc867.setContent(html_c34d52484350d9cc4ec4039342ef39bc);
+            
+        
+
+        circle_marker_771467b86a29ed2503c248b5f803efff.bindPopup(popup_54e81448c726e8a8070000bcef4fc867)
+        ;
+
+        
+    
+    
+            var poly_line_f04b616a79752aee7612051af055ccf1 = L.polyline(
+                [[47.07262875, 15.4163569], [47.11859913, 15.34326997], [47.12878833, 15.32333635], [47.17754965, 15.32232126], [47.20752218, 15.34313522], [47.26649597, 15.32728894]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_ca6f40e02119a1cb742fcd374b070993 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_939092a38626b3323556707159166f77 = $(`<div id="html_939092a38626b3323556707159166f77" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S1-M-j25-1.1.R</div>`)[0];
+                popup_ca6f40e02119a1cb742fcd374b070993.setContent(html_939092a38626b3323556707159166f77);
+            
+        
+
+        poly_line_f04b616a79752aee7612051af055ccf1.bindPopup(popup_ca6f40e02119a1cb742fcd374b070993)
+        ;
+
+        
+    
+    
+            var feature_group_780c9d785d04eb108dd727f10e441b36 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_780c9d785d04eb108dd727f10e441b36.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_fb256873110e67ceca52b063d2f4b7c0 = L.circleMarker(
+                [48.17888088, 14.52155403],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_6218c9c43886dac466ed4be8d92aa542 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c33bab0683ddba7b90e15c0c3b7bc73 = $(`<div id="html_5c33bab0683ddba7b90e15c0c3b7bc73" style="width: 100.0%; height: 100.0%;">St. Valentin Bahnhof</div>`)[0];
+                popup_6218c9c43886dac466ed4be8d92aa542.setContent(html_5c33bab0683ddba7b90e15c0c3b7bc73);
+            
+        
+
+        circle_marker_fb256873110e67ceca52b063d2f4b7c0.bindPopup(popup_6218c9c43886dac466ed4be8d92aa542)
+        ;
+
+        
+    
+    
+            var circle_marker_59276742413da825acf909eeea71904d = L.circleMarker(
+                [48.21644257, 14.4963473],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_1884094660fe46cb7f5536c3672b68ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e29b94f8a05cf84c58f3b9d217f175f = $(`<div id="html_5e29b94f8a05cf84c58f3b9d217f175f" style="width: 100.0%; height: 100.0%;">Ennsdorf Bahnhof</div>`)[0];
+                popup_1884094660fe46cb7f5536c3672b68ae.setContent(html_5e29b94f8a05cf84c58f3b9d217f175f);
+            
+        
+
+        circle_marker_59276742413da825acf909eeea71904d.bindPopup(popup_1884094660fe46cb7f5536c3672b68ae)
+        ;
+
+        
+    
+    
+            var circle_marker_faa44486f8c9a39219a50a67f5b5bd73 = L.circleMarker(
+                [48.22130268, 14.46706223],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_70745776e9a17b6dfef5d10795126b57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4f21685d6a5e6371a13fcd37318e889 = $(`<div id="html_d4f21685d6a5e6371a13fcd37318e889" style="width: 100.0%; height: 100.0%;">Enns Bahnhof</div>`)[0];
+                popup_70745776e9a17b6dfef5d10795126b57.setContent(html_d4f21685d6a5e6371a13fcd37318e889);
+            
+        
+
+        circle_marker_faa44486f8c9a39219a50a67f5b5bd73.bindPopup(popup_70745776e9a17b6dfef5d10795126b57)
+        ;
+
+        
+    
+    
+            var circle_marker_2a99ed2856a9208df887a5d73066394f = L.circleMarker(
+                [48.22740709, 14.42732974],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_b34f0ea4ec6993012b16ddfe23c4f754 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2973dc953994687a98b1d09db1da174b = $(`<div id="html_2973dc953994687a98b1d09db1da174b" style="width: 100.0%; height: 100.0%;">Asten-Fisching</div>`)[0];
+                popup_b34f0ea4ec6993012b16ddfe23c4f754.setContent(html_2973dc953994687a98b1d09db1da174b);
+            
+        
+
+        circle_marker_2a99ed2856a9208df887a5d73066394f.bindPopup(popup_b34f0ea4ec6993012b16ddfe23c4f754)
+        ;
+
+        
+    
+    
+            var circle_marker_3075cbe30c198d6bbde20a3d3d88c944 = L.circleMarker(
+                [48.24292816, 14.37916207],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_5356ea188c01219c069fa8ae4be9c622 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65c24cee8af2d140abed48593930b449 = $(`<div id="html_65c24cee8af2d140abed48593930b449" style="width: 100.0%; height: 100.0%;">Linz Pichling</div>`)[0];
+                popup_5356ea188c01219c069fa8ae4be9c622.setContent(html_65c24cee8af2d140abed48593930b449);
+            
+        
+
+        circle_marker_3075cbe30c198d6bbde20a3d3d88c944.bindPopup(popup_5356ea188c01219c069fa8ae4be9c622)
+        ;
+
+        
+    
+    
+            var circle_marker_e47cd134aa2245e56e6b25c2f95ab4d0 = L.circleMarker(
+                [48.25203279, 14.34674188],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_ca75d83f53f18604596726ac6832327d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2477b436850dc560bb6ddaeef77dacbb = $(`<div id="html_2477b436850dc560bb6ddaeef77dacbb" style="width: 100.0%; height: 100.0%;">Linz Ebelsberg</div>`)[0];
+                popup_ca75d83f53f18604596726ac6832327d.setContent(html_2477b436850dc560bb6ddaeef77dacbb);
+            
+        
+
+        circle_marker_e47cd134aa2245e56e6b25c2f95ab4d0.bindPopup(popup_ca75d83f53f18604596726ac6832327d)
+        ;
+
+        
+    
+    
+            var circle_marker_38d21d349a2d3be8118eb08108e2cc62 = L.circleMarker(
+                [48.2903059, 14.29172007],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_32864a9c4a096511f55b8e72c125816b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f247b2e239e4e213aa535dc1004daeda = $(`<div id="html_f247b2e239e4e213aa535dc1004daeda" style="width: 100.0%; height: 100.0%;">Linz/Donau Hauptbahnhof</div>`)[0];
+                popup_32864a9c4a096511f55b8e72c125816b.setContent(html_f247b2e239e4e213aa535dc1004daeda);
+            
+        
+
+        circle_marker_38d21d349a2d3be8118eb08108e2cc62.bindPopup(popup_32864a9c4a096511f55b8e72c125816b)
+        ;
+
+        
+    
+    
+            var poly_line_86ef6b467bec4eace4164ab21a677fd6 = L.polyline(
+                [[48.17888088, 14.52155403], [48.21644257, 14.4963473], [48.22130268, 14.46706223], [48.22740709, 14.42732974], [48.24292816, 14.37916207], [48.25203279, 14.34674188], [48.2903059, 14.29172007]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_e15c8fbb626e3eb3024ffecb07d49dd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98734087a90d6096c9e125f9b60dfcb1 = $(`<div id="html_98734087a90d6096c9e125f9b60dfcb1" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S1-O-j25-1.1.R</div>`)[0];
+                popup_e15c8fbb626e3eb3024ffecb07d49dd0.setContent(html_98734087a90d6096c9e125f9b60dfcb1);
+            
+        
+
+        poly_line_86ef6b467bec4eace4164ab21a677fd6.bindPopup(popup_e15c8fbb626e3eb3024ffecb07d49dd0)
+        ;
+
+        
+    
+    
+            var feature_group_094a395413fa4db8e6443e03981f497e = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_094a395413fa4db8e6443e03981f497e.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_fe42e001a332485e5ae6d7e7f875783d = L.circleMarker(
+                [47.50336136, 9.74104348],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_7c6104eb3f15cdb1ad11d1cfbf98d52c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4846246ced36052fe935c0501749e7c9 = $(`<div id="html_4846246ced36052fe935c0501749e7c9" style="width: 100.0%; height: 100.0%;">Bregenz Bahnhof</div>`)[0];
+                popup_7c6104eb3f15cdb1ad11d1cfbf98d52c.setContent(html_4846246ced36052fe935c0501749e7c9);
+            
+        
+
+        circle_marker_fe42e001a332485e5ae6d7e7f875783d.bindPopup(popup_7c6104eb3f15cdb1ad11d1cfbf98d52c)
+        ;
+
+        
+    
+    
+            var circle_marker_d8ac6bcff62620bbab553ec5870c1ca3 = L.circleMarker(
+                [47.50612854, 9.7482839],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_970bbdaaaac2f8d020784eaea39b1788 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9adc52617583310f7748241ea5acfb4e = $(`<div id="html_9adc52617583310f7748241ea5acfb4e" style="width: 100.0%; height: 100.0%;">Bregenz Hafen Bahnhof</div>`)[0];
+                popup_970bbdaaaac2f8d020784eaea39b1788.setContent(html_9adc52617583310f7748241ea5acfb4e);
+            
+        
+
+        circle_marker_d8ac6bcff62620bbab553ec5870c1ca3.bindPopup(popup_970bbdaaaac2f8d020784eaea39b1788)
+        ;
+
+        
+    
+    
+            var circle_marker_21c8f2271c4a7018daf44c122ef127b5 = L.circleMarker(
+                [47.52940108, 9.74256163],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_8f34821e19f2c3acc38c4fdd06f6c6e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a80b5659227ba60b25e2152fadf38654 = $(`<div id="html_a80b5659227ba60b25e2152fadf38654" style="width: 100.0%; height: 100.0%;">Lochau-Hörbranz Bahnhof</div>`)[0];
+                popup_8f34821e19f2c3acc38c4fdd06f6c6e4.setContent(html_a80b5659227ba60b25e2152fadf38654);
+            
+        
+
+        circle_marker_21c8f2271c4a7018daf44c122ef127b5.bindPopup(popup_8f34821e19f2c3acc38c4fdd06f6c6e4)
+        ;
+
+        
+    
+    
+            var circle_marker_55e27fc74406c8f373681a3d13104d86 = L.circleMarker(
+                [47.55248141, 9.70291898],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_ff62c3d8279fc9f926dc834159b62eec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b216b4f42122e70d760e9b5f8843140e = $(`<div id="html_b216b4f42122e70d760e9b5f8843140e" style="width: 100.0%; height: 100.0%;">Lindau-Reutin</div>`)[0];
+                popup_ff62c3d8279fc9f926dc834159b62eec.setContent(html_b216b4f42122e70d760e9b5f8843140e);
+            
+        
+
+        circle_marker_55e27fc74406c8f373681a3d13104d86.bindPopup(popup_ff62c3d8279fc9f926dc834159b62eec)
+        ;
+
+        
+    
+    
+            var circle_marker_6294f2d41a140908e561376da3b8af4f = L.circleMarker(
+                [47.54536919, 9.68060483],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_69fecf7283656488424d3c114a00a473 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b4cf5fb637d8383daeac0e33152c4f7 = $(`<div id="html_7b4cf5fb637d8383daeac0e33152c4f7" style="width: 100.0%; height: 100.0%;">Lindau-Insel</div>`)[0];
+                popup_69fecf7283656488424d3c114a00a473.setContent(html_7b4cf5fb637d8383daeac0e33152c4f7);
+            
+        
+
+        circle_marker_6294f2d41a140908e561376da3b8af4f.bindPopup(popup_69fecf7283656488424d3c114a00a473)
+        ;
+
+        
+    
+    
+            var poly_line_cbed2b7cffd0e448fd613621ce37b648 = L.polyline(
+                [[47.50336136, 9.74104348], [47.50612854, 9.7482839], [47.52940108, 9.74256163], [47.55248141, 9.70291898], [47.54536919, 9.68060483]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_997e5d1a3ad89e8404b9eaaa0b4f5969 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06cfc882491b420215550bd4c854d7c7 = $(`<div id="html_06cfc882491b420215550bd4c854d7c7" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S1-V-j25-1.1.R</div>`)[0];
+                popup_997e5d1a3ad89e8404b9eaaa0b4f5969.setContent(html_06cfc882491b420215550bd4c854d7c7);
+            
+        
+
+        poly_line_cbed2b7cffd0e448fd613621ce37b648.bindPopup(popup_997e5d1a3ad89e8404b9eaaa0b4f5969)
+        ;
+
+        
+    
+    
+            var feature_group_bda501bb49c6b4a3e879ec218651dde4 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_bda501bb49c6b4a3e879ec218651dde4.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_8f36877f3d41091dda13c7b6104f4a79 = L.circleMarker(
+                [48.2562974, 16.40016485],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_93ee8a3d642ed500c356d0374b6787ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7ac46b93b2fea77716aed05b3028fa8 = $(`<div id="html_f7ac46b93b2fea77716aed05b3028fa8" style="width: 100.0%; height: 100.0%;">Wien Floridsdorf</div>`)[0];
+                popup_93ee8a3d642ed500c356d0374b6787ca.setContent(html_f7ac46b93b2fea77716aed05b3028fa8);
+            
+        
+
+        circle_marker_8f36877f3d41091dda13c7b6104f4a79.bindPopup(popup_93ee8a3d642ed500c356d0374b6787ca)
+        ;
+
+        
+    
+    
+            var circle_marker_b9a573bf3d0e37dfb1b74862c444ebe4 = L.circleMarker(
+                [48.2709487, 16.42080814],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_b561fbfc4f90a1f697e7a8b6bf6d0188 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_067206d1b80442e85e3a6c82c353f64c = $(`<div id="html_067206d1b80442e85e3a6c82c353f64c" style="width: 100.0%; height: 100.0%;">Wien Siemensstraße</div>`)[0];
+                popup_b561fbfc4f90a1f697e7a8b6bf6d0188.setContent(html_067206d1b80442e85e3a6c82c353f64c);
+            
+        
+
+        circle_marker_b9a573bf3d0e37dfb1b74862c444ebe4.bindPopup(popup_b561fbfc4f90a1f697e7a8b6bf6d0188)
+        ;
+
+        
+    
+    
+            var circle_marker_4b3bb6b931a1e785b8807c957c0d6de2 = L.circleMarker(
+                [48.27768689, 16.4501561],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_9e9bb49859980ff2a9409bcaa676718b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_612d05ccee768a3a722f65cb13e8433f = $(`<div id="html_612d05ccee768a3a722f65cb13e8433f" style="width: 100.0%; height: 100.0%;">Wien Leopoldau</div>`)[0];
+                popup_9e9bb49859980ff2a9409bcaa676718b.setContent(html_612d05ccee768a3a722f65cb13e8433f);
+            
+        
+
+        circle_marker_4b3bb6b931a1e785b8807c957c0d6de2.bindPopup(popup_9e9bb49859980ff2a9409bcaa676718b)
+        ;
+
+        
+    
+    
+            var circle_marker_30b937b14f5e3d6722cedef86aa90c3e = L.circleMarker(
+                [48.28530888, 16.48447174],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_0393df7901f98dd86d3da8e17cad0f72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ab0e0d99f6ffa0c6e7ac00ce2ea2747 = $(`<div id="html_4ab0e0d99f6ffa0c6e7ac00ce2ea2747" style="width: 100.0%; height: 100.0%;">Wien Süßenbrunn</div>`)[0];
+                popup_0393df7901f98dd86d3da8e17cad0f72.setContent(html_4ab0e0d99f6ffa0c6e7ac00ce2ea2747);
+            
+        
+
+        circle_marker_30b937b14f5e3d6722cedef86aa90c3e.bindPopup(popup_0393df7901f98dd86d3da8e17cad0f72)
+        ;
+
+        
+    
+    
+            var circle_marker_09686d27698e30f91b5e94df8ee1d1ae = L.circleMarker(
+                [48.30328629, 16.56514944],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_93359943dece88017a3cf6e7d0b18d68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_062b0b6f088090f828b57032cc4ef241 = $(`<div id="html_062b0b6f088090f828b57032cc4ef241" style="width: 100.0%; height: 100.0%;">Deutsch-Wagram Bahnhof</div>`)[0];
+                popup_93359943dece88017a3cf6e7d0b18d68.setContent(html_062b0b6f088090f828b57032cc4ef241);
+            
+        
+
+        circle_marker_09686d27698e30f91b5e94df8ee1d1ae.bindPopup(popup_93359943dece88017a3cf6e7d0b18d68)
+        ;
+
+        
+    
+    
+            var poly_line_b2e6e5a2c1939928a51bb92d24c45f3f = L.polyline(
+                [[48.2562974, 16.40016485], [48.2709487, 16.42080814], [48.27768689, 16.4501561], [48.28530888, 16.48447174], [48.30328629, 16.56514944]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_548d5f6475c5187bd1ecbe57b4a4d852 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4031c049174fb30f665448879bf63153 = $(`<div id="html_4031c049174fb30f665448879bf63153" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S1-W-j25-1.1.R</div>`)[0];
+                popup_548d5f6475c5187bd1ecbe57b4a4d852.setContent(html_4031c049174fb30f665448879bf63153);
+            
+        
+
+        poly_line_b2e6e5a2c1939928a51bb92d24c45f3f.bindPopup(popup_548d5f6475c5187bd1ecbe57b4a4d852)
+        ;
+
+        
+    
+    
+            var feature_group_4b8ac2600485b6fe3391b49262ad6922 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_4b8ac2600485b6fe3391b49262ad6922.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_26a2d9d15873ce6b37275a40329ff88d = L.circleMarker(
+                [46.61898517, 13.84880571],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_46e5f05258cd3e058a41d82f68683cf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09c450715eb2c7ed862f5d0718dc9e26 = $(`<div id="html_09c450715eb2c7ed862f5d0718dc9e26" style="width: 100.0%; height: 100.0%;">Villach Hauptbahnhof</div>`)[0];
+                popup_46e5f05258cd3e058a41d82f68683cf2.setContent(html_09c450715eb2c7ed862f5d0718dc9e26);
+            
+        
+
+        circle_marker_26a2d9d15873ce6b37275a40329ff88d.bindPopup(popup_46e5f05258cd3e058a41d82f68683cf2)
+        ;
+
+        
+    
+    
+            var circle_marker_489f8f653e618b659fdb597e86a870cd = L.circleMarker(
+                [46.62980635, 13.87567432],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_a0d0a1e841e93f38a1023d9b2d458092 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1872712a7843fe7331bab14152ce2e87 = $(`<div id="html_1872712a7843fe7331bab14152ce2e87" style="width: 100.0%; height: 100.0%;">Villach Landskron Bahnhst</div>`)[0];
+                popup_a0d0a1e841e93f38a1023d9b2d458092.setContent(html_1872712a7843fe7331bab14152ce2e87);
+            
+        
+
+        circle_marker_489f8f653e618b659fdb597e86a870cd.bindPopup(popup_a0d0a1e841e93f38a1023d9b2d458092)
+        ;
+
+        
+    
+    
+            var circle_marker_4365d4d964f7c7e97ad44a23e59b0106 = L.circleMarker(
+                [46.64165535, 13.87587195],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_0c215fd00610fb48bc9b4e33918a1f59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7139d6c2d279054752f8e11015e31feb = $(`<div id="html_7139d6c2d279054752f8e11015e31feb" style="width: 100.0%; height: 100.0%;">Villach St.Ruprecht Bahnhof</div>`)[0];
+                popup_0c215fd00610fb48bc9b4e33918a1f59.setContent(html_7139d6c2d279054752f8e11015e31feb);
+            
+        
+
+        circle_marker_4365d4d964f7c7e97ad44a23e59b0106.bindPopup(popup_0c215fd00610fb48bc9b4e33918a1f59)
+        ;
+
+        
+    
+    
+            var circle_marker_40de6f4397a426970c78bcd77df7a399 = L.circleMarker(
+                [46.6585454, 13.90093495],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_ee8c6d978f85c0e6fa5b4ebffce926a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_614d43c0df718e043309ea340e50f84b = $(`<div id="html_614d43c0df718e043309ea340e50f84b" style="width: 100.0%; height: 100.0%;">Annenheim Bahnhst</div>`)[0];
+                popup_ee8c6d978f85c0e6fa5b4ebffce926a4.setContent(html_614d43c0df718e043309ea340e50f84b);
+            
+        
+
+        circle_marker_40de6f4397a426970c78bcd77df7a399.bindPopup(popup_ee8c6d978f85c0e6fa5b4ebffce926a4)
+        ;
+
+        
+    
+    
+            var circle_marker_9239cf4969973ccf4b0f8cac717afe7e = L.circleMarker(
+                [46.66284878, 13.91715852],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_87f4b4b3fde688ac8c30d30f858e4661 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad29aad9b2c6c2b4a4926bb3aa280c9b = $(`<div id="html_ad29aad9b2c6c2b4a4926bb3aa280c9b" style="width: 100.0%; height: 100.0%;">Sattendorf Bahnhof</div>`)[0];
+                popup_87f4b4b3fde688ac8c30d30f858e4661.setContent(html_ad29aad9b2c6c2b4a4926bb3aa280c9b);
+            
+        
+
+        circle_marker_9239cf4969973ccf4b0f8cac717afe7e.bindPopup(popup_87f4b4b3fde688ac8c30d30f858e4661)
+        ;
+
+        
+    
+    
+            var circle_marker_8b083f130a9cb26c348a4b16cd32a554 = L.circleMarker(
+                [46.67485079, 13.96009799],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_b969ea5f1d07bf24d7e6400525c6d0ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1539af715b73a17da30630d2f6e63d6d = $(`<div id="html_1539af715b73a17da30630d2f6e63d6d" style="width: 100.0%; height: 100.0%;">St.Urban/Ossiacher See Bahnhst</div>`)[0];
+                popup_b969ea5f1d07bf24d7e6400525c6d0ae.setContent(html_1539af715b73a17da30630d2f6e63d6d);
+            
+        
+
+        circle_marker_8b083f130a9cb26c348a4b16cd32a554.bindPopup(popup_b969ea5f1d07bf24d7e6400525c6d0ae)
+        ;
+
+        
+    
+    
+            var circle_marker_100bec62fbf9a394ade13738cd1d80fb = L.circleMarker(
+                [46.68283217, 13.97445307],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_61b0bf73ad25e19833e713842ee47487 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39a19cb1745d341776d5036dd5303754 = $(`<div id="html_39a19cb1745d341776d5036dd5303754" style="width: 100.0%; height: 100.0%;">Ossiach-Bodensdorf Bahnhof</div>`)[0];
+                popup_61b0bf73ad25e19833e713842ee47487.setContent(html_39a19cb1745d341776d5036dd5303754);
+            
+        
+
+        circle_marker_100bec62fbf9a394ade13738cd1d80fb.bindPopup(popup_61b0bf73ad25e19833e713842ee47487)
+        ;
+
+        
+    
+    
+            var circle_marker_b2244d9165d29b006b9e8aae78c52255 = L.circleMarker(
+                [46.69848334, 14.01471556],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_efe6f710725853a327e3703dfba544ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68e8ad0595b954e003f30eae03b5a0bd = $(`<div id="html_68e8ad0595b954e003f30eae03b5a0bd" style="width: 100.0%; height: 100.0%;">Steindorf am Ossiacher See Bahnhst</div>`)[0];
+                popup_efe6f710725853a327e3703dfba544ff.setContent(html_68e8ad0595b954e003f30eae03b5a0bd);
+            
+        
+
+        circle_marker_b2244d9165d29b006b9e8aae78c52255.bindPopup(popup_efe6f710725853a327e3703dfba544ff)
+        ;
+
+        
+    
+    
+            var circle_marker_c9b84bc3b7e437fa1ebe7c02f8018346 = L.circleMarker(
+                [46.70166847, 14.06046676],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_97a28718ce7bfcd8a8b42c9b658f6d33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b54485fc82cf23bc185250604459247 = $(`<div id="html_4b54485fc82cf23bc185250604459247" style="width: 100.0%; height: 100.0%;">Tiffen Bahnhst</div>`)[0];
+                popup_97a28718ce7bfcd8a8b42c9b658f6d33.setContent(html_4b54485fc82cf23bc185250604459247);
+            
+        
+
+        circle_marker_c9b84bc3b7e437fa1ebe7c02f8018346.bindPopup(popup_97a28718ce7bfcd8a8b42c9b658f6d33)
+        ;
+
+        
+    
+    
+            var circle_marker_512dfca20d20bc1a3881fa660605b8db = L.circleMarker(
+                [46.72151434, 14.09974111],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_fd7025d2f62b05ee136736dc7f1c9efd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6d118b2a6bf01ca6a6bdc605a4270da = $(`<div id="html_f6d118b2a6bf01ca6a6bdc605a4270da" style="width: 100.0%; height: 100.0%;">Feldkirchen in Ktn Bahnhof</div>`)[0];
+                popup_fd7025d2f62b05ee136736dc7f1c9efd.setContent(html_f6d118b2a6bf01ca6a6bdc605a4270da);
+            
+        
+
+        circle_marker_512dfca20d20bc1a3881fa660605b8db.bindPopup(popup_fd7025d2f62b05ee136736dc7f1c9efd)
+        ;
+
+        
+    
+    
+            var poly_line_1ae7c15840914d9572fb93d5c7cd601b = L.polyline(
+                [[46.61898517, 13.84880571], [46.62980635, 13.87567432], [46.64165535, 13.87587195], [46.6585454, 13.90093495], [46.66284878, 13.91715852], [46.67485079, 13.96009799], [46.68283217, 13.97445307], [46.69848334, 14.01471556], [46.70166847, 14.06046676], [46.72151434, 14.09974111]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_667e293acef5ff5055d046b96abe9853 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c9d48fb855694aa0bd1bed8ede8c183 = $(`<div id="html_8c9d48fb855694aa0bd1bed8ede8c183" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S2-K-j25-1.1.R</div>`)[0];
+                popup_667e293acef5ff5055d046b96abe9853.setContent(html_8c9d48fb855694aa0bd1bed8ede8c183);
+            
+        
+
+        poly_line_1ae7c15840914d9572fb93d5c7cd601b.bindPopup(popup_667e293acef5ff5055d046b96abe9853)
+        ;
+
+        
+    
+    
+            var feature_group_9e68e27dc6bed37d9cb88d9ad60b0062 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_9e68e27dc6bed37d9cb88d9ad60b0062.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_3f081c413a9d6cd255e374b52deea3b8 = L.circleMarker(
+                [48.2903059, 14.29172007],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_2478f480b2111135f6c7ab7189665231 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbda028350689152e69c68e119a322ec = $(`<div id="html_cbda028350689152e69c68e119a322ec" style="width: 100.0%; height: 100.0%;">Linz/Donau Hauptbahnhof</div>`)[0];
+                popup_2478f480b2111135f6c7ab7189665231.setContent(html_cbda028350689152e69c68e119a322ec);
+            
+        
+
+        circle_marker_3f081c413a9d6cd255e374b52deea3b8.bindPopup(popup_2478f480b2111135f6c7ab7189665231)
+        ;
+
+        
+    
+    
+            var circle_marker_9caba5c917ea03ae631ebde768cf9d0e = L.circleMarker(
+                [48.27407576, 14.25541016],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_887a3b8ff61b00aaf6e97f2ebc7b8588 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75ed28b11112429083fae30178dd4dd0 = $(`<div id="html_75ed28b11112429083fae30178dd4dd0" style="width: 100.0%; height: 100.0%;">Leonding Westbahn Bahnhof</div>`)[0];
+                popup_887a3b8ff61b00aaf6e97f2ebc7b8588.setContent(html_75ed28b11112429083fae30178dd4dd0);
+            
+        
+
+        circle_marker_9caba5c917ea03ae631ebde768cf9d0e.bindPopup(popup_887a3b8ff61b00aaf6e97f2ebc7b8588)
+        ;
+
+        
+    
+    
+            var circle_marker_b89a101433977f6131b10a98ce121a7a = L.circleMarker(
+                [48.25699119, 14.20831149],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_8c97cbaa050da667d81cae2b9059da85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e64eb565c1f5b0175cbca8b17fb3b933 = $(`<div id="html_e64eb565c1f5b0175cbca8b17fb3b933" style="width: 100.0%; height: 100.0%;">Pasching b.Linz Bahnhst</div>`)[0];
+                popup_8c97cbaa050da667d81cae2b9059da85.setContent(html_e64eb565c1f5b0175cbca8b17fb3b933);
+            
+        
+
+        circle_marker_b89a101433977f6131b10a98ce121a7a.bindPopup(popup_8c97cbaa050da667d81cae2b9059da85)
+        ;
+
+        
+    
+    
+            var circle_marker_60fec10d71d410a366edac55e9c5c9d3 = L.circleMarker(
+                [48.24542881, 14.1855392],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_3b011f1d741ba3beb049fbb29b14e24e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_270a76f90d8c76c095b238de5633cf2d = $(`<div id="html_270a76f90d8c76c095b238de5633cf2d" style="width: 100.0%; height: 100.0%;">Hörsching Bahnhst</div>`)[0];
+                popup_3b011f1d741ba3beb049fbb29b14e24e.setContent(html_270a76f90d8c76c095b238de5633cf2d);
+            
+        
+
+        circle_marker_60fec10d71d410a366edac55e9c5c9d3.bindPopup(popup_3b011f1d741ba3beb049fbb29b14e24e)
+        ;
+
+        
+    
+    
+            var circle_marker_bd1e420ac08dc5a47029c5f1a58e8e7e = L.circleMarker(
+                [48.22831671, 14.15241831],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_9ffe57d5fba90053cf29260167888868 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ee63ec75cdbcb258d8c5fe552216093 = $(`<div id="html_1ee63ec75cdbcb258d8c5fe552216093" style="width: 100.0%; height: 100.0%;">Oftering Bahnhst</div>`)[0];
+                popup_9ffe57d5fba90053cf29260167888868.setContent(html_1ee63ec75cdbcb258d8c5fe552216093);
+            
+        
+
+        circle_marker_bd1e420ac08dc5a47029c5f1a58e8e7e.bindPopup(popup_9ffe57d5fba90053cf29260167888868)
+        ;
+
+        
+    
+    
+            var circle_marker_ea92b2971ef0e6428bbce309468da958 = L.circleMarker(
+                [48.2010871, 14.09992077],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_f490712e0aaad272c76e1c855bdc6601 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a41709c4bfe8bae5cef0f0045073aa29 = $(`<div id="html_a41709c4bfe8bae5cef0f0045073aa29" style="width: 100.0%; height: 100.0%;">Marchtrenk Bahnhof</div>`)[0];
+                popup_f490712e0aaad272c76e1c855bdc6601.setContent(html_a41709c4bfe8bae5cef0f0045073aa29);
+            
+        
+
+        circle_marker_ea92b2971ef0e6428bbce309468da958.bindPopup(popup_f490712e0aaad272c76e1c855bdc6601)
+        ;
+
+        
+    
+    
+            var circle_marker_320e7e3573290e13df26e1de51e89812 = L.circleMarker(
+                [48.16570111, 14.02624095],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_b997b3ac98fd669bd838d2bb5a853546 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_771400868b4ec2455e30a94044853a09 = $(`<div id="html_771400868b4ec2455e30a94044853a09" style="width: 100.0%; height: 100.0%;">Wels Hauptbahnhof</div>`)[0];
+                popup_b997b3ac98fd669bd838d2bb5a853546.setContent(html_771400868b4ec2455e30a94044853a09);
+            
+        
+
+        circle_marker_320e7e3573290e13df26e1de51e89812.bindPopup(popup_b997b3ac98fd669bd838d2bb5a853546)
+        ;
+
+        
+    
+    
+            var poly_line_2cf2f688db78a775ba992cda79485a76 = L.polyline(
+                [[48.2903059, 14.29172007], [48.27407576, 14.25541016], [48.25699119, 14.20831149], [48.24542881, 14.1855392], [48.22831671, 14.15241831], [48.2010871, 14.09992077], [48.16570111, 14.02624095]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_86360a31179f263d71ee12ac7bc19d8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9328671886d26e46121f516f46f57079 = $(`<div id="html_9328671886d26e46121f516f46f57079" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S2-O-j25-1.1.R</div>`)[0];
+                popup_86360a31179f263d71ee12ac7bc19d8b.setContent(html_9328671886d26e46121f516f46f57079);
+            
+        
+
+        poly_line_2cf2f688db78a775ba992cda79485a76.bindPopup(popup_86360a31179f263d71ee12ac7bc19d8b)
+        ;
+
+        
+    
+    
+            var feature_group_d23a2d58454ead43cb797861e9faadfd = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_d23a2d58454ead43cb797861e9faadfd.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_cd149ff08ede7c0ae8164ac00157b6ac = L.circleMarker(
+                [47.8367639, 12.97647869],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_30a12563227ae3f527883390d9d583a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8dbe58076586c6f651981f0eb477fd6e = $(`<div id="html_8dbe58076586c6f651981f0eb477fd6e" style="width: 100.0%; height: 100.0%;">Freilassing Bahnhof</div>`)[0];
+                popup_30a12563227ae3f527883390d9d583a6.setContent(html_8dbe58076586c6f651981f0eb477fd6e);
+            
+        
+
+        circle_marker_cd149ff08ede7c0ae8164ac00157b6ac.bindPopup(popup_30a12563227ae3f527883390d9d583a6)
+        ;
+
+        
+    
+    
+            var circle_marker_4532cda03d8716dc6bf544c240470679 = L.circleMarker(
+                [47.82419607, 13.00049964],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_4b2dc5396fc054f3caf7239e31bb5bc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cde67fb08d0701236a3f2b961b3eaeda = $(`<div id="html_cde67fb08d0701236a3f2b961b3eaeda" style="width: 100.0%; height: 100.0%;">Salzburg Liefering S-Bahn</div>`)[0];
+                popup_4b2dc5396fc054f3caf7239e31bb5bc4.setContent(html_cde67fb08d0701236a3f2b961b3eaeda);
+            
+        
+
+        circle_marker_4532cda03d8716dc6bf544c240470679.bindPopup(popup_4b2dc5396fc054f3caf7239e31bb5bc4)
+        ;
+
+        
+    
+    
+            var circle_marker_f89cdb5840e5941da232bffa75d8cd51 = L.circleMarker(
+                [47.81610739, 13.01053382],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_70325cc5e8789a4b6d24f79ed6c812d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa6dfa36a9a2013aadf83d2a13e48054 = $(`<div id="html_fa6dfa36a9a2013aadf83d2a13e48054" style="width: 100.0%; height: 100.0%;">Salzburg Taxham Europark S-Bahn</div>`)[0];
+                popup_70325cc5e8789a4b6d24f79ed6c812d8.setContent(html_fa6dfa36a9a2013aadf83d2a13e48054);
+            
+        
+
+        circle_marker_f89cdb5840e5941da232bffa75d8cd51.bindPopup(popup_70325cc5e8789a4b6d24f79ed6c812d8)
+        ;
+
+        
+    
+    
+            var circle_marker_fa518bf1304b59af242993fef8a9a420 = L.circleMarker(
+                [47.80778819, 13.0268652],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_bb1c5370c3eec158a325f1589191b142 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f2d49423d3b5b5b1c332bf4481d7d7b = $(`<div id="html_1f2d49423d3b5b5b1c332bf4481d7d7b" style="width: 100.0%; height: 100.0%;">Salzburg Aiglhof S-Bahn</div>`)[0];
+                popup_bb1c5370c3eec158a325f1589191b142.setContent(html_1f2d49423d3b5b5b1c332bf4481d7d7b);
+            
+        
+
+        circle_marker_fa518bf1304b59af242993fef8a9a420.bindPopup(popup_bb1c5370c3eec158a325f1589191b142)
+        ;
+
+        
+    
+    
+            var circle_marker_241ad9a29d9a1b8563b6ae3c87b5a30f = L.circleMarker(
+                [47.80839754, 13.03454579],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_62df7ca2f827413e480020d6efafd412 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ee9b59cfccee1a1deee5181af80f5e0 = $(`<div id="html_0ee9b59cfccee1a1deee5181af80f5e0" style="width: 100.0%; height: 100.0%;">Salzburg Mülln-Altstadt S-Bahn</div>`)[0];
+                popup_62df7ca2f827413e480020d6efafd412.setContent(html_0ee9b59cfccee1a1deee5181af80f5e0);
+            
+        
+
+        circle_marker_241ad9a29d9a1b8563b6ae3c87b5a30f.bindPopup(popup_62df7ca2f827413e480020d6efafd412)
+        ;
+
+        
+    
+    
+            var circle_marker_f174302286daa22c62596a4788a8af55 = L.circleMarker(
+                [47.81296447, 13.04572083],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_a071f0253512d61261c376c0e9488fbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2bb8f4af41d172739b531ba59eeb67f = $(`<div id="html_a2bb8f4af41d172739b531ba59eeb67f" style="width: 100.0%; height: 100.0%;">Salzburg Hauptbahnhof</div>`)[0];
+                popup_a071f0253512d61261c376c0e9488fbb.setContent(html_a2bb8f4af41d172739b531ba59eeb67f);
+            
+        
+
+        circle_marker_f174302286daa22c62596a4788a8af55.bindPopup(popup_a071f0253512d61261c376c0e9488fbb)
+        ;
+
+        
+    
+    
+            var poly_line_848e63315a9f46deaa16c3f5e3e90e89 = L.polyline(
+                [[47.8367639, 12.97647869], [47.82419607, 13.00049964], [47.81610739, 13.01053382], [47.80778819, 13.0268652], [47.80839754, 13.03454579], [47.81296447, 13.04572083]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_3df05678972ed8bc3a70f8181067a84b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06bd4cbc601fca94c0f37604e162f5a5 = $(`<div id="html_06bd4cbc601fca94c0f37604e162f5a5" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S2-S-j25-1.1.R</div>`)[0];
+                popup_3df05678972ed8bc3a70f8181067a84b.setContent(html_06bd4cbc601fca94c0f37604e162f5a5);
+            
+        
+
+        poly_line_848e63315a9f46deaa16c3f5e3e90e89.bindPopup(popup_3df05678972ed8bc3a70f8181067a84b)
+        ;
+
+        
+    
+    
+            var feature_group_f8b5d6922565c58964fe0b5f94d73730 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_f8b5d6922565c58964fe0b5f94d73730.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_b0ed9f73eb32e0488d1ba301807cd501 = L.circleMarker(
+                [47.16845077, 9.47871745],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_92cd72a90f5579f3b7e16cb1cf887666 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eff6efd208d410a74c9a8319f9ea04c3 = $(`<div id="html_eff6efd208d410a74c9a8319f9ea04c3" style="width: 100.0%; height: 100.0%;">Buchs Bahnhof</div>`)[0];
+                popup_92cd72a90f5579f3b7e16cb1cf887666.setContent(html_eff6efd208d410a74c9a8319f9ea04c3);
+            
+        
+
+        circle_marker_b0ed9f73eb32e0488d1ba301807cd501.bindPopup(popup_92cd72a90f5579f3b7e16cb1cf887666)
+        ;
+
+        
+    
+    
+            var circle_marker_9e64907dc4b0a3f1c05c2782d657a8e7 = L.circleMarker(
+                [47.16832863, 9.50797558],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_fd813476f2a10c610d46d66929c1a5bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f439c5e9d0f33407f5ccb1cd10105940 = $(`<div id="html_f439c5e9d0f33407f5ccb1cd10105940" style="width: 100.0%; height: 100.0%;">Schaan Bahnhof</div>`)[0];
+                popup_fd813476f2a10c610d46d66929c1a5bd.setContent(html_f439c5e9d0f33407f5ccb1cd10105940);
+            
+        
+
+        circle_marker_9e64907dc4b0a3f1c05c2782d657a8e7.bindPopup(popup_fd813476f2a10c610d46d66929c1a5bd)
+        ;
+
+        
+    
+    
+            var circle_marker_0eb893daa502f4efbd4e51031aa86d2e = L.circleMarker(
+                [47.18173217, 9.52134251],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_e3212f881c59703ea4f1409ee19ddca3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0cde77e4aa813919ce346edd8567c9c = $(`<div id="html_f0cde77e4aa813919ce346edd8567c9c" style="width: 100.0%; height: 100.0%;">Schaan Forst Hilti Bahnhof</div>`)[0];
+                popup_e3212f881c59703ea4f1409ee19ddca3.setContent(html_f0cde77e4aa813919ce346edd8567c9c);
+            
+        
+
+        circle_marker_0eb893daa502f4efbd4e51031aa86d2e.bindPopup(popup_e3212f881c59703ea4f1409ee19ddca3)
+        ;
+
+        
+    
+    
+            var circle_marker_e941ed8cf585534b857aad7c7f52433c = L.circleMarker(
+                [47.20039989, 9.54191393],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_761f480112f97e49b2fda2a2aa8ab456 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3148b7223427cc484494843b38f3d099 = $(`<div id="html_3148b7223427cc484494843b38f3d099" style="width: 100.0%; height: 100.0%;">Nendeln Bahnhof</div>`)[0];
+                popup_761f480112f97e49b2fda2a2aa8ab456.setContent(html_3148b7223427cc484494843b38f3d099);
+            
+        
+
+        circle_marker_e941ed8cf585534b857aad7c7f52433c.bindPopup(popup_761f480112f97e49b2fda2a2aa8ab456)
+        ;
+
+        
+    
+    
+            var circle_marker_433c048f01a41e2cb2a5cec137d02926 = L.circleMarker(
+                [47.2272179, 9.57575347],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_11994688f67213462e54804f5032d751 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7224f5910a523ff48124558f7906836c = $(`<div id="html_7224f5910a523ff48124558f7906836c" style="width: 100.0%; height: 100.0%;">Tisis Bahnhof</div>`)[0];
+                popup_11994688f67213462e54804f5032d751.setContent(html_7224f5910a523ff48124558f7906836c);
+            
+        
+
+        circle_marker_433c048f01a41e2cb2a5cec137d02926.bindPopup(popup_11994688f67213462e54804f5032d751)
+        ;
+
+        
+    
+    
+            var circle_marker_8fde3a01722177c4b2584b3c4c6f7939 = L.circleMarker(
+                [47.25557714, 9.59798677],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_7b096d1db6276d1d4ada4c221f206a37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e25adc271fa7265ab11ffa1f671d3ff3 = $(`<div id="html_e25adc271fa7265ab11ffa1f671d3ff3" style="width: 100.0%; height: 100.0%;">Gisingen Bahnhof</div>`)[0];
+                popup_7b096d1db6276d1d4ada4c221f206a37.setContent(html_e25adc271fa7265ab11ffa1f671d3ff3);
+            
+        
+
+        circle_marker_8fde3a01722177c4b2584b3c4c6f7939.bindPopup(popup_7b096d1db6276d1d4ada4c221f206a37)
+        ;
+
+        
+    
+    
+            var circle_marker_5cc3141648097f050739c91d72476887 = L.circleMarker(
+                [47.25640025, 9.61529731],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_2e32e5f5df787e8bfc06a99b477e917d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_608420823def7999ca631c9167e13bf3 = $(`<div id="html_608420823def7999ca631c9167e13bf3" style="width: 100.0%; height: 100.0%;">Altenstadt Bahnhof</div>`)[0];
+                popup_2e32e5f5df787e8bfc06a99b477e917d.setContent(html_608420823def7999ca631c9167e13bf3);
+            
+        
+
+        circle_marker_5cc3141648097f050739c91d72476887.bindPopup(popup_2e32e5f5df787e8bfc06a99b477e917d)
+        ;
+
+        
+    
+    
+            var circle_marker_14f6f0c686c34bd42b3633cf225f5ff7 = L.circleMarker(
+                [47.24103959, 9.60450854],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_550bc8ee200b86869333532f91bbb0e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c4c7d1691ffb45c6cd2a7783163f83d = $(`<div id="html_4c4c7d1691ffb45c6cd2a7783163f83d" style="width: 100.0%; height: 100.0%;">Feldkirch Bahnhof</div>`)[0];
+                popup_550bc8ee200b86869333532f91bbb0e0.setContent(html_4c4c7d1691ffb45c6cd2a7783163f83d);
+            
+        
+
+        circle_marker_14f6f0c686c34bd42b3633cf225f5ff7.bindPopup(popup_550bc8ee200b86869333532f91bbb0e0)
+        ;
+
+        
+    
+    
+            var poly_line_e36504f911a973f9fb538942bbecc4c3 = L.polyline(
+                [[47.16845077, 9.47871745], [47.16832863, 9.50797558], [47.18173217, 9.52134251], [47.20039989, 9.54191393], [47.2272179, 9.57575347], [47.25557714, 9.59798677], [47.25640025, 9.61529731], [47.24103959, 9.60450854]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_707c76b148d190f7ced74e76b6f6c31b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88225d7bda4cd96ef0a6f4a645f01fd5 = $(`<div id="html_88225d7bda4cd96ef0a6f4a645f01fd5" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S2-V-j25-1.1.R</div>`)[0];
+                popup_707c76b148d190f7ced74e76b6f6c31b.setContent(html_88225d7bda4cd96ef0a6f4a645f01fd5);
+            
+        
+
+        poly_line_e36504f911a973f9fb538942bbecc4c3.bindPopup(popup_707c76b148d190f7ced74e76b6f6c31b)
+        ;
+
+        
+    
+    
+            var feature_group_e0671ffc4cdeb07719a0b32b62607454 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_e0671ffc4cdeb07719a0b32b62607454.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_d6ee4e65d892487acce4664578d42709 = L.circleMarker(
+                [48.19523105, 16.38620503],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_8404b7e283f92a0138cb9cd895b786b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71dfc0cd09b8b9ed92ae5c2194e69c77 = $(`<div id="html_71dfc0cd09b8b9ed92ae5c2194e69c77" style="width: 100.0%; height: 100.0%;">Wien Rennweg</div>`)[0];
+                popup_8404b7e283f92a0138cb9cd895b786b6.setContent(html_71dfc0cd09b8b9ed92ae5c2194e69c77);
+            
+        
+
+        circle_marker_d6ee4e65d892487acce4664578d42709.bindPopup(popup_8404b7e283f92a0138cb9cd895b786b6)
+        ;
+
+        
+    
+    
+            var circle_marker_197f28b6c2e6c44b5237caeb6683623a = L.circleMarker(
+                [48.20570919, 16.38460603],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_6dbae62b3f9fb894e0cb963fdd04a2ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_341f21cb622d16944385f0a18e5dc25e = $(`<div id="html_341f21cb622d16944385f0a18e5dc25e" style="width: 100.0%; height: 100.0%;">Wien Mitte-Landstraße</div>`)[0];
+                popup_6dbae62b3f9fb894e0cb963fdd04a2ef.setContent(html_341f21cb622d16944385f0a18e5dc25e);
+            
+        
+
+        circle_marker_197f28b6c2e6c44b5237caeb6683623a.bindPopup(popup_6dbae62b3f9fb894e0cb963fdd04a2ef)
+        ;
+
+        
+    
+    
+            var circle_marker_06e74c747c4943f6a89fd4e735c1ccee = L.circleMarker(
+                [48.21883677, 16.39222374],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_7ced2e46a72b807850990168d9514b3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b515385110e5d59a089acaf4cee5b2c = $(`<div id="html_6b515385110e5d59a089acaf4cee5b2c" style="width: 100.0%; height: 100.0%;">Wien Praterstern</div>`)[0];
+                popup_7ced2e46a72b807850990168d9514b3e.setContent(html_6b515385110e5d59a089acaf4cee5b2c);
+            
+        
+
+        circle_marker_06e74c747c4943f6a89fd4e735c1ccee.bindPopup(popup_7ced2e46a72b807850990168d9514b3e)
+        ;
+
+        
+    
+    
+            var circle_marker_b35279034868d974cccfe21c42d8076e = L.circleMarker(
+                [48.23440831, 16.38385145],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_6e0b66e339e98b7d44e9b25d0af58353 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55574e5593790bda7b93c1fdda43b3f5 = $(`<div id="html_55574e5593790bda7b93c1fdda43b3f5" style="width: 100.0%; height: 100.0%;">Wien Traisengasse</div>`)[0];
+                popup_6e0b66e339e98b7d44e9b25d0af58353.setContent(html_55574e5593790bda7b93c1fdda43b3f5);
+            
+        
+
+        circle_marker_b35279034868d974cccfe21c42d8076e.bindPopup(popup_6e0b66e339e98b7d44e9b25d0af58353)
+        ;
+
+        
+    
+    
+            var circle_marker_518660f8907d3acf14e17aba516eb1cc = L.circleMarker(
+                [48.24198291, 16.3853157],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_5a4355b50b35c7beba9b0a8689ea3d0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1cdd34850654b7897599e28235f5399 = $(`<div id="html_d1cdd34850654b7897599e28235f5399" style="width: 100.0%; height: 100.0%;">Wien Handelskai</div>`)[0];
+                popup_5a4355b50b35c7beba9b0a8689ea3d0f.setContent(html_d1cdd34850654b7897599e28235f5399);
+            
+        
+
+        circle_marker_518660f8907d3acf14e17aba516eb1cc.bindPopup(popup_5a4355b50b35c7beba9b0a8689ea3d0f)
+        ;
+
+        
+    
+    
+            var circle_marker_11d790377313cdaa9f2c33035dba2013 = L.circleMarker(
+                [48.2562974, 16.40016485],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_23cc97222877384888ed6de7de3182c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d287118f954c9bad3f114b722d45e42 = $(`<div id="html_8d287118f954c9bad3f114b722d45e42" style="width: 100.0%; height: 100.0%;">Wien Floridsdorf</div>`)[0];
+                popup_23cc97222877384888ed6de7de3182c8.setContent(html_8d287118f954c9bad3f114b722d45e42);
+            
+        
+
+        circle_marker_11d790377313cdaa9f2c33035dba2013.bindPopup(popup_23cc97222877384888ed6de7de3182c8)
+        ;
+
+        
+    
+    
+            var poly_line_d7d071f0e83166751750518bd72c0149 = L.polyline(
+                [[48.19523105, 16.38620503], [48.20570919, 16.38460603], [48.21883677, 16.39222374], [48.23440831, 16.38385145], [48.24198291, 16.3853157], [48.2562974, 16.40016485]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_e4ae98d6d1b68c7910a19f7114015a4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96ff0d52f105ddb58082bfd86d6cd02d = $(`<div id="html_96ff0d52f105ddb58082bfd86d6cd02d" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S2-W-j25-1.1.R</div>`)[0];
+                popup_e4ae98d6d1b68c7910a19f7114015a4a.setContent(html_96ff0d52f105ddb58082bfd86d6cd02d);
+            
+        
+
+        poly_line_d7d071f0e83166751750518bd72c0149.bindPopup(popup_e4ae98d6d1b68c7910a19f7114015a4a)
+        ;
+
+        
+    
+    
+            var feature_group_277397dc76cd72df0dbeebc78df51316 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_277397dc76cd72df0dbeebc78df51316.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_8fd9e23b7a9ad415a350210e69dd52b9 = L.circleMarker(
+                [46.61112395, 14.30219442],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_f4fc953d5e853521186f59c2cf3f954e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be625f57cbcba78800fa1f545cdac71d = $(`<div id="html_be625f57cbcba78800fa1f545cdac71d" style="width: 100.0%; height: 100.0%;">Klagenfurt Süd Bahnhst</div>`)[0];
+                popup_f4fc953d5e853521186f59c2cf3f954e.setContent(html_be625f57cbcba78800fa1f545cdac71d);
+            
+        
+
+        circle_marker_8fd9e23b7a9ad415a350210e69dd52b9.bindPopup(popup_f4fc953d5e853521186f59c2cf3f954e)
+        ;
+
+        
+    
+    
+            var circle_marker_dfad4845a2e718f4eacf476dc15838f8 = L.circleMarker(
+                [46.61557302, 14.31370184],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_a09711a6d77a513bd31e3721de7d3e0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ba77e9770bc7e8231fd2b18d9f481cb = $(`<div id="html_7ba77e9770bc7e8231fd2b18d9f481cb" style="width: 100.0%; height: 100.0%;">Klagenfurt Hauptbahnhof</div>`)[0];
+                popup_a09711a6d77a513bd31e3721de7d3e0a.setContent(html_7ba77e9770bc7e8231fd2b18d9f481cb);
+            
+        
+
+        circle_marker_dfad4845a2e718f4eacf476dc15838f8.bindPopup(popup_a09711a6d77a513bd31e3721de7d3e0a)
+        ;
+
+        
+    
+    
+            var poly_line_98b14381bd016971f1651dcd9c2a2d6d = L.polyline(
+                [[46.61112395, 14.30219442], [46.61557302, 14.31370184]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_5eb6250c636703e10a8768843802921f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_777ca65a6432661275ed48aa88a1a00b = $(`<div id="html_777ca65a6432661275ed48aa88a1a00b" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S3-K-j25-1.1.R</div>`)[0];
+                popup_5eb6250c636703e10a8768843802921f.setContent(html_777ca65a6432661275ed48aa88a1a00b);
+            
+        
+
+        poly_line_98b14381bd016971f1651dcd9c2a2d6d.bindPopup(popup_5eb6250c636703e10a8768843802921f)
+        ;
+
+        
+    
+    
+            var feature_group_c6e4b58bbe2299330e2bf997b7ffadfb = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_c6e4b58bbe2299330e2bf997b7ffadfb.addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+            var circle_marker_18f74dffb55f7a4c66c049cbb46ecf53 = L.circleMarker(
+                [47.04213935, 15.50763472],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6, "stroke": true, "weight": 0}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_6d5cb91f46867aafc1ad9bbbe15daf2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3140b1bef7e51e7c7060584df9acd93 = $(`<div id="html_c3140b1bef7e51e7c7060584df9acd93" style="width: 100.0%; height: 100.0%;">Hart b.Graz Bahnhof 1</div>`)[0];
+                popup_6d5cb91f46867aafc1ad9bbbe15daf2d.setContent(html_c3140b1bef7e51e7c7060584df9acd93);
+            
+        
+
+        circle_marker_18f74dffb55f7a4c66c049cbb46ecf53.bindPopup(popup_6d5cb91f46867aafc1ad9bbbe15daf2d)
+        ;
+
+        
+    
+    
+            var poly_line_7348cc23d6823edcba395e54ba81feb6 = L.polyline(
+                [[47.04213935, 15.50763472]],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b97c24eb70ca3875de8541f00136e335);
+        
+    
+        var popup_59af99ae2f5eb6d55ed7f61115732c91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd157ea4d347acb158f1645bcb856fda = $(`<div id="html_fd157ea4d347acb158f1645bcb856fda" style="width: 100.0%; height: 100.0%;">Trip ID: 1.TA.1-S3-M-j25-1.1.R</div>`)[0];
+                popup_59af99ae2f5eb6d55ed7f61115732c91.setContent(html_fd157ea4d347acb158f1645bcb856fda);
+            
+        
+
+        poly_line_7348cc23d6823edcba395e54ba81feb6.bindPopup(popup_59af99ae2f5eb6d55ed7f61115732c91)
+        ;
+
+        
+    
+</script>
+</html>

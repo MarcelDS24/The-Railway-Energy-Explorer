@@ -1,0 +1,1081 @@
+start_station,end_station,estimated_weight_t,distance_km,avg_speed_kmh
+Absdorf-Hippersdorf Bahnhof,Leobersdorf Bahnhof,160.0,54.622866042653285,26.688981329117286
+Absdorf-Hippersdorf Bahnhof,Mödling Bahnhof,160.0,41.92593416346124,28.58586420235994
+Absdorf-Hippersdorf Bahnhof,Stockerau Bahnhof,160.0,16.88073211306513,67.52292845226052
+Absdorf-Hippersdorf Bahnhof,Wiener Neustadt Hauptbahnhof,160.0,68.1648034926949,29.69327076024327
+Admont Bahnhof,Attnang-Puchheim Bahnhof,250.0,74.1839422407374,25.87811938630374
+Admont Bahnhof,Selzthal Bahnhof,250.0,12.004216919894999,60.02108459947499
+Aigen-Schlägl Bahnhof,Linz/Donau Urfahr Bahnhof,250.0,43.072133918059606,27.374174636841815
+Amstetten Bahnhof,Kastenreith Bahnhst,250.0,34.98609371895654,45.63403528559548
+Amstetten Bahnhof,Kleinreifling Bahnhof,250.0,37.46501958257239,39.301271063082865
+Amstetten Bahnhof,Linz/Donau Hauptbahnhof,250.0,47.36102058562906,81.19032100393554
+Amstetten Bahnhof,Selzthal Bahnhof,250.0,76.33110477614797,35.22974066591445
+Amstetten Bahnhof,St. Pölten Hauptbahnhof,340.0,56.12041478318501,68.00161153585185
+Amstetten Bahnhof,St. Valentin Bahnhof,250.0,27.28855141840621,55.956434200004516
+Amstetten Bahnhof,Waidhofen/Ybbs Bahnhof,250.0,19.03235331499689,47.014444200736364
+Amstetten Bahnhof,Weißenbach-St.Gallen Bahnhof,250.0,48.79999146633475,42.02047920756738
+Amstetten Bahnhof,Wien Hauptbahnhof,400.0,111.19938080252473,107.61230400244328
+Amstetten Bahnhof,Wien Westbahnhof,400.0,108.41973063553446,71.11668859731559
+Antiesenhofen Bahnhof,Ried im Innkreis Bahnhof,160.0,17.579421808355086,30.13615167146586
+Arnoldstein Bahnhof,Villach Hauptbahnhof,160.0,13.030456751635299,38.16062334407481
+Aspang Markt Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,29.412813946724874,43.24888785157167
+Attnang-Puchheim Bahnhof,Admont Bahnhof,250.0,74.19532245860135,25.733341590493254
+Attnang-Puchheim Bahnhof,Bad Aussee Bahnhof,250.0,46.14857255386366,28.25422809420224
+Attnang-Puchheim Bahnhof,Bad Ischl Bahnhof,250.0,34.09054481460985,36.97651686240751
+Attnang-Puchheim Bahnhof,Hieflau Bahnhof,250.0,88.26347861679123,26.612776128396142
+Attnang-Puchheim Bahnhof,Kammer-Schörfling Bahnhst,250.0,11.643038764704249,35.07024403671523
+Attnang-Puchheim Bahnhof,Linz/Donau Hauptbahnhof,250.0,52.478604544958316,62.73681021440242
+Attnang-Puchheim Bahnhof,Obertraun-Dachsteinhöhlen Bahnhof,250.0,50.63610097636579,29.851606065050742
+Attnang-Puchheim Bahnhof,Ried im Innkreis Bahnhof,250.0,27.094181209395014,40.641271814092526
+Attnang-Puchheim Bahnhof,Schärding Bahnhof,250.0,54.29610576320629,36.87213538839876
+Attnang-Puchheim Bahnhof,Stainach-Irdning Bahnhof,265.0,60.99152207265807,28.2753613091992
+Attnang-Puchheim Bahnhof,Straßwalchen Bahnhof,250.0,34.219305967431744,49.709402194521616
+Attnang-Puchheim Bahnhof,Vöcklabruck Bahnhof,250.0,4.204448841013846,63.0667326152077
+Attnang-Puchheim Bahnhof,Wels Hauptbahnhof,250.0,28.480625900672557,65.72452130924437
+Bad Aussee Bahnhof,Attnang-Puchheim Bahnhof,250.0,46.13257949865057,26.548473436000286
+Bad Aussee Bahnhof,Stainach-Irdning Bahnhof,250.0,25.957495599211235,44.49856388436211
+Bad Fischau-Brunn Bahnhof,Puchberg am Schneeberg Bahnhof,250.0,19.990492466505643,27.893710418379968
+Bad Gastein Bahnhof,Freilassing Bahnhof,400.0,81.47348189830186,45.686064615870194
+Bad Gastein Bahnhof,Salzburg Hauptbahnhof,400.0,78.23474451127798,52.625318779870874
+Bad Gastein Bahnhof,Schwarzach-St.Veit Bahnhof,400.0,23.051948828622834,44.61667515217322
+Bad Gastein Bahnhof B,Schwarzach-St.Veit Bahnhof,160.0,23.0652100732343,34.59781510985145
+Bad Hofgastein Bahnhof,Bad Gastein Bahnhof A,160.0,9.55346733962695,33.718120022212766
+Bad Hofgastein Bahnhof,Schwarzach-St.Veit Bahnhof,400.0,14.195419374462801,50.10148014516283
+Bad Hofgastein Busterminal/Schlossalmbahn,Schwarzach-St.Veit Bahnhof,160.0,17.203409863721216,36.86444970797403
+Bad Ischl Bahnhof,Attnang-Puchheim Bahnhof,250.0,34.08130893026716,35.57131689458303
+Bad Radkersburg Bahnhof,Spielfeld-Straß Bahnhof,160.0,27.79982130924476,41.17462989255737
+Bad Ried Bahnhst,Ried im Innkreis Bahnhof,250.0,1.5577754078492096,23.366631117738144
+Berlin Hauptbahnhof,Břeclav,400.0,487.25769744764347,58.56925508185126
+Bernhardsthal Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,108.54800539118017,48.32514326515009
+Bischofshofen Bahnhof,Saalfelden Bahnhof,160.0,29.35036670013376,27.092646184738857
+Bischofshofen Bahnhof,Salzburg Hauptbahnhof,400.0,45.84128025692004,62.510836713981874
+Bischofshofen Bahnhof,Schladming Bahnhof,250.0,34.629563860943286,43.626606355552724
+Bischofshofen Bahnhof,Schwarzach-St.Veit Bahnhof,220.0,12.063492848091741,45.23809818034403
+Bischofshofen Bahnhof,Wien Hauptbahnhof,400.0,250.83441242492827,51.19069641325066
+Bischofshofen Bahnhof B,Spittal-Millstätter See Bahnhof 1,160.0,72.0676113995008,54.050708549625604
+Bleiburg Bahnhof,Maribor Železniška postaja,220.0,66.6346733581915,39.0140176268924
+Bleiburg Bahnhof,TP Bleiburg Staatsgrenze,220.0,4.144285983046206,35.5224512832532
+Bludenz Bahnhof,Bregenz Bahnhof,160.0,39.130346984840706,36.120320293699116
+Bludenz Bahnhof,Bregenz Hafen Bahnhof,163.6,39.36182620219699,34.841280335838235
+Bludenz Bahnhof,Buchs Bahnhof,160.0,25.44621666857477,31.80777083571846
+Bludenz Bahnhof,Dornbirn Haselstauden Bahnhof,160.0,31.270105602695214,36.080891080032934
+Bludenz Bahnhof,Feldkirch Bahnhof,160.0,18.539406519090168,55.61821955727051
+Bludenz Bahnhof,Lindau-Insel,219.0625,44.56470226988828,38.67945299140447
+Bludenz Bahnhof,Lochau-Hörbranz Bahnhof,169.0,41.983406857416774,36.42926399851304
+Bludenz Bahnhof,Rankweil Bahnhof,250.0,18.744354662903902,56.233063988711706
+Bludenz Bahnhof,Schruns Bahnhof,160.0,11.438265638000521,36.120838856843754
+Bohumín,Wien Hauptbahnhof,400.0,239.24904324863817,76.76439890330637
+Bratislava hlavná stanica,Devínska Nová Ves,250.0,11.745806709469207,58.729033547346035
+Bratislava hlavná stanica,Wien Hauptbahnhof,160.0,54.055620353926585,69.00717491990628
+Bratislava hlavná stanica,Šentilj železniška postaja,400.0,197.7937253690607,37.319570824351075
+Bratislava-Petržalka stanica,Gramatneusiedl Bahnhof,250.0,46.260979549498,64.55020402255535
+Bratislava-Petržalka stanica,Kufstein Bahnhof,400.0,372.9091359422635,81.36199329649388
+Bratislava-Petržalka stanica,Wien Hauptbahnhof,250.0,53.951220920910814,54.481513902315996
+Bratislava-Petržalka stanica,Šentilj železniška postaja,400.0,194.0447226726479,32.43087287008043
+Braunau/Inn Bahnhof,Neumarkt Bahnhof,220.0,36.22348398155838,42.64802642357062
+Braunau/Inn Bahnhof,Neumarkt-Kallham Bahnhof,250.0,50.11461898781948,53.93636490239393
+Braunau/Inn Bahnhof,Ried im Innkreis Bahnhof,250.0,33.22085465526385,55.36809109210642
+Braunau/Inn Bahnhof,Salzburg Hauptbahnhof,250.0,49.60328507762985,38.156373136638344
+Braunau/Inn Bahnhof,Salzburg Taxham Europark S-Bahn,250.0,49.326395062291276,37.53995306295521
+Braunau/Inn Bahnhof,Simbach (Inn),250.0,1.9240035781150153,38.4800715623003
+Bregenz Bahnhof,Bludenz Bahnhof,205.0,39.15608848920931,40.56557016441351
+Bregenz Bahnhof,Feldkirch Bahnhof,250.0,30.935953111263043,54.592858431640664
+Bregenz Bahnhof,Flughafen Wien Bahnhof,400.0,513.94907324214,70.4981450944832
+Bregenz Bahnhof,Innsbruck Hauptbahnhof,400.0,127.78701975138843,49.787150552488995
+Bregenz Bahnhof,Lindau-Insel,220.0,6.511790856300902,31.7240068812843
+Bregenz Bahnhof,Lindau-Reutin,400.0,6.183410823737909,53.00066420346779
+Bregenz Bahnhof,Lustenau Bahnhof,160.0,8.049812327988537,43.90806724357384
+Bregenz Bahnhof,St.Margrethen Bahnhof,167.05882352941177,9.545176304376309,34.569611990474755
+Bregenz Bahnhof,Wien Hauptbahnhof,400.0,500.93645138475733,72.95191039583845
+Bregenz Bahnhof,Wien Hauptbahnhof Autoreisezug,400.0,501.78915886877536,53.381825411571846
+Bregenz Hafen Bahnhof,Bludenz Bahnhof,173.33333333333334,39.37184679787823,35.046930569466774
+Bregenz Hafen Bahnhof,St. Anton im Montafon Bahnhof,160.0,44.93967345763293,33.28864700565402
+Bregenz Hafen Bahnhof,St.Margrethen Bahnhof,160.0,10.16516146000169,30.49548438000507
+"Brennero, Stazione di Brennero",Innsbruck Hauptbahnhof,164.28571428571428,30.032026288891633,47.05350369125433
+"Brennero, Stazione di Brennero",Kufstein Bahnhof,400.0,81.50681644343048,57.89926913760172
+Bruck/Leitha Bahnhof,Eisenstadt Bahnhof,250.0,27.40636363288394,41.109545449325914
+Bruck/Leitha Bahnhof,Hegyeshalom pályaudvar,250.0,29.620104092568898,70.86040286760714
+Bruck/Leitha Bahnhof,Kledering Bahnhof,160.0,28.41334060597569,56.82668121195138
+Bruck/Leitha Bahnhof,Pamhagen Bahnhof,250.0,36.1524155719764,41.248952858492345
+Bruck/Leitha Bahnhof,Wampersdorf Bahnhof,160.0,28.88323465089098,19.014319719325886
+Bruck/Leitha Bahnhof,Wien Hauptbahnhof,160.0,35.16952616748832,52.754289251232485
+Bruck/Leitha Bahnhof,Wiener Neustadt Hauptbahnhof,160.0,46.90308111734726,24.622697046393103
+Bruck/Leitha Bahnhof,Wulkaprodersdorf Bahnhof,250.0,33.487214987509205,34.054794902551734
+Bruck/Mur Bahnhof 1,Unzmarkt Bahnhof 3,250.0,67.38926125515543,58.796952918091364
+Bruck/Mur Bahnhof 2,Wien Hauptbahnhof,400.0,118.69674150962673,64.16040081601444
+Bruck/Mur Bahnhof 3,Kapfenberg Bahnhof,160.0,3.635313795592135,43.62376554710562
+Bruck/Mur Bahnhof 3,Leoben Hauptbahnhof 3,160.0,14.608665334812201,67.42460923759478
+Bruck/Mur Bahnhof 3,Mürzzuschlag,160.0,36.920644690449244,53.237117173393976
+Bruck/Mur Bahnhof 3,Mürzzuschlag Bahnhof,220.0,36.91169743768261,61.519495729471025
+Bruck/Mur Bahnhof 3,St.Marein-St.Lorenzen Bahnhof,160.0,9.680611936351852,38.72244774540741
+Bruck/Mur Bahnhof 3,Unzmarkt Bahnhof 3,160.0,67.40872360986174,53.9969585112848
+Bruck/Mur Bahnhof 4,Graz Hbf 4,160.0,39.30837752899606,50.21207574934267
+Bruck/Mur Bahnhof 5,Graz Hbf 4,220.0,39.308435096694964,56.308635411186884
+Bruxelles Midi,Rosenheim Bahnhof,400.0,653.8518425657671,57.999096306940295
+Buchs Bahnhof,Feldkirch Bahnhof,160.0,12.465661008275982,33.86288078424952
+Buchs Bahnhof,Graz Hauptbahnhof 3,400.0,449.2780407985114,50.480678741405775
+Buchs Bahnhof,Graz Hauptbahnhof 6,400.0,449.2669667818341,54.56683807066812
+Buchs Bahnhof,Kufstein Bahnhof,400.0,207.49998184543,70.74889753243173
+Buchs Bahnhof,Linz/Donau Hauptbahnhof,400.0,380.9125330509294,57.7166337443253
+Buchs Bahnhof,Villach Hauptbahnhof,400.0,337.59733236353264,43.37438959702775
+Buchs Bahnhof,Zürich HB,400.0,74.53909254659,65.76978754110883
+Buchs Bahnhof,Šentilj železniška postaja,400.0,472.3834037963784,44.98889559965509
+Budapest-Keleti,Hegyeshalom pályaudvar,400.0,152.09548021352882,83.72228268634613
+Budapest-Keleti,Salzburg Hauptbahnhof,400.0,453.5162290382008,85.30085812630736
+Budapest-Keleti,Wien Hauptbahnhof,400.0,215.81218952472372,80.9295710717714
+Böckstein Bahnhof,Mallnitz-Obervellach Bahnhof,220.0,11.6308471041268,63.44098420432801
+Břeclav,Berlin Hauptbahnhof,400.0,487.25642349118317,58.74512409802239
+Břeclav,Freilassing Bahnhof,400.0,307.111296273135,71.69913531668522
+Břeclav,Graz Hauptbahnhof 1B-E,400.0,216.9349990621483,58.008551431175064
+Břeclav,Salzburg Hauptbahnhof,400.0,303.2509270890884,73.36715977961815
+Břeclav,Warszawa Wschodnia,400.0,487.4741181165235,58.380133906170485
+Břeclav,Wien Hauptbahnhof,400.0,73.77913091614568,81.97681212905074
+Břeclav,Wien Matzleinsdorfer Platz,250.0,75.00856235927537,47.8778057612396
+Břeclav,Wiener Neustadt Hauptbahnhof,250.0,115.65637714500008,49.11294738692822
+Chop,Záhony,400.0,3.8099170932568875,12.031317136600698
+Deutsch-Wagram Bahnhof,Marchegg Bahnhof,160.0,26.78067414276364,28.69357943867533
+Deutsch-Wagram Bahnhof,Wien Liesing,160.0,28.00333475947177,31.114816399413073
+Deutsch-Wagram Bahnhof,Wien Meidling,160.0,22.291071882541495,32.504019508969066
+Deutschkreutz Bahnhof,Sopron pályaudvar,250.0,8.567233867680184,57.11489245120123
+Devínska Nová Ves,Bratislava hlavná stanica,250.0,11.745806709469207,54.21141558216557
+Devínska Nová Ves,Wien Hauptbahnhof,250.0,44.46896664388459,62.04972089844362
+Dornbirn Bahnhof,Bregenz Bahnhof,250.0,9.550527460625828,44.07935751058074
+Dornbirn Bahnhof,Bregenz Hafen Bahnhof,250.0,9.883563131374462,37.06336174265423
+Dornbirn Bahnhof,Lindau-Insel,160.0,14.86903537147019,29.73807074294038
+Dornbirn Bahnhof,St.Margrethen Bahnhof,250.0,8.56105471895438,23.34833105169377
+Dortmund Hauptbahnhof,Nürnberg Hauptbahnhof,400.0,344.7156042156548,60.77927910705802
+Dortmund Hauptbahnhof,Passau Hauptbahnhof,400.0,538.4300958816106,63.880737032096576
+Edlitz-Grimmenstein Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,22.934484765904806,38.224141276508014
+Eichgraben-Altlengbach Bahnhof,Wien Westbahnhof,160.0,26.438875207321033,38.69103688876248
+Eisenstadt Bahnhof,Neusiedl am See Bahnhof,250.0,25.49157988070652,54.6248140300854
+Eisenstadt Bahnhof,Wien Hauptbahnhof,250.0,40.04776396205154,33.373136635042954
+Eisenstadt Bahnhof,Wulkaprodersdorf Bahnhof,250.0,6.268794669747047,62.687946697470466
+Eisenstadt Schule,Eisenstadt Bahnhof,250.0,0.7364156903082698,33.13870606387214
+Eisenstadt Schule,Wulkaprodersdorf Bahnhof,250.0,6.9659156587062325,37.99590359294309
+Fehring,Fürstenfeld Bahnhof,220.0,11.616298101092479,25.81399578020551
+Fehring,Graz Hauptbahnhof 3,220.0,47.21700335442626,41.787777080632324
+Fehring,Graz Hbf 2,160.0,47.18776036178116,38.91209703313179
+Fehring,Szentgotthárd pályaudvar,220.0,19.053771629149143,54.4393475118547
+Fehring,Wiener Neustadt Hauptbahnhof,250.0,97.21336836167075,38.75909621692587
+Feldkirch Bahnhof,Buchs Bahnhof,260.7142857142857,12.4679938857716,37.355405057759846
+Feldkirch Bahnhof,Flughafen Wien Bahnhof,400.0,529.9364469490579,79.49046704235867
+Feldkirch Bahnhof,Kufstein Bahnhof,400.0,196.43474332361782,53.33069954487362
+Feldkirch Bahnhof,Lindau-Insel,230.0,34.32468090803556,42.555329077646874
+Feldkirch Bahnhof,St.Margrethen Bahnhof,250.0,23.742373955053775,30.309413559643115
+Feldkirchen in Ktn Bahnhof,Villach Hauptbahnhof,160.0,22.287338849307975,38.60819923115415
+Fels am Wagram Bahnhof,Hadersdorf/Kamp Bahnhof,250.0,8.229227686427148,49.37536611856289
+Fels am Wagram Bahnhof,Krems Bahnhof,250.0,16.273399937468188,27.122333229113647
+Fischamend Bahnhof,Wien Floridsdorf,205.0,22.294591165159652,32.93975631609174
+Flughafen Wien Bahnhof,Bregenz Bahnhof,400.0,513.9570190175488,70.89062331276534
+Flughafen Wien Bahnhof,Dornbirn Bahnhof,400.0,515.916246744668,72.83523483454137
+Flughafen Wien Bahnhof,Feldkirch Bahnhof,400.0,529.9396799504775,79.49095199257162
+Flughafen Wien Bahnhof,Freilassing Bahnhof,400.0,268.88927398652805,75.74345746099382
+Flughafen Wien Bahnhof,Graz Hauptbahnhof 1B-E,400.0,144.83967494373113,48.241785971787316
+Flughafen Wien Bahnhof,Innsbruck Hauptbahnhof,400.0,397.9727723970385,84.23095800249774
+Flughafen Wien Bahnhof,Kufstein Bahnhof,400.0,333.5717839125034,81.69104912142942
+Flughafen Wien Bahnhof,Salzburg Hauptbahnhof,400.0,264.1698081920863,83.53931752023377
+Flughafen Wien Bahnhof,Wels Hauptbahnhof,400.0,188.3198788206654,84.9563363100746
+Flughafen Wien Bahnhof,Wien Floridsdorf,172.85714285714286,19.422375401859256,32.948672556725526
+Flughafen Wien Bahnhof,Wien Hauptbahnhof,400.0,15.556953873594875,60.153554977900185
+Flughafen Wien Bahnhof,Wien Mitte-Landstraße,160.0,16.381592267677732,57.8173844741567
+Flughafen Wien Bahnhof,Wien Praterstern,160.0,16.832413080648415,37.40536240144092
+Flughafen Wien Bahnhof,Wien Rennweg,170.97560975609755,15.631227171108984,48.32336692531863
+Flughafen Wien Bahnhof,Wolkersdorf Bahnhof,160.0,28.945549816378534,29.436152355639187
+Frankenmarkt Bahnhof,Attnang-Puchheim Bahnhof,250.0,21.674216018794844,40.639155035240336
+Frankenmarkt Bahnhof,Linz/Donau Hauptbahnhof,250.0,72.40804920263099,66.83819926396707
+Frankenmarkt Bahnhof,Straßwalchen Bahnhof,250.0,12.553189805403438,57.93779910186202
+Freilassing Bahnhof,Bad Gastein Bahnhof,400.0,81.45501634997268,44.83762367888404
+Freilassing Bahnhof,Bad Hofgastein Bahnhof,400.0,71.8347007923821,45.37944808120912
+Freilassing Bahnhof,Bischofshofen Bahnhof,160.0,49.863868898331006,39.89109511866481
+Freilassing Bahnhof,Břeclav,400.0,307.111296273135,71.69913531668522
+Freilassing Bahnhof,Golling-Abtenau Bahnhof,160.0,29.58585092757084,34.80688344420098
+Freilassing Bahnhof,Graz Hauptbahnhof 6,400.0,202.1474660243596,46.31548395684032
+Freilassing Bahnhof,Győr pályaudvar,400.0,348.6376879976081,86.90109531890586
+Freilassing Bahnhof,Hegyeshalom pályaudvar,400.0,311.11367412164236,76.07476223575665
+Freilassing Bahnhof,Jesenice (SI) železniška posta,400.0,175.76971568397732,31.670219042158077
+Freilassing Bahnhof,Klagenfurt Hauptbahnhof,400.0,169.20894568425012,49.04607121282612
+Freilassing Bahnhof,Köln Hauptbahnhof,400.0,555.6235471170961,60.61347786731958
+Freilassing Bahnhof,München Hauptbahnhof,400.0,111.11185996323883,63.14722489474546
+Freilassing Bahnhof,Paris Gare de l’Est,400.0,792.226982689427,66.12695836238558
+Freilassing Bahnhof,Rosenheim Bahnhof,400.0,63.977849065172705,62.929031867382996
+Freilassing Bahnhof,Saalfelden Bahnhof,160.0,46.88273048348694,19.80960442964237
+Freilassing Bahnhof,Salzburg Hauptbahnhof,331.0,5.765226170115061,49.94270639490146
+Freilassing Bahnhof,Schwarzach-St.Veit Bahnhof,225.45454545454547,59.12627321320615,40.6799807922464
+Freilassing Bahnhof,Straßwalchen Bahnhof,160.0,26.07557442285324,37.448727157204544
+Freilassing Bahnhof,Stuttgart Hauptbahnhof 10,400.0,299.6390659033657,67.33462155131814
+Freilassing Bahnhof,Tarvisio Citta Boscoverde,400.0,155.41876975885702,39.3492067071288
+Freilassing Bahnhof,Tenneck Bahnhof,160.0,40.98812298342689,38.42636529696271
+Freilassing Bahnhof,Wien Hauptbahnhof,400.0,255.93431218466762,85.64741656129843
+Freilassing Bahnhof,Zagreb Glavni kolodvor,400.0,321.3032912575161,31.603602418772077
+Friedberg Bahnhof,Wien Hauptbahnhof,250.0,86.9340305502197,53.22491666339982
+Friedberg Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,43.97521687877683,44.95172457783934
+Friedburg Bahnhof,Salzburg Hauptbahnhof,250.0,24.81791421369674,44.82421855205266
+Friesach Bahnhof,Klagenfurt Hauptbahnhof,250.0,38.280138282952855,44.16939032648406
+Friesach Bahnhof,Lienz Bahnhof,160.0,125.34920838440846,35.856185847840614
+Friesach Bahnhof,Spittal-Millstätter See Bahnhof,160.0,72.30193875601586,31.435625546093853
+Friesach Bahnhof,Unzmarkt Bahnhof 2,220.0,27.606294540538823,49.7503810703828
+Friesach Bahnhof,Villach Hauptbahnhof,220.0,56.68619555962932,34.157689534497585
+Frohnleiten Bahnhof 2,Graz Hbf 4,160.0,22.58024808865891,52.1082648199821
+Fürstenfeld Bahnhof,Fehring,220.0,11.616298101092479,25.81399578020551
+Fürstenfeld Bahnhof,Wien Floridsdorf,250.0,137.0769904102826,46.20572710458964
+Gars-Thunau Bahnhof,Krems Bahnhof,250.0,21.294919239136686,25.05284616369022
+Gars-Thunau Bahnhof,St. Pölten Hauptbahnhof,250.0,43.291303364404236,28.860868909602825
+Garsten Bahnhof,Kleinreifling Bahnhof,250.0,28.208253184194504,30.393709396893506
+Garsten Bahnhof,Linz/Donau Hauptbahnhof,160.0,30.877844587375396,33.79426721213132
+Garsten Bahnhof,St. Valentin Bahnhof,250.0,19.179614439400353,46.17278992194692
+Garsten Bahnhof,Weißenbach-St.Gallen Bahnhof,250.0,38.37969519857072,32.67836366544971
+Gmünd Bahnhof,TP Gmünd Lainsitzbrücke Schiene,250.0,1.2780981887091207,38.342945661273625
+Gmünd Bahnhof,Wien Franz-Josefs-Bahnhof,250.0,117.65908700815582,53.84586705144483
+Gmünd Bahnhof,České Velenice,250.0,2.1316948202523305,31.975422303784953
+Golling-Abtenau Bahnhof,Freilassing Bahnhof,165.625,29.570537766191656,36.03911463835582
+Golling-Abtenau Bahnhof,Salzburg Hauptbahnhof,160.0,25.178264743242394,41.96377457207066
+Gramatneusiedl Bahnhof,Bratislava-Petržalka stanica,160.0,46.26629556898881,56.652606819169975
+Gramatneusiedl Bahnhof,Neusiedl am See Bahnhof,160.0,26.38341561940122,49.46890428637729
+Graz Hauptbahnhof 1B-E,Břeclav,400.0,216.9349990621483,59.478410269918264
+Graz Hauptbahnhof 1B-E,Flughafen Wien Bahnhof,400.0,144.82820531126796,48.009349826939655
+Graz Hauptbahnhof 1B-E,Wien Hauptbahnhof,400.0,143.14153226333602,54.207444170730795
+Graz Hauptbahnhof 3,Buchs Bahnhof,400.0,449.2780407985114,54.568183092936614
+Graz Hauptbahnhof 3,Freilassing Bahnhof,400.0,202.14086459880028,46.46916427558627
+Graz Hauptbahnhof 3,Innsbruck Hauptbahnhof,400.0,304.25919618394835,51.42408949587859
+Graz Hauptbahnhof 3,Linz/Donau Hauptbahnhof,400.0,159.38582255440232,50.59867382679439
+Graz Hauptbahnhof 3,Salzburg Hauptbahnhof,400.0,196.33951440739838,49.2902546629452
+Graz Hauptbahnhof 3,Schladming Bahnhof,400.0,135.97441185382309,51.31109881276343
+Graz Hauptbahnhof 3,Schwarzach-St.Veit Bahnhof,400.0,173.0173350072083,51.1381285735591
+Graz Hauptbahnhof C,Klagenfurt Hauptbahnhof B9,400.0,98.20140686502631,49.10070343251316
+Graz Hbf 2,Buchs Bahnhof,400.0,449.29833465548154,47.440238836723395
+Graz Hbf 2,Fehring,171.25,47.23514721188489,39.06315487930492
+Graz Hbf 2,Feldbach 2,220.0,38.01290978334563,37.38974732788095
+Graz Hbf 2,Gniebing,160.0,35.26220270282343,38.4678574939892
+Graz Hbf 2,Spittal-Millstätter See Bahnhof,400.0,149.6670025020184,38.54085901339529
+Graz Hbf 2,Szentgotthárd pályaudvar,220.0,65.48011189277844,47.033109513800234
+Graz Hbf 2,Villach Hauptbahnhof,400.0,129.46883509129077,37.52719857718573
+Graz Hbf 2,Šentilj železniška postaja,400.0,47.95892668822261,62.924677788833804
+Graz Hbf 4,Bruck/Mur Bahnhof 6,160.0,39.275293690258465,51.130629956677986
+Graz Hbf 4,Frohnleiten Bahnhof 1,160.0,22.584049797255844,54.20171951341402
+Graz Hbf 4,Leibnitz Bahnhof,220.0,34.04517344605084,75.65594099122409
+Graz Hbf 4,Leoben Hauptbahnhof 2,220.0,42.735864146614254,50.23700616268663
+Graz Hbf 4,Mürzzuschlag Bahnhof,220.0,62.70026802101904,47.62045672482459
+Graz Hbf 4,Spielfeld-Straß Bahnhof,220.0,43.48253043183701,56.71634404152653
+Graz Hbf 4,St.Michael Bahnhof,220.0,43.28416576043822,38.7619394869596
+Graz Hbf 5,Bruck/Mur Bahnhof 5,220.0,39.3079685505002,58.9619528257503
+Graz Hbf 5,Leibnitz Bahnhof,160.0,34.045867022774885,50.09606147636876
+Graz Hbf 5,Spielfeld-Straß Bahnhof,160.0,43.48380675526495,52.03700816883377
+Graz Hbf 5,Unzmarkt Bahnhof 3,220.0,75.04784784600702,40.255550568739395
+Graz Hbf 5,Werndorf Bahnhof,160.0,17.979119476007995,53.93735842802399
+Grein Stadt Bahnhof,St. Valentin Bahnhof,250.0,25.37361677895572,27.71695973868053
+Grein-Bad Kreuzen Bahnhof,Linz/Donau Hauptbahnhof,250.0,42.03226035008433,39.405244078204056
+Grein-Bad Kreuzen Bahnhof,St. Valentin Bahnhof,250.0,24.801529761614244,28.665440102371974
+Grünau im Almtal Bahnhof,Wels Hauptbahnhof,250.0,35.193977918500785,32.52976211666324
+Gutenstein Bahnhof,Wien Hauptbahnhof,250.0,48.70635623551738,28.09982090510618
+Gutenstein Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,25.145795834941772,27.40016600458117
+Gänserndorf Bahnhof,Wien Floridsdorf,227.5,26.389756924540944,63.61816401451834
+Gänserndorf Bahnhof,Wien Hetzendorf,160.0,36.527230852398105,35.34893308296591
+Gänserndorf Bahnhof,Wien Leopoldau,250.0,22.090345957842445,65.77277756145274
+Gänserndorf Bahnhof,Wien Liesing,160.0,40.3950011139771,36.24664712361708
+Gänserndorf Bahnhof,Wien Meidling,160.0,34.85871801805151,38.655721740969994
+Gänserndorf Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,69.62267942171104,44.44000814151769
+Gänserndorf Bahnhof A,Deutsch-Wagram Bahnhof,160.0,12.979494331493763,25.16189319404358
+Gänserndorf Bahnhof A,Wien Floridsdorf,160.0,26.186292334053892,27.529543197237363
+Götzendorf Bahnhof,Wien Hauptbahnhof,250.0,23.48800125665213,58.72000314163032
+Götzis Bahnhof,Bregenz Hafen Bahnhof,160.0,20.533598483542402,38.500497156642005
+Hainfeld Bahnhof,Rohrbach an der Gölsen Bahnhof,250.0,2.104202533523461,31.563038002851915
+Hainfeld Bahnhof,St. Pölten Hauptbahnhof,228.8235294117647,21.572439767725253,25.8810790940617
+Hainfeld Bahnhof,Traisen Bahnhof,241.0,11.703109890511133,37.611376155487974
+Hamburg Hauptbahnhof,Hamburg-Altona,400.0,4.760665210731699,21.97230097260784
+Hamburg-Altona,Nürnberg Hauptbahnhof,400.0,463.6616980612436,63.370619324999126
+Hamburg-Altona,Passau Hauptbahnhof,400.0,605.5463868595283,58.886196453114586
+Hart b.Graz Bahnhof 1,Graz Hbf 2,160.0,7.68542409995892,25.6180803331964
+Hartberg Bahnhof,Fehring,250.0,36.91034775481807,36.93121284682192
+Hartberg Bahnhof,Wien Hauptbahnhof,250.0,104.78540970113018,46.22885722108684
+Hartberg Bahnhof,Wien Meidling,250.0,102.7221415004885,47.41021915407162
+Hartberg Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,61.82729840830768,40.76525169778529
+Hausleiten Bahnhof,Korneuburg Bahnhof,250.0,17.200510215278126,27.15870033991283
+Hausleiten Bahnhof,Wiener Neustadt Hauptbahnhof,160.0,65.19290715994241,28.14082323450751
+Hegyeshalom pályaudvar,Bruck/Leitha Bahnhof,250.0,29.62370284312413,74.05925710781031
+Hegyeshalom pályaudvar,Budapest-Keleti,400.0,152.09548021352882,82.21377308839395
+Hegyeshalom pályaudvar,Feldkirch Bahnhof,400.0,570.4385229184022,70.56971417547243
+Hegyeshalom pályaudvar,Freilassing Bahnhof,400.0,311.11367412164236,82.41546600045412
+Hegyeshalom pályaudvar,Kyjiw-Passaschyrskyj,400.0,1008.131996375229,45.37728415792479
+Hegyeshalom pályaudvar,Nickelsdorf Bahnhof,250.0,5.528180440237953,82.92270660356931
+Hegyeshalom pályaudvar,Salzburg Hauptbahnhof,400.0,306.10840923231297,85.42560257645943
+Hegyeshalom pályaudvar,Wien Hauptbahnhof,336.8421052631579,64.59802059682075,75.13868130200234
+Helmahof Bahnhof,Wien Leopoldau,160.0,11.549492435137251,23.89550158993914
+Hermagor Bahnhof,St. Veit an der Glan Bahnhof,160.0,77.32796838723841,37.72096018889679
+Hermagor Bahnhof,Villach Hauptbahnhof,165.45454545454547,36.11528517110419,37.485145325487224
+Hieflau Bahnhof,Attnang-Puchheim Bahnhof,250.0,88.2403662852102,26.87523846250057
+Hieflau Bahnhof,Selzthal Bahnhof,250.0,32.508476745532825,52.716448776539714
+Hohenau,Wiener Neustadt Hauptbahnhof,250.0,100.56883720671368,48.273041859222566
+Hollabrunn Bahnhof,Leobersdorf Bahnhof,160.0,70.4572591743787,32.026026897444865
+Hollabrunn Bahnhof,Mödling Bahnhof,160.0,55.57473988519163,34.37612776403606
+Hollabrunn Bahnhof,Wien Floridsdorf,160.0,41.78163268580335,48.20957617592694
+Hollabrunn Bahnhof,Wien Jedlersdorf,250.0,40.13224946251882,58.73012116466169
+Hollabrunn Bahnhof,Wien Quartier Belvedere,160.0,47.54902751345593,40.18227677193459
+Hollabrunn Bahnhof,Wiener Neustadt Hauptbahnhof,160.0,84.4518107378165,34.251708501466446
+Horn Bahnhof,Krems Bahnhof,250.0,29.02793660458594,25.933273853563982
+Horn Bahnhof,Sigmundsherberg Bahnhof,250.0,5.7579934940482955,31.02234462702491
+Horn Bahnhof,St. Pölten Hauptbahnhof,250.0,50.97815349562314,27.861491492507227
+Imst-Pitztal Bahnhof,Innsbruck Hauptbahnhof,250.0,48.48567483874584,57.79953197727848
+Innsbruck Hauptbahnhof,Bregenz Bahnhof,400.0,127.78223964697384,50.11068221449955
+Innsbruck Hauptbahnhof,"Brennero, Stazione di Brennero",164.28571428571428,30.02770882211313,47.32749505853701
+Innsbruck Hauptbahnhof,Flughafen Wien Bahnhof,400.0,397.9621222593999,84.0837950092443
+Innsbruck Hauptbahnhof,Graz Hauptbahnhof 6,400.0,304.2498955065216,51.713863258898854
+Innsbruck Hauptbahnhof,Imst-Pitztal Bahnhof,250.0,48.48567483874584,60.89365191036342
+Innsbruck Hauptbahnhof,Kufstein Bahnhof,349.6969696969697,67.63203871623216,82.90970238168768
+Innsbruck Hauptbahnhof,Landeck-Zams Bahnhof,235.0,63.425674564867194,58.80281256396568
+Innsbruck Hauptbahnhof,Lindau-Reutin,400.0,131.7578639756793,42.50253676634816
+Innsbruck Hauptbahnhof,Mittenwald Bahnhof,260.0,22.097121639109265,22.273272753301242
+Innsbruck Hauptbahnhof,Scharnitz Bahnhof,160.0,17.511319066502427,21.442431510002972
+Innsbruck Hauptbahnhof,Seefeld i. T. Bahnhof,160.0,17.52045356936558,29.200755948942632
+Innsbruck Hauptbahnhof,Steinach a. Br. Bahnhof,160.0,20.016952104226238,57.19129172636068
+Innsbruck Hauptbahnhof,Telfs-Pfaffenhofen Bahnhof,160.0,24.648767181985985,54.775038182191075
+Innsbruck Hauptbahnhof,Wörgl Hbf,250.0,55.79351485931334,76.08206571724547
+Innsbruck Hauptbahnhof,Ötztal-Bahnhof,250.0,40.970748373068936,66.43905141578746
+Jenbach Bahnhof,Innsbruck Hauptbahnhof,160.0,31.621395565380507,55.80246276243619
+Jenbach Bahnhof,Pill-Vomperbach Bahnhof,160.0,10.413461215993744,62.480767295962465
+Jenbach Bahnhof,Telfs-Pfaffenhofen Bahnhof,160.0,53.545370701256296,49.4706268319574
+Jenbach Bahnhof,Ötztal-Bahnhof,160.0,71.20860982532446,49.68042545952869
+Jesenice (SI) železniška posta,Buchs Bahnhof,400.0,357.61306540693647,41.3425509140967
+Jesenice (SI) železniška posta,Freilassing Bahnhof,400.0,175.76971568397732,35.62899642242783
+Jesenice (SI) železniška posta,Ljubljana železniška postaja,160.0,54.795133531861644,49.533358142442566
+Jesenice (SI) železniška posta,Villach Hauptbahnhof,160.0,25.650179212429776,41.94029268658956
+Jesenice (SI) železniška posta,Zagreb Glavni kolodvor,160.0,164.13149834226317,47.20482607361635
+Kammer-Schörfling Bahnhst,Attnang-Puchheim Bahnhof,250.0,11.643038764704249,33.30362711592352
+Kammer-Schörfling Bahnhst,Vöcklabruck Bahnhof,250.0,8.483650395259032,31.955083155475684
+Kapfenberg Bahnhof,Bruck/Mur Bahnhof 3,160.0,3.6353137955921344,43.62376554710562
+Kastenreith Bahnhst,Amstetten Bahnhof,250.0,34.98609371895654,44.66309836462537
+Kirchdorf/Krems Bahnhof,Linz/Donau Franckstraße Bahnhof,160.0,44.95391655075758,41.49592296993008
+Kirchdorf/Krems Bahnhof,Linz/Donau Hauptbahnhof,160.0,44.66027653871768,45.41723037835697
+Kirchdorf/Krems Bahnhof,Micheldorf in OÖ Bahnhof,250.0,2.590519557221588,38.85779335832382
+Kirchdorf/Krems Bahnhof,Roßleithen Bahnhst,250.0,24.786257036558972,46.47423194354807
+Kirchdorf/Krems Bahnhof,Selzthal Bahnhof,250.0,42.21610686577218,43.671834688729845
+Kirchdorf/Krems Bahnhof,Spital am Pyhrn Bahnhof,250.0,31.071980711634296,43.356252155768786
+Kirchdorf/Krems Bahnhof,Traun OÖ Bahnhof,160.0,37.04037902671164,47.28559024686592
+Kittsee Bahnhof,Wien Hauptbahnhof,250.0,52.69792066926224,58.553245188069155
+Klagenfurt Hauptbahnhof,Freilassing Bahnhof,400.0,169.22121112728325,49.77094444920096
+Klagenfurt Hauptbahnhof,Klagenfurt Süd Bahnhst,160.0,1.0086171612341348,30.258514837024045
+Klagenfurt Hauptbahnhof,Mallnitz-Obervellach Bahnhof,400.0,95.63507780615988,65.73367105022875
+Klagenfurt Hauptbahnhof,Salzburg Hauptbahnhof,400.0,163.99932402356262,53.13327423533279
+Klagenfurt Hauptbahnhof,Spittal-Millstätter See Bahnhof,400.0,66.13807560288986,70.86222386023913
+Klagenfurt Hauptbahnhof,St. Veit an der Glan Bahnhof,160.0,17.677764780997975,57.89209518923314
+Klagenfurt Hauptbahnhof,Velden/Wörthersee Bahnhof,160.0,20.595474325625556,58.844212358930164
+Klagenfurt Hauptbahnhof,Villach Hauptbahnhof,182.0,35.50706036339289,58.93110885938145
+Klagenfurt Hauptbahnhof,Weizelsdorf Bahnhof,160.0,10.037770110812275,37.850758126187955
+Klagenfurt Hauptbahnhof,Wolfsberg Bahnhof,170.3846153846154,47.2680485428334,46.53407118158282
+Klagenfurt Hauptbahnhof B9,Graz Hauptbahnhof C,400.0,98.20140686502631,49.10070343251316
+Klagenfurt Süd Bahnhst,Klagenfurt Hauptbahnhof,160.0,1.0086171612341348,30.258514837024045
+Kleinreifling Bahnhof,Amstetten Bahnhof,250.0,37.46501958257239,43.15559718874414
+Kleinreifling Bahnhof,Garsten Bahnhof,250.0,28.142037046453492,32.56059025555706
+Kleinreifling Bahnhof,Linz/Donau Hauptbahnhof,250.0,57.93609120941313,39.95592497200906
+Kleinreifling Bahnhof,St. Valentin Bahnhof,250.0,40.37652989979414,32.25663098822572
+Kleinreifling Bahnhof,Weißenbach-St.Gallen Bahnhof,250.0,12.2576031146539,52.53258477708814
+Korneuburg Bahnhof,Stockerau Bahnhof,250.0,9.558948666239601,63.72632444159734
+Korneuburg Bahnhof,Wien Liesing,160.0,23.446420311955862,26.732170876556673
+Krems Bahnhof,Fels am Wagram Bahnhof,250.0,16.273399937468188,51.53243313531593
+Krems Bahnhof,Horn Bahnhof,250.0,29.02793660458594,23.506318228713617
+Krems Bahnhof,St. Pölten Hauptbahnhof,250.0,22.311439112676275,37.57195309500409
+Krems Bahnhof,Wien Franz-Josefs-Bahnhof,250.0,59.495357658393694,53.324473901830416
+Kufstein Bahnhof,Bratislava-Petržalka stanica,400.0,372.9051682835243,81.95717984253281
+Kufstein Bahnhof,"Brennero, Stazione di Brennero",400.0,81.50433385670674,57.657598813467
+Kufstein Bahnhof,Buchs Bahnhof,400.0,207.49602527943748,70.85125736842483
+Kufstein Bahnhof,Feldkirch Bahnhof,400.0,196.42356691112204,54.310663662061394
+Kufstein Bahnhof,Flughafen Wien Bahnhof,400.0,333.5574936995524,82.0223345162834
+Kufstein Bahnhof,Hamburg Hauptbahnhof,400.0,680.9459474547643,60.79874530846111
+Kufstein Bahnhof,Hegyeshalom pályaudvar,400.0,374.1590735061646,82.5350897440069
+Kufstein Bahnhof,Innsbruck Hauptbahnhof,350.64516129032256,67.62893648910585,82.60170795704256
+Kufstein Bahnhof,Kundl Bahnhof,160.0,18.215321096708042,68.30745411265517
+Kufstein Bahnhof,Nürnberg Hauptbahnhof,400.0,221.8467375481318,66.5232772668414
+Kufstein Bahnhof,Salzburg Hauptbahnhof,400.0,70.64901709928664,60.55630037081711
+Kufstein Bahnhof,Schwarzach-St.Veit Bahnhof,400.0,80.00420954019319,34.53419116842871
+Kufstein Bahnhof,St. Anton a. A. Bahnhof,400.0,151.7081889586628,60.618094836329284
+Kufstein Bahnhof,Wien Hauptbahnhof,400.0,321.15114800404194,87.511012562375
+Kyjiw-Passaschyrskyj,Hegyeshalom pályaudvar,400.0,1008.131996375229,45.61683241516873
+Köln Hauptbahnhof,Bruxelles Midi,400.0,184.3172347887253,55.58486496721216
+"La Spezia, Centrale",Tarvisio Citta Boscoverde,220.0,398.59802547812393,42.31750639574525
+Laa/Thaya Bahnhof,Mödling Bahnhof,160.0,71.37062228544944,32.441191947931564
+Laa/Thaya Bahnhof,Wien Floridsdorf,205.0,51.96654341815041,39.76003342418505
+Laa/Thaya Bahnhof,Wien Leopoldau,221.07142857142858,49.713333207362645,43.31781908288667
+Laa/Thaya Bahnhof,Wien Meidling,230.0,61.25159549880595,36.387086434934226
+Landeck-Zams Bahnhof,Innsbruck Hauptbahnhof,248.69565217391303,63.42528252592333,59.605318214651106
+Landeck-Zams Bahnhof,Jenbach Bahnhof,160.0,94.33588509296281,49.69802375587121
+Ledenitzen Bahnhst,Villach Hauptbahnhof,160.0,10.910923252429768,31.69363420943885
+Leibnitz Bahnhof,Graz Hbf 5,160.0,34.044270936436575,51.627575705804915
+Leoben Hauptbahnhof 2,Bruck/Mur Bahnhof 3,160.0,14.606203901268124,62.968419185517696
+Leoben Hauptbahnhof 2,Selzthal Bahnhof,220.0,61.19169494189177,60.18855240186076
+Leoben Hauptbahnhof 2,St.Michael Bahnhof,220.0,7.491498369179657,64.21284316439706
+Leoben Hauptbahnhof 3,Bruck/Mur Bahnhof 3,220.0,14.608665334812201,83.66781055392443
+Leobersdorf Bahnhof,Hollabrunn Bahnhof,160.0,70.45587847946156,32.26986800586026
+Leobersdorf Bahnhof,Weissenbach-Neuhaus Bahnhof,250.0,14.706327184487558,31.30736874666582
+Lienz Bahnhof,Friesach Bahnhof,160.0,125.34689326530007,35.41265824059631
+Lienz Bahnhof,"San Candido, Stazione di San Candido",184.54545454545453,39.474822002558135,40.828610965868776
+Lienz Bahnhof,Sillian Bahnhof,160.0,27.923854791844747,49.27739080913779
+Lienz Bahnhof,Spittal-Millstätter See Bahnhof,160.0,54.65835501941301,54.94650294579657
+Lienz Bahnhof,Wien Hauptbahnhof,400.0,310.0289865938196,54.23247578900634
+Liezen Bahnhof 1,Linz/Donau Hauptbahnhof,250.0,80.97184414252237,40.82613990379279
+Liezen Bahnhof 3,Schladming Bahnhof,220.0,46.32409147231408,50.53537251525172
+Lindau-Insel,Bludenz Bahnhof,206.28571428571428,44.57456565795816,36.420646249095974
+Lindau-Insel,Dornbirn Bahnhof,160.0,14.861709628000865,27.865705552501623
+Lindau-Insel,Feldkirch Bahnhof,238.75,34.31989017321636,41.59992945966954
+Lindau-Insel,St.Margrethen Bahnhof,250.0,10.725516847809073,28.93345949672192
+Lindau-Reutin,Bregenz Bahnhof,400.0,6.177440376112453,52.94948893810674
+Lindau-Reutin,Innsbruck Hauptbahnhof,400.0,131.75628980206693,41.39839467936332
+Lindau-Reutin,St.Margrethen Bahnhof,400.0,12.045322813252033,42.51290404677188
+Linz/Donau Franckstraße Bahnhof,Linz/Donau Hauptbahnhof,160.0,2.44497563242881,36.67463448643215
+Linz/Donau Hauptbahnhof,Attnang-Puchheim Bahnhof,250.0,52.52405493656311,64.99937323890789
+Linz/Donau Hauptbahnhof,Braunau/Inn Bahnhof,250.0,92.11273999557237,62.80414090607207
+Linz/Donau Hauptbahnhof,Bregenz Bahnhof,400.0,350.31935490259457,60.57395185635641
+Linz/Donau Hauptbahnhof,Flughafen Wien Bahnhof,400.0,169.44682569383804,95.03068217092046
+Linz/Donau Hauptbahnhof,Freilassing Bahnhof,250.0,109.86948431698619,55.396378647219926
+Linz/Donau Hauptbahnhof,Garsten Bahnhof,160.0,30.83844771171909,32.211302487187105
+Linz/Donau Hauptbahnhof,Graz Hauptbahnhof 3,400.0,159.39147208312735,50.86961874993426
+Linz/Donau Hauptbahnhof,Grein-Bad Kreuzen Bahnhof,250.0,42.03622009884811,38.21474554440737
+Linz/Donau Hauptbahnhof,Hegyeshalom pályaudvar,400.0,216.07204988013987,96.03202216895106
+Linz/Donau Hauptbahnhof,Kirchdorf/Krems Bahnhof,160.0,44.664541131010594,47.015306453695366
+Linz/Donau Hauptbahnhof,Liezen Bahnhof 1,250.0,80.97184414252237,41.501269956370905
+Linz/Donau Hauptbahnhof,Linz Ebelsberg,160.0,5.842798150304578,58.42798150304578
+Linz/Donau Hauptbahnhof,Linz/Donau Franckstraße Bahnhof,160.0,2.44497563242881,36.674634486432154
+Linz/Donau Hauptbahnhof,Lungitz/Gusen Bahnhof,160.0,13.830071692951776,36.14677828839669
+Linz/Donau Hauptbahnhof,Neuhofen/Krems Bahnhof,160.0,17.66442884019851,46.08111871356133
+Linz/Donau Hauptbahnhof,Neumarkt-Kallham Bahnhof,220.0,41.99388431032717,27.387315854561194
+Linz/Donau Hauptbahnhof,Passau Hauptbahnhof,250.0,69.61297164751785,51.510839671515164
+Linz/Donau Hauptbahnhof,Pregarten Bahnhof,160.0,18.571013629031203,25.994317153822525
+Linz/Donau Hauptbahnhof,Salzburg Hauptbahnhof,325.0,106.77690905260263,69.14632533230423
+Linz/Donau Hauptbahnhof,Schärding Bahnhof,250.0,65.6479207339731,62.52182927045057
+Linz/Donau Hauptbahnhof,Selzthal Bahnhof,250.0,82.28945237945386,47.33919434623705
+Linz/Donau Hauptbahnhof,Simbach (Inn),250.0,93.9678080361318,51.725398918971635
+Linz/Donau Hauptbahnhof,Spital am Pyhrn Bahnhof,250.0,68.64353481832414,48.45425987175822
+Linz/Donau Hauptbahnhof,St. Valentin Bahnhof,160.0,21.00000479679756,52.22001192803659
+Linz/Donau Hauptbahnhof,St.Georgen/Gusen Ort Bahnhst,160.0,11.97018141608885,37.800572892912164
+Linz/Donau Hauptbahnhof,St.Nikola-Struden Bahnhst,250.0,46.092822130411335,35.41118200528446
+Linz/Donau Hauptbahnhof,Stainach-Irdning Bahnhof,250.0,85.81051009024254,29.088308505166964
+Linz/Donau Hauptbahnhof,TP Summerau(Gr),220.0,35.18500143007961,32.866941947334915
+Linz/Donau Hauptbahnhof,Wels Hauptbahnhof,189.30232558139534,24.071961229019582,72.10348834687757
+Linz/Donau Hauptbahnhof,Wien Hauptbahnhof,400.0,154.916864394738,84.99867905524299
+Linz/Donau Urfahr Bahnhof,Aigen-Schlägl Bahnhof,242.5,43.08034278062366,28.588330184307832
+Linz/Donau Urfahr Bahnhof,Neuhaus-Niederwaldkirchen Bahnhst,250.0,22.234590306446606,33.35188545966991
+Linz/Donau Urfahr Bahnhof,Rottenegg Bahnhof,247.42857142857142,11.736628131979566,34.75723563856594
+Linz/Donau Urfahr Bahnhof,Schlägl Bahnhst,250.0,42.48846954749898,29.643118288952778
+Ljubljana železniška postaja,Jesenice (SI) železniška posta,160.0,54.795133531861644,57.715250365848
+Lochau-Hörbranz Bahnhof,Bludenz Bahnhof,160.0,41.98851052146524,34.51110453819061
+Lochau-Hörbranz Bahnhof,St.Margrethen Bahnhof,160.0,11.544147268096905,28.86036817024226
+Lungitz/Gusen Bahnhof,Linz/Donau Hauptbahnhof,160.0,13.838586058019908,34.59646514504977
+Mallnitz-Obervellach Bahnhof,Bruck/Mur Bahnhof 5,400.0,166.0187627074759,48.35497942936192
+Mallnitz-Obervellach Bahnhof,Böckstein Bahnhof,220.0,11.6308471041268,63.44098420432801
+Mallnitz-Obervellach Bahnhof,Klagenfurt Hauptbahnhof,400.0,95.63950730460422,66.20988268882618
+Mallnitz-Obervellach Bahnhof,Salzburg Hauptbahnhof,400.0,93.00606440555444,52.15293331152585
+Mallnitz-Obervellach Bahnhof,Spittal-Millstätter See Bahnhof,220.0,31.35245948479837,73.71824359516326
+Marchegg Bahnhof,Gänserndorf Bahnhof A,160.0,17.028092693799692,40.86742246511926
+Marchegg Bahnhof,Wien Erzherzog-Karl-Straße,250.0,34.48726236119001,57.478770601983356
+Marchegg Bahnhof,Wien Hauptbahnhof,250.0,40.625997356867906,59.66201198230361
+Marchegg Bahnhof,Wien Liesing,160.0,48.732423469196725,36.098091458664236
+Marchegg Bahnhof,Wien Meidling,160.0,44.114812683334925,38.924834720589644
+Maribor Železniška postaja,Ljubljana železniška postaja,400.0,104.32517235557698,51.307461814218186
+Maribor Železniška postaja,Split željeznički kolodvor,160.0,345.5159737210338,31.31564716504838
+Maribor Železniška postaja,Zagreb Glavni kolodvor,400.0,87.80823016561588,33.99028264475454
+Mattersburg Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,15.515701324128441,39.60198052253735
+Micheldorf in OÖ Bahnhof,Kirchdorf/Krems Bahnhof,250.0,2.590519557221588,51.810391144431755
+Micheldorf in OÖ Bahnhof,Linz/Donau Hauptbahnhof,250.0,46.842113533266826,51.10048749083654
+Mistelbach Bahnhof,Mödling Bahnhof,160.0,56.91956976386441,32.440122153532805
+Mistelbach Bahnhof,Wien Leopoldau,160.0,33.098352515276964,42.25321597694931
+Mittenwald Bahnhof,Innsbruck Hauptbahnhof,236.36363636363637,22.110288858800704,22.536909714891966
+Mittenwald Bahnhof,Scharnitz Bahnhof,167.5,5.311747831293393,45.52926712537194
+Mödling Bahnhof,Gänserndorf Bahnhof,160.0,43.046953695813315,34.22300811548513
+Mödling Bahnhof,Hollabrunn Bahnhof,160.0,55.57537075203671,34.734606720022946
+Mödling Bahnhof,Laa/Thaya Bahnhof,160.0,71.37062228544944,32.21062199805288
+Mödling Bahnhof,Mistelbach Bahnhof,160.0,56.919569763864416,34.78123572934202
+Mödling Bahnhof,Stockerau Bahnhof,160.0,33.54606482452719,28.551278512625757
+Mödling Bahnhof,Ulrichskirchen Bahnhof,160.0,37.97661154116222,32.551381320996185
+Mödling Bahnhof,Wien Floridsdorf,160.0,20.474873985246354,28.212049201428357
+Mödling Bahnhof,Wien Handelskai,160.0,18.588235618939382,28.597285567599048
+Mödling Bahnhof,Wien Jedlersdorf,160.0,22.15939108573652,27.69923885717065
+Mödling Bahnhof,Wien Leopoldau,160.0,24.206797537034838,29.048157044441805
+Mödling Bahnhof,Wien Meidling,160.0,10.264815084939423,37.73829075345376
+Mödling Bahnhof,Wolkersdorf Bahnhof,160.0,36.31156459344376,33.51836731702501
+München Hauptbahnhof,Freilassing Bahnhof,400.0,111.11247075834035,66.95608627515574
+Münster (Westf) Hbf,Kufstein Bahnhof,400.0,584.8838726489752,55.933336875607765
+Münster (Westf) Hbf,Nürnberg Hauptbahnhof,400.0,370.01779440486854,67.27709591202702
+Mürzzuschlag,Bruck/Mur Bahnhof 4,160.0,36.91249217170426,54.07022188191013
+Mürzzuschlag Bahnhof,Bruck/Mur Bahnhof 3,220.0,36.90973472887624,59.85362388466417
+Mürzzuschlag Bahnhof,Payerbach-Reichenau Bahnhof,250.0,16.968415180614475,22.791666753961717
+Mürzzuschlag Bahnhof,Wien Floridsdorf,400.0,89.94236685382857,42.87290626828147
+Mürzzuschlag Bahnhof,Wien Hauptbahnhof,400.0,82.67349287505043,49.11296606438639
+Mürzzuschlag Bahnhof,Wien Meidling,400.0,79.74887391515266,50.36770984114905
+Mürzzuschlag Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,47.3170157224723,36.87040186166672
+Neufelden Bahnhof,Linz/Donau Urfahr Bahnhof,205.0,27.85363556157946,33.2533569785628
+Neuhaus-Niederwaldkirchen Bahnhst,Linz/Donau Urfahr Bahnhof,250.0,22.23062241607837,31.019473138714
+Neulengbach Bahnhof,Wien Westbahnhof,160.0,32.87297555600498,38.674088889417625
+Neumarkt Bahnhof,Braunau/Inn Bahnhof,230.0,36.24938997325647,42.7930453857774
+Neumarkt Bahnhof,Graz Hbf 4,220.0,75.83226662299718,35.54637497952993
+Neumarkt Bahnhof,Unzmarkt Bahnhof 2,220.0,14.324200939804395,45.23431875727704
+Neumarkt-Kallham Bahnhof,Braunau/Inn Bahnhof,250.0,50.044784882101744,53.26617756154787
+Neumarkt-Kallham Bahnhof,Linz/Donau Hauptbahnhof,250.0,42.02592132379925,64.65526357507576
+Neumarkt-Kallham Bahnhof,Passau Hauptbahnhof,250.0,39.243575628891314,53.51396676666998
+Neumarkt-Kallham Bahnhof,Ried im Innkreis Bahnhof,250.0,19.176827396681848,55.88325869299632
+Neumarkt-Kallham Bahnhof,Schärding Bahnhof,250.0,29.916855528365783,59.833711056731566
+Neumarkt-Kallham Bahnhof,Simbach (Inn),250.0,51.907587735594696,49.01072332320868
+Neumarkt-Kallham Bahnhof,Wels Hauptbahnhof,250.0,25.269993484093057,56.15554107576234
+Neusiedl am See Bahnhof,Bruck/Leitha Bahnhof,250.0,7.693447379040156,41.96425843112812
+Nickelsdorf Bahnhof,Bruck/Leitha Bahnhof,250.0,24.25777916728748,76.60351315985521
+Nickelsdorf Bahnhof,Parndorf Bahnhof,250.0,16.808302544153452,91.68165024083702
+Nürnberg Hauptbahnhof,Dortmund Hauptbahnhof,400.0,344.7368930221042,66.29555635040465
+Nürnberg Hauptbahnhof,Hamburg-Altona,400.0,463.6746983821475,63.42926693986797
+Nürnberg Hauptbahnhof,Kufstein Bahnhof,400.0,221.83571260392085,57.87018589667501
+Nürnberg Hauptbahnhof,Münster (Westf) Hbf,400.0,369.9806806299112,68.04287996780012
+Nürnberg Hauptbahnhof,Passau Hauptbahnhof,400.0,197.98081179758472,95.03078966284066
+Obertraun-Dachsteinhöhlen Bahnhof,Attnang-Puchheim Bahnhof,250.0,50.623295461615875,27.86603419905461
+Padova stazione,"La Spezia, Centrale",220.0,218.4692998934936,33.315043608547825
+Pamhagen Bahnhof,Fertőszentmiklós pályaudvar,250.0,12.070718298314919,65.84028162717229
+Pamhagen Bahnhof,Wien Grillgasse,250.0,63.3859320845254,49.39163539053927
+Pamhagen Bahnhof,Wien Hauptbahnhof,250.0,66.242436106494,48.819121427142576
+Paris Gare de l’Est,Freilassing Bahnhof,400.0,792.2261177262576,65.56354077734545
+Parndorf Bahnhof,Hegyeshalom pályaudvar,250.0,22.109685043988815,73.69895014662939
+Passau Hauptbahnhof,Dortmund Hauptbahnhof,400.0,538.4189698781577,68.01081724776729
+Passau Hauptbahnhof,Hamburg-Altona,400.0,605.5438433551641,59.27019673949405
+Passau Hauptbahnhof,Linz/Donau Hauptbahnhof,250.0,69.64804170965373,49.99032200425211
+Passau Hauptbahnhof,Münster (Westf) Hbf,400.0,558.5730754113679,67.87601859680956
+Passau Hauptbahnhof,Neumarkt-Kallham Bahnhof,250.0,39.232902155403316,53.49941203009544
+Passau Hauptbahnhof,Nürnberg Hauptbahnhof,400.0,197.96367373553076,95.78887438816004
+Passau Hauptbahnhof,Wels Hauptbahnhof,250.0,62.20327553645386,53.60585099082242
+Passau Hauptbahnhof,Wien Hauptbahnhof,400.0,220.52347880864343,85.93675364220066
+Payerbach-Reichenau Bahnhof,Mürzzuschlag Bahnhof,250.0,16.968415180614475,23.138747973565195
+Payerbach-Reichenau Bahnhof,Wien Floridsdorf,371.57894736842104,74.02662159144231,49.21515522972786
+Payerbach-Reichenau Bahnhof,Wien Hauptbahnhof,400.0,66.5213744612888,56.374973489825884
+Payerbach-Reichenau Bahnhof,Wien Meidling,400.0,63.741478082449134,60.70616960233251
+Payerbach-Reichenau Bahnhof,Wiener Neustadt Hauptbahnhof,400.0,30.519846435340906,62.79370703363244
+Plank am Kamp Bahnhof,Krems Bahnhof,250.0,17.327018604041008,26.656951698524626
+Pregarten Bahnhof,Linz/Donau Hauptbahnhof,160.0,18.571013629031203,26.28676003818073
+Pregarten Bahnhof,Summerau Bahnhof,250.0,23.034981784005982,45.37935121092032
+Puch b.Villach Bahnhst,Villach Warmbad Bahnhst,160.0,9.736861836583342,36.51323188718754
+Puchberg am Schneeberg Bahnhof,Wien Hauptbahnhof,250.0,55.926581380566,33.223711711227324
+Puchberg am Schneeberg Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,24.17525806729341,30.748271318983537
+Pöchlarn Bahnhof,Schauboden Bahnhof,250.0,15.511778850941246,34.470619668758324
+Pöchlarn Bahnhof,Scheibbs Bahnhof,250.0,22.88346640497497,30.39642576089263
+Pöchlarn Bahnhof,St. Pölten Hauptbahnhof,250.0,30.25578094168941,69.19763086251767
+Pöchlarn Bahnhof,Wieselburg Bahnhof,250.0,10.057078505695669,34.56491917398707
+Radstadt Bahnhof,Schladming Bahnhof,250.0,15.884083445175609,45.3830955576446
+Radstadt Bahnhof,St.Michael Bahnhof,220.0,116.15783438288229,48.065310779123706
+Retz Bahnhof,Wien Floridsdorf,250.0,64.19134587513496,63.721816699454756
+Retz Bahnhof,Wien Jedlersdorf,250.0,62.45765354914065,53.600805461367834
+Retz Bahnhof,Wien Meidling,250.0,70.09355190422731,47.02843484870184
+Retz Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,106.78464250360757,47.814019031466074
+Retz Bahnhof,Šatov,250.0,5.891398315374822,44.18548736531117
+Ried im Innkreis Bahnhof,Attnang-Puchheim Bahnhof,250.0,27.094181209395014,42.780286120097394
+Ried im Innkreis Bahnhof,Bad Ried Bahnhst,250.0,1.5577754078492096,46.73326223547629
+Ried im Innkreis Bahnhof,Braunau/Inn Bahnhof,250.0,33.21876861624163,52.450687288802584
+Ried im Innkreis Bahnhof,Neumarkt-Kallham Bahnhof,250.0,19.242184504892784,60.93358426549382
+Ried im Innkreis Bahnhof,Wels Hauptbahnhof,250.0,40.15759254106348,65.1204203368597
+Rohrbach an der Gölsen Bahnhof,Hainfeld Bahnhof,250.0,2.104202533523461,31.563038002851915
+Rohrbach/Gölsen Wehrstraße,Hainfeld Bahnhof,160.0,2.1358568875216752,11.650128477390957
+"Roma, Stazione di Roma Tiburtina",Tarvisio Citta Boscoverde,220.0,518.1160951396752,54.06428818848784
+Romanshorn Bahnhof,St.Margrethen Bahnhof,160.0,23.059789206669098,40.69374565882782
+Rosenbach Bahnhof,Villach Hauptbahnhof,160.0,17.310591057253188,35.1152890458045
+Rosenbach Bahnhof,Villach Westbahnhof,160.0,17.22419963950004,39.74815301423086
+Rosenheim Bahnhof,Freilassing Bahnhof,400.0,63.977849065172705,65.13700354852769
+Rottenegg Bahnhof,Linz/Donau Urfahr Bahnhof,247.35294117647058,11.731056402408035,33.42770327477356
+Saalfelden Bahnhof,Freilassing Bahnhof,160.0,46.91039467811482,19.963846611778514
+Saalfelden Bahnhof,Salzburg Hauptbahnhof,250.0,45.88606400722847,23.940555134206157
+Saalfelden Bahnhof,Wörgl Hbf,198.57142857142858,58.27861988189651,43.861259949809245
+Saalfelden Bahnhof,Zell am See Bahnhof,160.0,12.072842607713207,65.85186876934478
+Salzburg Hauptbahnhof,Attnang-Puchheim Bahnhof,250.0,54.94836164946525,46.43523519673119
+Salzburg Hauptbahnhof,Bad Gastein Bahnhof,400.0,78.23474451127798,52.39855140447587
+Salzburg Hauptbahnhof,Braunau/Inn Bahnhof,250.0,49.59996646415883,36.62697614160928
+Salzburg Hauptbahnhof,Bregenz Bahnhof,400.0,249.8686423804443,57.441067213895245
+Salzburg Hauptbahnhof,Flughafen Wien Bahnhof,400.0,264.1597440846293,82.5359969500381
+Salzburg Hauptbahnhof,Freilassing Bahnhof,326.95652173913044,5.77066906569371,50.9672827828824
+Salzburg Hauptbahnhof,Friedburg Bahnhof,250.0,24.82046309789455,46.53836830855228
+Salzburg Hauptbahnhof,Golling-Abtenau Bahnhof,250.0,25.171144160285596,62.92786040071399
+Salzburg Hauptbahnhof,Graz Hauptbahnhof 6,400.0,196.34901841610932,49.4997525418763
+Salzburg Hauptbahnhof,Hegyeshalom pályaudvar,400.0,306.10840923231297,89.69728972644963
+Salzburg Hauptbahnhof,Klagenfurt Hauptbahnhof,400.0,163.99932402356262,53.131288945615196
+Salzburg Hauptbahnhof,Kufstein Bahnhof,400.0,70.65277757926906,59.7065726021992
+Salzburg Hauptbahnhof,Linz/Donau Hauptbahnhof,350.0,106.77143600689995,68.1996893419052
+Salzburg Hauptbahnhof,Mallnitz-Obervellach Bahnhof,400.0,93.00813211989514,52.64611252069536
+Salzburg Hauptbahnhof,Pörtschach Bahnhof,400.0,154.98640088102758,54.065023563149154
+Salzburg Hauptbahnhof,Saalfelden Bahnhof,205.0,45.88066480683395,22.830897334671025
+Salzburg Hauptbahnhof,Schwarzach-St.Veit Bahnhof,348.3333333333333,55.579231367321256,54.82631161849444
+Salzburg Hauptbahnhof,Straßwalchen Bahnhof,167.5,24.062814512105607,50.2408898964733
+Salzburg Hauptbahnhof,Villach Hauptbahnhof,400.0,145.98247319595598,47.71136542185609
+Salzburg Hauptbahnhof,Wien Hauptbahnhof,400.0,251.1520297259202,86.6041481813518
+Salzburg Hauptbahnhof,Wien Meidling,400.0,247.94235051928885,89.08108401890618
+Salzburg Hauptbahnhof,Wörgl Hbf,250.0,82.02878483744624,27.17051868602021
+Salzburg Hauptbahnhof,Šentilj železniška postaja,400.0,234.33943585892285,34.46168174395925
+Salzburg Liefering S-Bahn,Straßwalchen Bahnhof,160.0,25.644237626076233,38.49041294720635
+Salzburg Taxham Europark S-Bahn,Braunau/Inn Bahnhof,250.0,49.33283828513611,39.26387949668269
+"San Candido, Stazione di San Candido",Lienz Bahnhof,160.0,39.4757453156927,39.41679345704087
+Sattledt Bahnhof,Wels Hauptbahnhof,250.0,10.489425771143388,29.96978791755254
+Scharnitz Bahnhof,Innsbruck Hauptbahnhof,160.0,17.511319066502427,21.01358287980291
+Scharnitz Bahnhof,Seefeld i. T. Bahnhof,250.0,9.123783424939202,45.618917124696004
+Scheibbs Bahnhof,Pöchlarn Bahnhof,250.0,22.88346640497497,27.89466106580265
+Scheibbs Bahnhof,St. Pölten Hauptbahnhof,250.0,40.96699180643746,35.62347113603258
+Scheifling Bahnhof,Bruck/Mur Bahnhof 1,220.0,71.32873745385456,59.4406145448788
+Schladming Bahnhof,Bischofshofen Bahnhof,263.6363636363636,34.62085144874903,43.502105189068274
+Schladming Bahnhof,Graz Hauptbahnhof 1B-E,220.0,136.02237861472557,44.84254240045898
+Schladming Bahnhof,Liezen Bahnhof 2,220.0,46.3249450938508,52.44333406851034
+Schladming Bahnhof,Schwarzach-St.Veit Bahnhof,250.0,40.31411812585294,37.83143049933413
+Schladming Bahnhof,St.Michael Bahnhof,220.0,100.35483326945891,51.59187797321442
+Schladming Bahnhof,Stainach-Irdning Bahnhof,220.0,35.54824671909684,54.689610337072054
+Schrambach Bahnhof,St. Pölten Hauptbahnhof,250.0,23.226290223733706,33.180414605333866
+Schrambach Bahnhof,Traisen Bahnhof,237.14285714285714,6.734436299266089,24.41304309651201
+Schruns Bahnhof,Bludenz Bahnhof,160.0,11.443950882773581,36.13879226139026
+Schwarzach-St.Veit Bahnhof,Bad Gastein Bahnhof,400.0,23.051948828622834,46.10389765724567
+Schwarzach-St.Veit Bahnhof,Bad Gastein Bahnhof A,160.0,23.066229160479704,34.59934374071956
+Schwarzach-St.Veit Bahnhof,Bischofshofen Bahnhof,220.0,12.059316828926434,51.68278640968472
+Schwarzach-St.Veit Bahnhof,Buchs Bahnhof,400.0,277.99573459487397,51.80044744003863
+Schwarzach-St.Veit Bahnhof,Freilassing Bahnhof,206.4516129032258,59.1197635898726,41.06420252561551
+Schwarzach-St.Veit Bahnhof,Golling-Abtenau Bahnhof,160.0,31.385227484543172,48.28496536083565
+Schwarzach-St.Veit Bahnhof,Graz Hauptbahnhof 6,400.0,173.01216519233947,49.19777209260838
+Schwarzach-St.Veit Bahnhof,Kufstein Bahnhof,400.0,80.00044071233287,31.51480723639005
+Schwarzach-St.Veit Bahnhof,Mallnitz-Obervellach Bahnhof,220.0,37.563974927542255,42.5252546349535
+Schwarzach-St.Veit Bahnhof,Saalfelden Bahnhof,160.0,27.28298607429436,34.10373259286795
+Schwarzach-St.Veit Bahnhof,Salzburg Hauptbahnhof,362.5,55.582948196124605,56.65685432826698
+Schwarzach-St.Veit Bahnhof,Schladming Bahnhof,250.0,40.31411812585294,39.013662702438324
+Schwarzach-St.Veit Bahnhof,Wörgl Hbf,250.0,84.59397061674534,43.38152339320274
+Schwechat Bahnhof,Wien Rennweg,160.0,9.121501933592507,39.09215114396788
+Schärding Bahnhof,Attnang-Puchheim Bahnhof,250.0,54.29610576320629,37.5674477657765
+Schärding Bahnhof,Wels Hauptbahnhof,250.0,54.49592861707562,60.168159979292376
+Seefeld i. T. Bahnhof,Innsbruck Hauptbahnhof,160.0,17.534956154491525,28.435064034310578
+Seefeld i. T. Bahnhof,Mittenwald Bahnhof,250.0,13.579628388411335,38.79893825260381
+Selzthal Bahnhof,Admont Bahnhof,250.0,11.98754042787251,59.93770213936255
+Selzthal Bahnhof,Buchs Bahnhof,400.0,366.4901634265942,51.49744685151207
+Selzthal Bahnhof,Hieflau Bahnhof,250.0,32.50873422142621,51.329580349620336
+Selzthal Bahnhof,Kirchdorf/Krems Bahnhof,250.0,42.21610686577218,37.805468835019866
+Selzthal Bahnhof,Linz/Donau Hauptbahnhof,250.0,82.28945237945386,46.755370670144245
+Selzthal Bahnhof,Schladming Bahnhof,220.0,50.70613499142664,49.08322200575256
+Selzthal Bahnhof,St.Michael Bahnhof,220.0,57.08496247548007,74.4586467071479
+Selzthal Bahnhof,Weißenbach-St.Gallen Bahnhof,220.0,30.32793291724669,30.841965678555958
+Sigmundsherberg Bahnhof,Horn Bahnhof,250.0,5.7579934940482955,29.821013137219822
+Sigmundsherberg Bahnhof,St. Pölten Hauptbahnhof,250.0,53.77526766153039,25.8165348754993
+Sigmundsherberg Bahnhof,Wien Franz-Josefs-Bahnhof,250.0,68.30628837221037,51.968121210648185
+Sillian Bahnhof,Lienz Bahnhof,160.0,27.924577879091473,48.027529521778945
+Simbach (Inn),Braunau/Inn Bahnhof,250.0,1.9085158764978074,38.170317529956144
+Simbach (Inn),Neumarkt-Kallham Bahnhof,250.0,51.960007219228935,51.1082038221924
+Simbach (Inn),Ried im Innkreis Bahnhof,250.0,35.128170054163,35.128170054163
+Simbach (Inn),Wels Hauptbahnhof,250.0,75.17231164525789,48.498265577585734
+Sopron pályaudvar,Deutschkreutz Bahnhof,250.0,8.567233867680184,57.11489245120123
+Sopron pályaudvar,Wien Hauptbahnhof,225.45454545454547,58.494509681148564,47.79234431158659
+Sopron pályaudvar,Wien Meidling,250.0,58.371280006000354,54.72307500562533
+Sopron pályaudvar,Wiener Neustadt Hauptbahnhof,250.0,30.26107753484849,45.409806122092164
+Spielfeld Tarifpunkt Grenze (Bahn),Spielfeld-Straß Bahnhof,400.0,2.1416092495992274,128.49655497595364
+Spielfeld Tarifpunkt Grenze (Bahn),Wien Hauptbahnhof,400.0,175.01151611668783,50.4840911875061
+Spielfeld-Straß Bahnhof,Bad Radkersburg Bahnhof,160.0,27.791106790573238,41.126632564923085
+Spielfeld-Straß Bahnhof,Graz Hbf 5,163.24324324324326,43.48495949285128,51.787882017984096
+Spielfeld-Straß Bahnhof,Šentilj železniška postaja,242.5,4.517842941019518,70.59129595342996
+Spital am Pyhrn Bahnhof,Linz/Donau Hauptbahnhof,250.0,68.64353481832414,45.25947350658735
+Spittal-Millstätter See Bahnhof,Friesach Bahnhof,175.0,72.30077419198652,33.52603926415872
+Spittal-Millstätter See Bahnhof,Klagenfurt Hauptbahnhof,274.0,66.0980504151743,62.584629157417865
+Spittal-Millstätter See Bahnhof,Lienz Bahnhof,160.0,54.66231868795513,54.93593067848048
+Spittal-Millstätter See Bahnhof,Mallnitz-Obervellach Bahnhof,310.0,31.322541326996426,76.28006166794822
+Spittal-Millstätter See Bahnhof,Puch b.Villach Bahnhst,160.0,25.466056918551942,63.665142296379855
+Spittal-Millstätter See Bahnhof,Schwarzach-St.Veit Bahnhof,220.0,63.29423373357173,46.8846175804235
+Spittal-Millstätter See Bahnhof,St. Veit an der Glan Bahnhof,250.0,66.98928279385804,58.251550255528734
+Spittal-Millstätter See Bahnhof,Villach Hauptbahnhof,202.85714285714286,33.81845324497663,68.74958980463595
+Spittal-Millstätter See Bahnhof,Wien Hauptbahnhof,400.0,266.4534560268846,55.128301246941646
+Spittal-Millstätter See Bahnhof 1,Bischofshofen Bahnhof A,160.0,72.02104891954868,54.01578668966151
+Split željeznički kolodvor,Šentilj železniška postaja,160.0,357.76822898896364,30.84208870594514
+St. Andrä-Wördern Bahnhof,Wien Franz-Josefs-Bahnhof,250.0,16.40417640666765,36.45372534815033
+St. Anton a. A. Bahnhof,Kufstein Bahnhof,400.0,151.70909273621268,65.57609004965512
+St. Pölten Hauptbahnhof,Amstetten Bahnhof,370.0,56.120205203673265,70.5875937265534
+St. Pölten Hauptbahnhof,Hainfeld Bahnhof,236.15384615384616,21.562369011693605,26.72020235374436
+St. Pölten Hauptbahnhof,Horn Bahnhof,250.0,50.97815349562314,27.735463304972583
+St. Pölten Hauptbahnhof,Krems Bahnhof,250.0,22.311439112676275,36.19549899566903
+St. Pölten Hauptbahnhof,Plank am Kamp Bahnhof,250.0,39.005257994348966,30.793624732380763
+St. Pölten Hauptbahnhof,Pöchlarn Bahnhof,250.0,30.256416297159596,68.57330290339839
+St. Pölten Hauptbahnhof,Scheibbs Bahnhof,250.0,40.96699180643746,31.51307062033651
+St. Pölten Hauptbahnhof,Schrambach Bahnhof,229.54545454545453,23.27475236004299,29.302432456371186
+St. Pölten Hauptbahnhof,St. Pölten Bildungscampus Bahnhof,250.0,2.1861161787087373,26.23339414450485
+St. Pölten Hauptbahnhof,Traisen Bahnhof,160.0,16.970415996291393,25.45562399443709
+St. Pölten Hauptbahnhof,Unterkritzendorf Bahnhof,160.0,52.289595278344486,29.049775154635824
+St. Pölten Hauptbahnhof,Wien Franz-Josefs-Bahnhof,160.0,54.598523024372525,26.366455191181306
+St. Pölten Hauptbahnhof,Wien Hauptbahnhof,400.0,55.6837643706405,90.29799627671433
+St. Pölten Hauptbahnhof,Wien Hütteldorf,250.0,47.16915710292467,52.41017455880519
+St. Pölten Hauptbahnhof,Wien Westbahnhof,256.9767441860465,52.78101929541045,54.65025361277109
+St. Valentin Bahnhof,Amstetten Bahnhof,250.0,27.290775528720413,56.15504590160695
+St. Valentin Bahnhof,Garsten Bahnhof,205.0,19.180225982757424,44.52494733068234
+St. Valentin Bahnhof,Grein Stadt Bahnhof,250.0,25.37361677895572,26.248569081678333
+St. Valentin Bahnhof,Grein-Bad Kreuzen Bahnhof,250.0,24.80672457427141,27.82305586422475
+St. Valentin Bahnhof,Kleinreifling Bahnhof,250.0,40.4462451599641,31.415540071800287
+St. Valentin Bahnhof,Linz/Donau Hauptbahnhof,190.0,21.054199791296735,53.605093431100855
+St. Valentin Bahnhof,St.Nikola-Struden Bahnhst,250.0,29.32373076302497,26.967722843544898
+St. Valentin Bahnhof,Weißenbach-St.Gallen Bahnhof,250.0,52.378137397790084,34.159654824645706
+St. Veit an der Glan Bahnhof,Friesach Bahnhof,250.0,20.59785900149519,49.43486160358846
+St. Veit an der Glan Bahnhof,Klagenfurt Hauptbahnhof,182.5,17.713225008561604,61.99513063284174
+St. Veit an der Glan Bahnhof,Spittal-Millstätter See Bahnhof,160.0,67.01059559633869,40.20635735780321
+St. Veit an der Glan Bahnhof,Villach Hauptbahnhof,160.0,42.981991241941465,41.464322296695855
+St.Georgen/Gusen Ort Bahnhst,Linz/Donau Hauptbahnhof,160.0,11.97018141608885,35.910544248266554
+St.Marein-St.Lorenzen Bahnhof,Bruck/Mur Bahnhof 4,160.0,9.674977574540767,48.37488787270383
+St.Margrethen Bahnhof,Bregenz Bahnhof,160.0,9.543596478525014,38.17438591410006
+St.Margrethen Bahnhof,Bregenz Hafen Bahnhof,160.0,10.16516146000169,30.49548438000507
+St.Margrethen Bahnhof,Dornbirn Bahnhof,250.0,8.551890873471102,23.32333874583028
+St.Margrethen Bahnhof,Feldkirch Bahnhof,250.0,23.736562140774932,29.065178131561144
+St.Margrethen Bahnhof,Hard-Fussach Bahnhof,160.0,4.805006256040255,48.05006256040255
+St.Margrethen Bahnhof,Lindau-Insel,250.0,10.718962242494324,29.128738775091488
+St.Margrethen Bahnhof,Lindau-Reutin,400.0,12.051687574410018,42.09051482200013
+St.Margrethen Bahnhof,Romanshorn Bahnhof,160.0,23.059789206669098,41.926889466671085
+St.Michael Bahnhof,Bruck/Mur Bahnhof 3,160.0,21.660329472287064,56.50520731900973
+St.Michael Bahnhof,Radstadt Bahnhof,220.0,116.15347398704908,49.427010207254924
+St.Michael Bahnhof,Schladming Bahnhof,220.0,100.3521349599617,51.611800365881464
+St.Michael Bahnhof,Selzthal Bahnhof,220.0,57.08496247548007,68.50195497057608
+St.Nikola-Struden Bahnhst,Grein-Bad Kreuzen Bahnhof,250.0,4.549079710263193,30.32719806842129
+St.Nikola-Struden Bahnhst,Linz/Donau Hauptbahnhof,250.0,46.092822130411335,34.91398493346505
+St.Nikola-Struden Bahnhst,St. Valentin Bahnhof,250.0,29.32373076302497,27.602771422589097
+Stainach-Irdning Bahnhof,Attnang-Puchheim Bahnhof,250.0,60.97058556078828,26.7392998870835
+Stainach-Irdning Bahnhof,Bad Aussee Bahnhof,250.0,25.957495599211235,45.15295452972038
+Stainach-Irdning Bahnhof,Bad Mitterndorf Bahnhof,250.0,12.456617080223511,43.9645308713771
+Stainach-Irdning Bahnhof,Graz Hauptbahnhof 1B-E,220.0,111.07441880034301,47.603322343004145
+Stainach-Irdning Bahnhof,Linz/Donau Hauptbahnhof,250.0,85.72284572948276,28.41641294899981
+Stainach-Irdning Bahnhof,St. Pölten Hauptbahnhof,400.0,136.06997477179578,36.7756688572421
+Steinach a. Br. Bahnhof,Innsbruck Hauptbahnhof,160.0,20.012986539240323,54.58087237974634
+Stockerau Bahnhof,Absdorf-Hippersdorf Bahnhof,160.0,16.88223834018196,67.52895336072784
+Stockerau Bahnhof,Korneuburg Bahnhof,250.0,9.555684943972297,67.7493006609676
+Stockerau Bahnhof,Leobersdorf Bahnhof,160.0,49.40694832176522,27.704830834634706
+Stockerau Bahnhof,Mödling Bahnhof,160.0,33.545699117315834,27.954749264429864
+Stockerau Bahnhof,Tullnerfeld Bahnhof,160.0,18.728102669465216,27.42336880493536
+Stockerau Bahnhof,Wien Floridsdorf,160.0,19.65915068492727,44.94720348904311
+Stockerau Bahnhof,Wien Jedlersdorf,160.0,18.203295133964836,49.645350365358645
+Stockerau Bahnhof,Wien Liesing,160.0,28.036012472022517,26.290180193544927
+Stockerau Bahnhof,Wiener Neustadt Hauptbahnhof,160.0,63.5374783788079,31.250061024576386
+Strasshof Bahnhof,Deutsch-Wagram Bahnhof,160.0,5.48687633468488,19.36544588712311
+Straßwalchen Bahnhof,Attnang-Puchheim Bahnhof,250.0,34.23780656441368,50.783349449608814
+Straßwalchen Bahnhof,Frankenmarkt Bahnhof,250.0,12.556972812553342,57.95525913486158
+Straßwalchen Bahnhof,Freilassing Bahnhof,160.0,26.073569610246725,34.53971434390349
+Straßwalchen Bahnhof,Linz/Donau Hauptbahnhof,250.0,84.1029135781894,63.87563056571347
+Straßwalchen Bahnhof,Salzburg Hauptbahnhof,160.0,24.07077704415158,48.14920410484349
+Straßwalchen Bahnhof,Wels Hauptbahnhof,250.0,60.63973044771944,39.212915489429946
+Stuttgart Hauptbahnhof 1,Freilassing Bahnhof,400.0,299.6390659033657,61.15082977619708
+Stuttgart Hauptbahnhof 15,Freilassing Bahnhof,400.0,299.6390659033657,61.15082977619708
+Summerau Bahnhof,Linz/Donau Hauptbahnhof,250.0,31.80105938805929,30.286723226723133
+Summerau Bahnhof,Pregarten Bahnhof,250.0,23.034981784005982,46.66569585552936
+Summerau Bahnhof,TP Summerau(Gr),220.0,4.136633620032573,49.63960344039087
+Szentgotthárd pályaudvar,Fehring,220.0,19.106675413135402,54.590501180386866
+Szentgotthárd pályaudvar,Graz Hbf 2,220.0,65.48011189277844,53.0919826157663
+Szentgotthárd pályaudvar,Šentilj železniška postaja,220.0,55.81698522274127,23.419714079471863
+TP Bleiburg Staatsgrenze,Bleiburg Bahnhof,220.0,4.144285983046206,67.49265743818107
+TP Gmünd Lainsitzbrücke Schiene,Wien Franz-Josefs-Bahnhof,250.0,118.77566612494013,53.18313408579409
+TP Gmünd Lainsitzbrücke Schiene,České Velenice,250.0,0.9624278232558359,48.1213911627918
+TP Summerau(Gr),Linz/Donau Hauptbahnhof,220.0,35.18500143007961,32.35543837801027
+TP Summerau(Gr),Summerau Bahnhof,220.0,4.136633620032573,48.60544503538273
+Tarvisio Citta Boscoverde,Freilassing Bahnhof,400.0,155.43310197996382,39.64796229266918
+Tarvisio Citta Boscoverde,"La Spezia, Centrale",220.0,398.59802547812393,44.702582296612036
+Tarvisio Citta Boscoverde,"Roma, Stazione di Roma Tiburtina",220.0,518.1160951396752,55.225172579257304
+Tarvisio Citta Boscoverde,Salzburg Hauptbahnhof,400.0,151.35439265789128,46.81063690450246
+Tarvisio Citta Boscoverde,Venezia Santa Lucia,220.0,154.59535803728542,50.411529794766984
+Tarvisio Citta Boscoverde,Villach Hauptbahnhof,400.0,22.288016359156018,48.25428378412046
+Tarvisio Citta Boscoverde,Wien Hauptbahnhof,400.0,279.9683721574598,46.90268107058752
+Telfs-Pfaffenhofen Bahnhof,Innsbruck Hauptbahnhof,160.0,24.644930772115675,52.810565940247876
+Telfs-Pfaffenhofen Bahnhof,Jenbach Bahnhof,160.0,53.55060461748237,48.83063036177468
+Traisen Bahnhof,Hainfeld Bahnhof,250.0,11.697731297433174,38.99243765811058
+Traisen Bahnhof,Schrambach Bahnhof,241.0,6.719218449442598,26.195336134087274
+Traisen Bahnhof,St. Pölten Hauptbahnhof,190.0,16.93237604160112,29.010627519306095
+Traiskirchen Aspangbahn,Wien Hauptbahnhof,250.0,19.406742438476776,36.387642072143954
+Traiskirchen Aspangbahn,Wiener Neustadt Hauptbahnhof,250.0,23.592030754569656,41.63299544924057
+Traun OÖ Bahnhof,Kirchdorf/Krems Bahnhof,160.0,37.045047724406054,48.31962746661659
+Tulln Bahnhof,St. Pölten Hauptbahnhof,160.0,35.136834498167524,31.34801023905832
+Tulln Bahnhof,Tullnerfeld Bahnhof,160.0,6.17637366981973,46.32280252364798
+Tulln Bahnhof,Wien Franz-Josefs-Bahnhof,160.0,24.63815978176912,35.19737111681303
+Tulln Stadt Bahnhof,Tulln Bahnhof,160.0,0.8336980001554027,25.010940004662086
+Tulln Stadt Bahnhof,Wien Franz-Josefs-Bahnhof,160.0,25.417288395467885,33.81381703674787
+Tullnerbach-Pressbaum Bahnhof,Wien Westbahnhof,160.0,18.063394115956694,38.70727310562149
+Tullnerfeld Bahnhof,Stockerau Bahnhof,160.0,18.71596681902817,29.879876851430943
+Tullnerfeld Bahnhof,Tulln Bahnhof,160.0,6.192013211483082,48.6515323759385
+Tullnerfeld Bahnhof,Wien Franz-Josefs-Bahnhof,160.0,28.0653495201156,31.183721689017332
+Tullnerfeld Bahnhof,Wien Westbahnhof,400.0,27.478128545929103,82.43438563778732
+Unterpurkersdorf Bahnhof,Wien Westbahnhof,160.0,10.904214643909059,36.34738214636353
+Unterretzbach Bahnhof,Retz Bahnhof,250.0,3.930418895363457,47.16502674436149
+Unterretzbach Bahnhof,Wien Meidling,250.0,69.87614742641775,44.13230363773753
+Unterretzbach Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,107.37299826368763,47.721332561638945
+Unzmarkt Bahnhof 1,Bruck/Mur Bahnhof 3,160.0,67.4338494674956,53.06180192609052
+Unzmarkt Bahnhof 1,Kapfenberg Bahnhof,160.0,69.62008414653445,50.94152498526911
+Unzmarkt Bahnhof 2,Bruck/Mur Bahnhof 1,220.0,67.3944544527832,62.26921875523678
+Unzmarkt Bahnhof 2,Graz Hbf 4,220.0,75.05554550730591,48.949268809112546
+Unzmarkt Bahnhof 2,Kapfenberg Bahnhof,220.0,69.59956600904097,58.816534655527576
+Unzmarkt Bahnhof 3,Friesach Bahnhof,226.66666666666666,27.61396731956238,50.20721330829523
+Unzmarkt Bahnhof 3,Neumarkt Bahnhof,220.0,14.331978012068168,45.25887793284684
+Unzmarkt Bahnhof 3,Scheifling Bahnhof,220.0,6.159013910464073,46.19260432848055
+Venezia Santa Lucia,Tarvisio Citta Boscoverde,220.0,154.59535803728542,53.61688718056141
+Venezia Santa Lucia,Udine stazione,220.0,98.87055686982227,59.322334121893356
+Villach Hauptbahnhof,Arnoldstein Bahnhof,205.0,13.120012254348838,41.470850458039735
+Villach Hauptbahnhof,Feldkirchen in Ktn Bahnhof,160.0,22.287338849307975,39.605637116005944
+Villach Hauptbahnhof,Freilassing Bahnhof,400.0,150.60011160508407,49.648388441236506
+Villach Hauptbahnhof,Friesach Bahnhof,182.5,56.67844200692375,41.675097205188806
+Villach Hauptbahnhof,Föderlach Bahnhof,160.0,8.627527101871777,64.70645326403833
+Villach Hauptbahnhof,Hermagor Bahnhof,160.0,36.17856087162331,36.17856087162331
+Villach Hauptbahnhof,Jesenice (SI) železniška posta,160.0,25.649297893857224,41.00501755447782
+Villach Hauptbahnhof,Klagenfurt Hauptbahnhof,185.71428571428572,35.50848198548648,62.58502905668559
+Villach Hauptbahnhof,Ledenitzen Bahnhst,160.0,10.910923252429768,28.46327804981679
+Villach Hauptbahnhof,Mallnitz-Obervellach Bahnhof,400.0,65.14244211025131,83.1605643960655
+Villach Hauptbahnhof,Rosenbach Bahnhof,160.0,17.310591057253188,34.621182114506375
+Villach Hauptbahnhof,Spittal-Millstätter See Bahnhof,203.33333333333334,33.83142934354432,70.41924500084788
+Villach Hauptbahnhof,St. Veit an der Glan Bahnhof,160.0,42.96966407932815,42.566319011492816
+Villach Hauptbahnhof,St.Stefan-Vorderberg Bahnhof,160.0,24.204673313681077,34.57810473383011
+Villach Hauptbahnhof,Tarvisio Citta Boscoverde,400.0,22.288016359156018,46.377084545314545
+Villach Hauptbahnhof,Wien Hauptbahnhof,400.0,257.9539214143024,59.23627904214542
+Vöcklabruck Bahnhof,Kammer-Schörfling Bahnhst,250.0,8.509399455732346,34.037597822929385
+Vöcklabruck Bahnhof,Schärding Bahnhof,250.0,53.10871406671595,34.26368649465545
+Waidhofen/Ybbs Bahnhof,Amstetten Bahnhof,250.0,19.03235331499689,46.08664602478856
+Wampersdorf Bahnhof,Bruck/Leitha Bahnhof,160.0,28.878263919289495,22.214049168684227
+Warszawa Wschodnia,Bohumín,400.0,322.02702014685946,60.75981512204895
+Warszawa Wschodnia,Břeclav,400.0,487.47411811652347,61.705584571711846
+Weissenbach-Neuhaus Bahnhof,Leobersdorf Bahnhof,250.0,14.706327184487558,30.4993287914742
+Weissenbach-Neuhaus Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,23.81907571224748,27.532802570608638
+Weizelsdorf Bahnhof,Klagenfurt Hauptbahnhof,160.0,10.037770110812275,39.837400127286216
+Weißenbach-St.Gallen Bahnhof,Amstetten Bahnhof,250.0,48.77026880551249,41.21431166663027
+Weißenbach-St.Gallen Bahnhof,Garsten Bahnhof,250.0,38.334317165699524,30.49320683635189
+Weißenbach-St.Gallen Bahnhof,Kleinreifling Bahnhof,250.0,12.218166721160605,52.363571662116875
+Weißenbach-St.Gallen Bahnhof,St. Valentin Bahnhof,250.0,52.33521283782867,35.55252738305293
+Weißenbach-St.Gallen Bahnhof,Weyer/Enns Bahnhof,250.0,16.596807871383405,45.264021467409286
+Wels Hauptbahnhof,Attnang-Puchheim Bahnhof,250.0,28.488598219410346,63.3079960431341
+Wels Hauptbahnhof,Flughafen Wien Bahnhof,400.0,188.3108722309623,91.85896206388406
+Wels Hauptbahnhof,Grünau im Almtal Bahnhof,250.0,35.08525543748712,32.386389634603496
+Wels Hauptbahnhof,Linz/Donau Hauptbahnhof,189.30232558139534,24.050050549042385,69.9301239243973
+Wels Hauptbahnhof,Neumarkt-Kallham Bahnhof,250.0,25.301852867948334,69.00505327622274
+Wels Hauptbahnhof,Passau Hauptbahnhof,250.0,62.200669888981636,51.33089436853705
+Wels Hauptbahnhof,Sattledt Bahnhof,250.0,10.427670378667704,31.32221290434397
+Wels Hauptbahnhof,Schärding Bahnhof,250.0,54.48615719090372,55.88732078903333
+Wels Hauptbahnhof,Simbach (Inn),250.0,75.17157400694649,46.98223375434154
+Wels Hauptbahnhof,Straßwalchen Bahnhof,250.0,60.63956972005973,39.54016705853874
+Wels Hauptbahnhof,Taufkirchen/Pram Bahnhof,250.0,46.04087970012249,54.16574082367352
+Wels Hauptbahnhof,Wien Hauptbahnhof,400.0,174.1791309713658,100.48796017578796
+Werndorf Bahnhof,Graz Hbf 5,160.0,17.975477517141513,54.87251031548462
+Wien Aspern Nord,Wien Hauptbahnhof,160.0,10.837902082831667,29.557914771359094
+Wien Aspern Nord,Wien Hütteldorf,160.0,18.546266014610968,26.950130847280647
+Wien Floridsdorf,Aspang Markt Bahnhof,250.0,80.35629373224893,55.41813360844754
+Wien Floridsdorf,Bad Vöslau Bahnhof,250.0,34.46724725530596,39.76990067919919
+Wien Floridsdorf,Deutsch-Wagram Bahnhof,160.0,13.279836891273856,53.119347565095424
+Wien Floridsdorf,Fischamend Bahnhof,250.0,22.313017155211075,35.23107971875433
+Wien Floridsdorf,Flughafen Wien Bahnhof,194.6153846153846,19.4459191039692,34.11267790737008
+Wien Floridsdorf,Fürstenfeld Bahnhof,250.0,137.082481586951,44.22015535062935
+Wien Floridsdorf,Gänserndorf Bahnhof,160.0,26.376128016330416,52.75225603266083
+Wien Floridsdorf,Gänserndorf Bahnhof A,160.0,26.186292334053892,32.810448162577764
+Wien Floridsdorf,Hollabrunn Bahnhof,160.0,41.80388296793357,48.23524957838488
+Wien Floridsdorf,Marchegg Bahnhof,160.0,38.386180811572586,53.56211276033384
+Wien Floridsdorf,Mödling Bahnhof,163.0,20.47695304210794,28.064152386324437
+Wien Floridsdorf,Mürzzuschlag Bahnhof,400.0,89.9439762509509,40.757786775824194
+Wien Floridsdorf,Payerbach-Reichenau Bahnhof,400.0,74.01390237097559,48.26993632889712
+Wien Floridsdorf,Schlöglmühl Bahnhof,400.0,73.33999754353354,51.16744014665131
+Wien Floridsdorf,Stockerau Bahnhof,220.0,19.68964518742209,62.17782690764871
+Wien Floridsdorf,Tullnerfeld Bahnhof,160.0,30.19650567451978,25.163754728766484
+Wien Floridsdorf,Wien Liesing,160.0,16.02534160778892,27.472014184781006
+Wien Floridsdorf,Wien Meidling,179.2,10.310857334171269,24.746057602011042
+Wien Floridsdorf,Wien Praterstern,160.0,4.224242439961671,36.207792342528606
+Wien Floridsdorf,Wiener Neustadt Hauptbahnhof,252.09302325581396,51.049878903292274,44.74979355633446
+Wien Floridsdorf,Wolfsthal,233.5483870967742,46.90180686789746,34.63812993992515
+Wien Franz-Josefs-Bahnhof,Absdorf-Hippersdorf Bahnhof,250.0,33.85363190988012,58.03479755979449
+Wien Franz-Josefs-Bahnhof,Gmünd Bahnhof,250.0,117.65908700815582,53.2040760938379
+Wien Franz-Josefs-Bahnhof,Göpfritz,250.0,90.582567078432,55.45871453781552
+Wien Franz-Josefs-Bahnhof,Hadersdorf/Kamp Bahnhof,250.0,53.66689002783612,54.576498333392664
+Wien Franz-Josefs-Bahnhof,Höflein/Donau Bahnhof,160.0,15.225906527625135,41.525199620795824
+Wien Franz-Josefs-Bahnhof,Krems Bahnhof,250.0,59.495357658393694,53.68565708847491
+Wien Franz-Josefs-Bahnhof,Sigmundsherberg Bahnhof,250.0,68.30628837221037,54.875812519419895
+Wien Franz-Josefs-Bahnhof,St. Andrä-Wördern Bahnhof,250.0,16.383450954700255,37.80796374161597
+Wien Franz-Josefs-Bahnhof,St. Pölten Hauptbahnhof,160.0,54.598523024372525,25.469154887482347
+Wien Franz-Josefs-Bahnhof,TP Gmünd Lainsitzbrücke Schiene,250.0,118.77566612494013,52.41236402657968
+Wien Franz-Josefs-Bahnhof,Tulln Stadt Bahnhof,160.0,25.40871274655178,30.20398451489611
+Wien Franz-Josefs-Bahnhof,Tullnerfeld Bahnhof,160.0,28.0653495201156,30.40260699479016
+Wien Grillgasse,Wiener Neustadt Hauptbahnhof,160.0,41.65228523446076,33.32182818756861
+Wien Handelskai,Wien Heiligenstadt,160.0,1.6656129162407216,19.987354994888662
+Wien Handelskai,Wien Hernals,160.0,5.705186499233317,22.82074599693327
+Wien Handelskai,Wien Hütteldorf,160.0,10.412475769104695,22.756269887657048
+Wien Hauptbahnhof,Bischofshofen Bahnhof,400.0,250.83340402751426,47.77779124333605
+Wien Hauptbahnhof,Bohumín,400.0,239.26295663136207,77.59879674530661
+Wien Hauptbahnhof,Bratislava hlavná stanica,160.0,54.055620353926585,69.00717491990628
+Wien Hauptbahnhof,Bratislava-Petržalka stanica,247.09677419354838,53.951244296216274,54.49679528576036
+Wien Hauptbahnhof,Bregenz Bahnhof,400.0,500.93888585591765,73.48736711822752
+Wien Hauptbahnhof,Bruck/Leitha Bahnhof,160.0,35.14243559315397,52.71365338973096
+Wien Hauptbahnhof,Břeclav,400.0,73.79365814052345,75.95136744287792
+Wien Hauptbahnhof,Devínska Nová Ves,250.0,44.46896664388459,63.527095205549415
+Wien Hauptbahnhof,Eisenstadt Bahnhof,250.0,39.980897222618296,34.765997584885476
+Wien Hauptbahnhof,Feldkirch Bahnhof,400.0,517.3741610174293,57.699720559564604
+Wien Hauptbahnhof,Flughafen Wien Bahnhof,400.0,15.547380244994985,60.97011860782347
+Wien Hauptbahnhof,Freilassing Bahnhof,400.0,255.9840739785419,85.26488762137764
+Wien Hauptbahnhof,Friedberg Bahnhof,250.0,86.94308262835271,49.94806011359461
+Wien Hauptbahnhof,Gramatneusiedl Bahnhof,160.0,18.800945876291284,22.561135051549538
+Wien Hauptbahnhof,Graz Hauptbahnhof 1B-E,400.0,143.15607527602583,54.71820771353878
+Wien Hauptbahnhof,Graz Hbf 2,400.0,143.14391221442588,55.410546663648724
+Wien Hauptbahnhof,Gutenstein Bahnhof,250.0,48.70635623551738,26.5671034011913
+Wien Hauptbahnhof,Götzendorf Bahnhof,250.0,23.495544686262964,56.38930724703111
+Wien Hauptbahnhof,Hartberg Bahnhof,250.0,104.79406564315333,43.97168834205084
+Wien Hauptbahnhof,Hegyeshalom pályaudvar,344.7368421052632,64.58870143059714,81.34956259353987
+Wien Hauptbahnhof,Kufstein Bahnhof,400.0,321.1604767821588,87.9891717211394
+Wien Hauptbahnhof,Lienz Bahnhof,400.0,310.0565428197641,54.395884705221775
+Wien Hauptbahnhof,Linz/Donau Hauptbahnhof,400.0,154.97017699322325,101.5197926383405
+Wien Hauptbahnhof,Marchegg Bahnhof,250.0,40.62357390698102,61.304666077807724
+Wien Hauptbahnhof,Mürzzuschlag Bahnhof,400.0,82.71460308764928,47.26548747865673
+Wien Hauptbahnhof,Neusiedl am See Bahnhof,205.0,41.728606019595055,55.3706502952319
+Wien Hauptbahnhof,Pamhagen Bahnhof,250.0,66.19553866573459,49.17975756670564
+Wien Hauptbahnhof,Passau Hauptbahnhof,400.0,220.52819795568064,94.00116451893
+Wien Hauptbahnhof,Puchberg am Schneeberg Bahnhof,250.0,55.930592964445744,31.362949325857425
+Wien Hauptbahnhof,Salzburg Hauptbahnhof,400.0,251.37709617361014,88.20603253481643
+Wien Hauptbahnhof,Sopron pályaudvar,250.0,58.702159009421244,50.31613629378963
+Wien Hauptbahnhof,Spittal-Millstätter See Bahnhof,400.0,266.49211131188605,55.51918985664293
+Wien Hauptbahnhof,St. Valentin Bahnhof,400.0,137.63085456574603,103.22314092430953
+Wien Hauptbahnhof,Tarvisio Citta Boscoverde,400.0,280.02239780019556,43.73684354830389
+Wien Hauptbahnhof,Traiskirchen Aspangbahn,250.0,19.346849626671105,35.1760902303111
+Wien Hauptbahnhof,Villach Hauptbahnhof,400.0,258.00461878859767,58.80527460666653
+Wien Hauptbahnhof,Wels Hauptbahnhof,400.0,174.35603491980018,95.97579903842212
+Wien Hauptbahnhof,Wien Aspern Nord,160.0,10.845566962235532,29.57881898791509
+Wien Hauptbahnhof,Wien Erzherzog-Karl-Straße,250.0,7.472872742343491,28.023272783788094
+Wien Hauptbahnhof,Wiener Neustadt Hauptbahnhof,302.5,42.961687503221945,61.2594757965309
+Wien Hauptbahnhof,Wulkaprodersdorf Bahnhof,250.0,44.71342020443087,30.373510189373494
+Wien Hauptbahnhof,Wörgl Hauptbahnhof,400.0,331.32524825777267,55.071711563504174
+Wien Hauptbahnhof,Šentilj železniška postaja,400.0,176.50139739511613,50.18997082325577
+Wien Hauptbahnhof Autoreisezug,Bregenz Bahnhof,400.0,501.78727076315306,50.60039705174653
+Wien Heiligenstadt,Wien Hütteldorf,160.0,9.558781503477924,28.676344510433772
+Wien Hütteldorf,Wien Aspern Nord,160.0,18.547101691262945,27.72405304891909
+Wien Hütteldorf,Wien Handelskai,160.0,10.412475769104695,23.368065925742602
+Wien Hütteldorf,Wien Heiligenstadt,160.0,9.564363715682783,27.32675347337938
+Wien Hütteldorf,Wien Krottenbachstraße,160.0,7.46339136378916,27.987717614209352
+Wien Hütteldorf,Wien Simmering,160.0,12.131404710360382,33.08564921007377
+Wien Jedlersdorf,Wien Floridsdorf,220.0,1.8903467796279096,37.80693559255819
+Wien Jedlersdorf,Wien Liesing,160.0,17.528636739595598,26.292955109393397
+Wien Jedlersdorf,Wien Rennweg,160.0,8.714332801389405,25.20931988973364
+Wien Leopoldau,Flughafen Wien Bahnhof,160.0,19.461881427456337,27.80268775350906
+Wien Leopoldau,Gänserndorf Bahnhof A,160.0,21.91689232052089,42.41979158810494
+Wien Leopoldau,Haslau an der Donau Bahnhof,160.0,26.865323195210582,26.865323195210582
+Wien Leopoldau,Mödling Bahnhof,160.0,24.213912832884557,28.10024836108151
+Wien Leopoldau,Payerbach-Reichenau Bahnhof,360.0,78.04807152147994,45.18965498343328
+Wien Leopoldau,Perchtoldsdorf Bahnhof,160.0,21.115483546320686,27.541935060418282
+Wien Leopoldau,Wien Kaiserebersdorf,160.0,14.681050604468988,26.692819280852703
+Wien Leopoldau,Wiener Neustadt Hauptbahnhof,160.0,54.34652912044752,35.832876343152215
+Wien Leopoldau,Wolfsthal,175.0,44.13719185830373,28.38183807391204
+Wien Liesing,Absdorf-Hippersdorf Bahnhof,160.0,36.968985719890846,28.07771067333482
+Wien Liesing,Deutsch-Wagram Bahnhof,160.0,28.008419283509053,31.70764447189704
+Wien Liesing,Gänserndorf Bahnhof,160.0,40.3791679126847,35.710897595177485
+Wien Liesing,Hollabrunn Bahnhof,160.0,50.1328460162056,34.181485920140176
+Wien Liesing,Korneuburg Bahnhof,160.0,23.445963568945356,26.54260026673059
+Wien Liesing,Marchegg Bahnhof,160.0,48.7170012825515,36.086667616704815
+Wien Liesing,Stockerau Bahnhof,216.25,28.04213665584856,27.19492672779703
+Wien Liesing,Wien Floridsdorf,160.0,16.01941768029391,28.269560612283374
+Wien Liesing,Wien Leopoldau,160.0,20.098443416289154,29.412356218959737
+Wien Liesing,Wien Praterstern,160.0,12.324688195806136,29.579251669934724
+Wien Liesing,Wien Süßenbrunn,160.0,22.37339476893115,30.509174684906114
+Wien Meidling,Absdorf-Hippersdorf Bahnhof,160.0,36.03237829124564,31.332502861952737
+Wien Meidling,Bratislava-Petržalka stanica,250.0,57.081492224625784,44.47908485035775
+Wien Meidling,Bruck/Leitha Bahnhof,250.0,37.44118488916161,68.07488161665746
+Wien Meidling,Břeclav,250.0,76.48286953446704,48.30497023229498
+Wien Meidling,Deutsch-Wagram Bahnhof,160.0,22.31600397449002,32.65756679193662
+Wien Meidling,Gänserndorf Bahnhof,173.5,34.86048834530915,38.28204141518596
+Wien Meidling,Hausleiten Bahnhof,160.0,29.369501706221673,26.301046304079108
+Wien Meidling,Hollabrunn Bahnhof,160.0,47.31566049152775,36.05965578770277
+Wien Meidling,Laa/Thaya Bahnhof,250.0,61.27528115954089,39.9621398866571
+Wien Meidling,Marchegg Bahnhof,160.0,44.10909606540513,38.35573570904794
+Wien Meidling,Platt Bahnhof,250.0,61.84222235412827,48.18874469152852
+Wien Meidling,Retz Bahnhof,250.0,70.09355190422731,45.40804091188683
+Wien Meidling,Stockerau Bahnhof,160.0,24.77692014858836,28.049343564439653
+Wien Meidling,Unterretzbach Bahnhof,250.0,69.87614742641775,42.92832957819058
+Wien Meidling,Wien Floridsdorf,191.76470588235293,10.326544319661481,25.03727281882046
+Wien Meidling,Wien Jedlersdorf,160.0,11.927258134448076,23.854516268896152
+Wien Meidling,Wien Leopoldau,160.0,14.337714784138994,26.883215220260613
+Wien Meidling,Wolkersdorf Bahnhof,160.0,26.265749478085773,33.530744014577586
+Wien Meidling,Šatov,250.0,71.09934851130583,42.2372367393896
+Wien Mitte-Landstraße,Flughafen Wien Bahnhof,160.0,16.381592267677732,61.43097100379149
+Wien Praterstern,Retz Bahnhof,250.0,67.56082237912877,57.0936527147567
+Wien Praterstern,Wien Meidling,160.0,6.515796793003485,24.434237973763068
+Wien Praterstern,Wiener Neustadt Hauptbahnhof,250.0,46.85338252002054,44.62226906668622
+Wien Rennweg,Flughafen Wien Bahnhof,160.0,15.635921821389779,46.90776546416934
+Wien Rennweg,Gänserndorf Bahnhof,250.0,30.358167868166483,44.70325846109849
+Wien Rennweg,Hollabrunn Bahnhof,160.0,47.00390522089347,41.47403401843542
+Wien Rennweg,Kottingneusiedl Bahnhof,250.0,56.799400691694146,42.59955051877061
+Wien Rennweg,Laa/Thaya Bahnhof,236.5,58.77985919281947,39.98799449601795
+Wien Rennweg,Mistelbach Bahnhof,160.0,43.232933000452235,30.51736447090746
+Wien Rennweg,Schwechat Bahnhof,160.0,9.128777196455156,36.51510878582062
+Wien Rennweg,Stockerau Bahnhof,160.0,24.43194459567574,34.90277799382249
+Wien Rennweg,Wien Floridsdorf,218.5,6.869683552056877,27.478734208227507
+Wien Rennweg,Wien Jedlersdorf,160.0,8.717157979034747,26.151473937104242
+Wien Rennweg,Wien Leopoldau,160.0,10.319768754601212,26.921135881568375
+Wien Rennweg,Wolkersdorf Bahnhof,169.0,22.446343237265385,35.45993096077272
+Wien Süßenbrunn,Gänserndorf Bahnhof A,160.0,19.239132631507193,29.598665586934143
+Wien Westbahnhof,Amstetten Bahnhof,400.0,108.41973063553446,73.07420878436476
+Wien Westbahnhof,Attnang-Puchheim Bahnhof,400.0,195.32960605095576,106.54342148233951
+Wien Westbahnhof,Eichgraben-Altlengbach Bahnhof,160.0,26.432256551252642,38.68135105061362
+Wien Westbahnhof,Neulengbach Bahnhof,160.0,32.87297555600498,38.525342393689094
+Wien Westbahnhof,St. Pölten Hauptbahnhof,259.7826086956522,52.78097811679007,54.411751766244016
+Wien Westbahnhof,Tullnerbach-Pressbaum Bahnhof,160.0,18.065881025516717,38.71260219753582
+Wien Westbahnhof,Tullnerfeld Bahnhof,400.0,27.488588765153565,78.5388250432959
+Wien Westbahnhof,Unterpurkersdorf Bahnhof,160.0,10.902207585900614,36.34069195300205
+Wien Westbahnhof,Wien Hütteldorf,250.0,5.609145075397798,56.09145075397798
+Wiener Neustadt Hauptbahnhof,Absdorf-Hippersdorf Bahnhof,160.0,68.1648034926949,29.423656183897076
+Wiener Neustadt Hauptbahnhof,Aspang Markt Bahnhof,250.0,29.41281394672487,45.663604083645595
+Wiener Neustadt Hauptbahnhof,Bernhardsthal Bahnhof,250.0,108.55023303499372,50.35924008902261
+Wiener Neustadt Hauptbahnhof,Bruck/Leitha Bahnhof,160.0,46.90308111734726,24.47117275687684
+Wiener Neustadt Hauptbahnhof,Břeclav,250.0,115.65148771509206,50.35207385247284
+Wiener Neustadt Hauptbahnhof,Dürnkrut Bahnhof,250.0,86.83934893236663,48.24408274020368
+Wiener Neustadt Hauptbahnhof,Ebreichsdorf Bahnhof,160.0,21.942085425574138,50.635581751324935
+Wiener Neustadt Hauptbahnhof,Edlitz-Grimmenstein Bahnhof,250.0,22.934484765904806,41.69906321073601
+Wiener Neustadt Hauptbahnhof,Fehring,250.0,97.21336836167075,37.024207124465285
+Wiener Neustadt Hauptbahnhof,Friedberg Bahnhof,250.0,43.97673247496159,39.78737812738165
+Wiener Neustadt Hauptbahnhof,Fürstenfeld Bahnhof,250.0,86.23074662487174,41.06226029755797
+Wiener Neustadt Hauptbahnhof,Gutenstein Bahnhof,250.0,25.145795834941772,28.128752296345723
+Wiener Neustadt Hauptbahnhof,Gänserndorf Bahnhof,250.0,69.60876065850651,45.89588614846584
+Wiener Neustadt Hauptbahnhof,Hartberg Bahnhof,250.0,61.828421648606714,41.002482847085304
+Wiener Neustadt Hauptbahnhof,Hausleiten Bahnhof,160.0,65.19290715994241,30.089034073819576
+Wiener Neustadt Hauptbahnhof,Hollabrunn Bahnhof,160.0,84.45247156898427,34.94585030440729
+Wiener Neustadt Hauptbahnhof,Laa/Thaya Bahnhof,160.0,102.25877984657428,34.08625994885809
+Wiener Neustadt Hauptbahnhof,Lanzendorf-Rannersdorf Bahnhof,160.0,37.18651650189487,26.249305766043438
+Wiener Neustadt Hauptbahnhof,Mattersburg Bahnhof,250.0,15.513547132852198,43.820733784355234
+Wiener Neustadt Hauptbahnhof,Mistelbach Bahnhof,160.0,87.42213092728076,34.50873589234767
+Wiener Neustadt Hauptbahnhof,Mürzzuschlag Bahnhof,250.0,47.29802485337124,36.38309604105479
+Wiener Neustadt Hauptbahnhof,Oberpiesting Bahnhof,250.0,12.340399186559848,28.47784427667657
+Wiener Neustadt Hauptbahnhof,Payerbach-Reichenau Bahnhof,400.0,30.4949780817637,60.9899561635274
+Wiener Neustadt Hauptbahnhof,Puchberg am Schneeberg Bahnhof,250.0,24.17525806729341,30.430572252258678
+Wiener Neustadt Hauptbahnhof,Retz Bahnhof,250.0,106.79203256357378,49.22189869159305
+Wiener Neustadt Hauptbahnhof,Seebenstein Bahnhof,250.0,13.749533833586774,41.24860150076032
+Wiener Neustadt Hauptbahnhof,Sopron pályaudvar,250.0,30.26107753484849,49.22263629409268
+Wiener Neustadt Hauptbahnhof,Stockerau Bahnhof,180.0,63.54969387263162,32.43109448808388
+Wiener Neustadt Hauptbahnhof,Traiskirchen Aspangbahn,250.0,23.591468228603357,43.99745745842471
+Wiener Neustadt Hauptbahnhof,Unterretzbach Bahnhof,250.0,107.37976589622156,47.50398748979199
+Wiener Neustadt Hauptbahnhof,Weissenbach-Neuhaus Bahnhof,250.0,23.806466759673878,31.051913164792012
+Wiener Neustadt Hauptbahnhof,Wien Floridsdorf,248.0,51.04593767214235,43.91136847099544
+Wiener Neustadt Hauptbahnhof,Wien Hauptbahnhof,322.0,42.92462867032343,63.146556357520424
+Wiener Neustadt Hauptbahnhof,Wien Leopoldau,160.0,54.339128719492415,36.226085812994945
+Wiener Neustadt Hauptbahnhof,Wien Liesing,250.0,36.19501356873015,51.70716224104307
+Wiener Neustadt Hauptbahnhof,Wien Meidling,206.36363636363637,41.11970362179895,50.71102758719971
+Wiener Neustadt Hauptbahnhof,Wien Praterstern,160.0,46.86348038118945,33.473914557992465
+Wiener Neustadt Hauptbahnhof,Wien Süßenbrunn,160.0,55.94706700724331,32.91003941602548
+Wiener Neustadt Hauptbahnhof,Willendorf Bahnhof,250.0,13.116673234093005,34.21740843676436
+Wiener Neustadt Hauptbahnhof,Winzendorf Bahnhof,250.0,9.078959824771877,34.046099342894536
+Wiener Neustadt Hauptbahnhof,Wolkersdorf Bahnhof,160.0,66.45017627634549,35.91901420342999
+Wiener Neustadt Hauptbahnhof,Šatov,250.0,108.9288153626457,47.2861028959362
+Wieselburg Bahnhof,Pöchlarn Bahnhof,250.0,10.056574114980702,34.402216072605555
+Wilhelmsburg/Traisen Bahnhof,St. Pölten Hauptbahnhof,160.0,10.94926761811434,24.331705818031864
+Winzendorf Bahnhof,Wiener Neustadt Hauptbahnhof,250.0,9.076947610859499,32.03628568538647
+Wolfsberg Bahnhof,Klagenfurt Hauptbahnhof,166.66666666666666,47.268048542833384,46.562616918643656
+Wolfsthal,Wien Floridsdorf,213.33333333333334,46.881020895587646,33.77867471763033
+Wolfsthal,Wien Praterstern,160.0,46.454407085269686,36.19823928722313
+Wolfsthal,Wien Rennweg,210.0,46.45485927734094,43.12394161706088
+Wolkersdorf Bahnhof,Mödling Bahnhof,160.0,36.26545654642713,31.99893224684747
+Wolkersdorf Bahnhof,Wien Leopoldau,160.0,12.093315768462388,48.37326307384955
+Wulkaprodersdorf Bahnhof,Bruck/Leitha Bahnhof,250.0,33.49578347056742,32.94667226613189
+Wulkaprodersdorf Bahnhof,Eisenstadt Bahnhof,250.0,6.26709317294256,53.7179414823648
+Wulkaprodersdorf Bahnhof,Eisenstadt Schule,250.0,6.9659156587062325,34.82957829353116
+Wulkaprodersdorf Bahnhof,Wien Grillgasse,250.0,42.458072853127504,29.621911292879656
+Wulkaprodersdorf Bahnhof,Wien Hauptbahnhof,250.0,44.77818427422488,30.785001688529604
+Wörgl Hauptbahnhof,Wien Hauptbahnhof,400.0,331.3136023882812,56.15484786242054
+Wörgl Hbf,Innsbruck Hauptbahnhof,250.0,55.77826418611317,72.75425763406065
+Wörgl Hbf,Kitzbühel Bahnhof,160.0,25.184833106927414,40.84026990312553
+Wörgl Hbf,Kufstein Bahnhof,160.0,12.89496149269281,70.33615359650624
+Wörgl Hbf,Saalfelden Bahnhof,190.0,58.26188619677841,43.932325609588624
+Wörgl Hbf,Salzburg Hauptbahnhof,250.0,82.01346829917983,27.337822766393277
+Wörgl Hbf,Schwarzach-St.Veit Bahnhof,250.0,84.57320990846236,43.37087687613454
+Wörgl Hbf,Zell am See Bahnhof,160.0,58.561562279632966,36.98624986082082
+Zagreb Glavni kolodvor,Freilassing Bahnhof,160.0,321.3032912575161,33.76216720744477
+Zagreb Glavni kolodvor,Jesenice (SI) železniška posta,160.0,164.13149834226317,47.69653026692562
+Zagreb Glavni kolodvor,Maribor Železniška postaja,400.0,87.80823016561588,28.023903244345494
+Zagreb Glavni kolodvor,Šentilj železniška postaja,160.0,99.81501085767084,34.222289436915716
+Zell am See Bahnhof,Kitzbühel Hahnenkamm Bahnhof,160.0,33.528756186605044,34.6849201930397
+Zell am See Bahnhof,Saalfelden Bahnhof,160.0,12.073223012612063,72.43933807567238
+Zell am See Bahnhof,Wörgl Hbf,160.0,58.557251671964664,36.98352737176715
+Záhony,Chop,400.0,3.8099170932568875,12.031317136600698
+Zürich HB,Buchs Bahnhof,400.0,74.53909254659,65.76978754110883
+Ötztal-Bahnhof,Innsbruck Hauptbahnhof,250.0,40.9701580133393,66.43809407568536
+České Velenice,Gmünd Bahnhof,250.0,2.1316948202523305,31.975422303784956
+České Velenice,TP Gmünd Lainsitzbrücke Schiene,250.0,0.9624278232558359,57.745669395350156
+Šentilj železniška postaja,Bratislava hlavná stanica,400.0,197.7937253690607,35.853847498923386
+Šentilj železniška postaja,Bratislava-Petržalka stanica,400.0,194.0447226726479,35.49598585475267
+Šentilj železniška postaja,Freilassing Bahnhof,160.0,240.12850557867748,36.383106905860224
+Šentilj železniška postaja,Graz Hbf 2,400.0,47.95892668822261,62.69140743558512
+Šentilj železniška postaja,Ljubljana železniška postaja,400.0,111.48921709222122,44.30035116247201
+Šentilj železniška postaja,Maribor Železniška postaja,325.88235294117646,12.457994198861886,63.91448113871059
+Šentilj železniška postaja,Schwarzach-St.Veit Bahnhof,160.0,202.8921374742447,41.266197452388745
+Šentilj železniška postaja,Selzthal Bahnhof,160.0,140.9290461950931,52.19594303521966
+Šentilj železniška postaja,Spielfeld-Straß Bahnhof,220.0,4.51802707426099,63.89781147883401
+Šentilj železniška postaja,Szentgotthárd pályaudvar,220.0,55.81698522274127,22.938487077838882
+Šentilj železniška postaja,Zagreb Glavni kolodvor,400.0,99.81501085767084,33.457545538884084

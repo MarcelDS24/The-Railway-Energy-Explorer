@@ -21,7 +21,7 @@ import numpy as np
 # Load preprocessed data
 # -----------------------------
 #load data from data directory
-stop_times_geo_with_startEnd_calc = pd.read_csv("./data/oebb_gtfs/stop_times_geo_with_startEnd_calc.csv")
+stop_times_geo_with_startEnd_calc = pd.read_csv("../data/oebb_gtfs/stop_times_geo_with_startEnd_calc.csv")
 
 
 st.set_page_config(page_title="Austrian Train Routes Visualization", layout="wide")
