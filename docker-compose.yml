@@ -1,0 +1,12 @@
+services:
+  app:
+    build: ./APP
+    container_name: streamlit-app
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+    environment:
+      # Point to Ollama running on the HOST
+      OLLAMA_HOST: http://host.docker.internal:11434

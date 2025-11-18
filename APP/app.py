@@ -22,7 +22,7 @@ def main():
     # Load preprocessed data
     # -----------------------------
     #load data from data directory
-    stop_times_geo_with_startEnd_calc = pd.read_csv("../data/oebb_gtfs/stop_times_geo_with_startEnd_calc.csv")
+    stop_times_geo_with_startEnd_calc = pd.read_csv("./data/oebb_gtfs/stop_times_geo_with_startEnd_calc.csv")
 
 
     st.set_page_config(page_title="Austrian Train Routes Visualization", layout="wide")
@@ -45,7 +45,6 @@ def main():
     # Sidebar options
     # -----------------------------
     st.sidebar.header("Options")
-    #sample_n no steps but directly input number
     sample_n = st.sidebar.number_input("Use first N rows (0 = all)", min_value=0, value=100, step=100)
     DRAW_MARKERS = st.sidebar.checkbox("Draw stop markers", value=True)
     DRAW_LABELS  = st.sidebar.checkbox("Show labels next to markers", value=False)
@@ -278,10 +277,21 @@ def main():
     # Render in Streamlit
     highlighted_segments_df = pd.DataFrame(highlighted_segments)
     save_csv = highlighted_segments_df.to_csv(index=False).encode('utf-8')
-    st.download_button(
-        label="Download highlighted segments as CSV",
-        data=save_csv,
-        file_name='highlighted_segments.csv',
-        mime='text/csv',
-    )
+    
+
     st_folium(m, width="100%", height=map_height)
+    
+    expander = st.expander("Show Highlighted Segments", expanded=False)
+    with expander:
+        st.markdown("### Highlighted Segments")
+        st.dataframe(highlighted_segments_df)
+        st.download_button(
+            label="Download Highlighted Segments as CSV",
+            data=save_csv,
+            file_name='highlighted_segments.csv',
+            mime='text/csv',
+        )
+
+    #add chatbot page
+    from chatbot_page import chatbot_page
+    chatbot_page(complete_df=stop_times_geo_with_startEnd_calc, filtered_df=df)
