@@ -79,7 +79,7 @@ def chatbot_page(complete_df=None, filtered_df=None):
             with st.spinner("Thinking..."):
                 try:
                     response = chat(
-                        model="llama3.2",
+                        model="llama3",
                         messages=[
                             {
                                 "role": "system",
