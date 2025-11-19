@@ -51,9 +51,12 @@ def chatbot_page(complete_df=None, filtered_df=None):
         if "EPI_segment" in filtered_df.columns:
             filtered_epi_max = filtered_df["EPI_segment"].max()
             filtered_epi_mean = filtered_df["EPI_segment"].mean()
-            routes_names = filtered_df["trip_id"].unique().tolist() if "trip_id" in filtered_df else None
-            Epi_per_route = (filtered_df.groupby("trip_id")["EPI_segment"].mean().to_dict() 
+            trip_names = filtered_df["trip_id"].unique().tolist() if "trip_id" in filtered_df else None
+            EPI_per_trip = (filtered_df.groupby("trip_id")["EPI_segment"].mean().to_dict() 
                              if "trip_id" in filtered_df else {})
+            routes_names = filtered_df["route_short_name"].unique().tolist() if "route_short_name" in filtered_df else None
+
+            
         else:
             filtered_epi_max = filtered_epi_mean = None
 
@@ -63,11 +66,12 @@ def chatbot_page(complete_df=None, filtered_df=None):
             #context for complete dataset
             f"COMPLETE DATASET: {len(complete_df):,} rows, {complete_route_count} unique trips. "
             f"Average EPI: {complete_epi_mean:.2f}, Maximum EPI: {complete_epi_max:.2f}. "
+            #context for filtered dataset
             f"CURRENTLY DISPLAYED DATA: {len(filtered_df):,} rows, {filtered_route_count} unique trips. "
-            ## Context for filtered data
             f"Average EPI: {filtered_epi_mean:.2f}, Maximum EPI: {filtered_epi_max:.2f}."
-            f"Route Names: {', '.join(routes_names) if routes_names else 'N/A'}"
-            f" EPI per Route: {Epi_per_route if Epi_per_route else 'N/A'}"
+            f"Route Names: {', '.join(trip_names) if trip_names else 'N/A'}"
+            f" EPI per Trip: {EPI_per_trip if EPI_per_trip else 'N/A'}"
+            f" Route Names: {', '.join(routes_names) if routes_names else 'N/A'}"
         )
 
         # --- Generate response using Ollama ---

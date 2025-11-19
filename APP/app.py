@@ -49,31 +49,153 @@ def main():
     DRAW_MARKERS = st.sidebar.checkbox("Draw stop markers", value=True)
     DRAW_LABELS  = st.sidebar.checkbox("Show labels next to markers", value=False)
     HIGHLIGHT_MAX_SPEED = st.sidebar.checkbox("Highlight highest-speed segment (per trip)", value=bool(speed_col))
-    map_height = st.sidebar.slider("Map height (px)", min_value=400, max_value=1000, value=750, step=50)
-    Select_Route = st.sidebar.selectbox("Select Route to Highlight", options=["All"] + stop_times_geo_with_startEnd_calc[route_name_col].astype(str).unique().tolist())
     ONLY_AUSTRIA_MAP = st.sidebar.checkbox("Only Austria Map View", value=True)
-
     highlighted_segments = {"Route": [],"Trip": [], "From_Stop": [], "To_Stop": [], "From_Lat": [], "From_Lon": [], "To_Lat": [], "To_Lon": [], "EPI": []}
     # -----------------------------
     # Prepare data
     # -----------------------------
 
+    df = stop_times_geo_with_startEnd_calc.copy()
+    
+    if sample_n and sample_n > 0:
+        df = df[:sample_n].copy()
+    else:
+        df = df.copy()
     #Apply all filter possibilities
     if ONLY_AUSTRIA_MAP:
-        stop_times_geo_with_startEnd_calc = stop_times_geo_with_startEnd_calc[stop_times_geo_with_startEnd_calc["country_stop"] == "Austria"]
-        if sample_n and sample_n > 0:
-            df = stop_times_geo_with_startEnd_calc[:sample_n].copy()
-        if Select_Route != "All":
-            df = df[df[route_name_col].astype(str) == Select_Route].copy()
+        df = df[df["country_stop"] == "Austria"]
     else:
-        df = stop_times_geo_with_startEnd_calc.copy()
-        if sample_n and sample_n > 0:
-            df = stop_times_geo_with_startEnd_calc[:sample_n].copy()
-        if Select_Route != "All":
-            df = df[df[route_name_col].astype(str) == Select_Route].copy()
+        df = df.copy()
 
+
+    
+ 
+    
+
+
+    #-----------------------------
+
+    if "selected_start" not in st.session_state:
+        st.session_state.selected_start = "All"
+    if "selected_end" not in st.session_state:
+        st.session_state.selected_end = "All"
+    if "selected_route" not in st.session_state:
+        st.session_state.selected_route = "All"
+
+    # -----------------------------
+    # UI: Start / End on top, Route in sidebar
+    # -----------------------------
+
+    # 1) Start station options from current df
+    start_stations = sorted(df["start_station"].astype(str).unique().tolist())
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.session_state.selected_start = st.selectbox(
+            "Select Start Station to Filter",
+            options=["All"] + start_stations,
+            index=(["All"] + start_stations).index(st.session_state.selected_start)
+            if st.session_state.selected_start in (["All"] + start_stations)
+            else 0,
+            key="start_station_selector",
+        )
+
+    # 2) End station options depend on selected start
+    if st.session_state.selected_start != "All":
+        df_for_end = df[df["start_station"].astype(str) == st.session_state.selected_start]
+        end_stations = sorted(df_for_end["end_station"].astype(str).unique().tolist())
+    else:
+        df_for_end = df.copy()
+        end_stations = []
+
+    with col2:
+        st.session_state.selected_end = st.selectbox(
+            "Select End Station to Filter",
+            options=["All"] + end_stations if end_stations else ["All"],
+            index=(["All"] + end_stations).index(st.session_state.selected_end)
+            if end_stations and st.session_state.selected_end in (["All"] + end_stations)
+            else 0,
+            key="end_station_selector",
+            disabled=(st.session_state.selected_start == "All"),
+        )
+
+    # 3) Route options depend on (possibly) start/end filtered df
+    df_after_stations = df_for_end.copy()
+    if (
+        st.session_state.selected_start != "All"
+        and st.session_state.selected_end != "All"
+    ):
+        df_after_stations = df_after_stations[
+            df_after_stations["end_station"].astype(str)
+            == st.session_state.selected_end
+        ]
+
+    route_options = sorted(
+        df_after_stations[route_name_col].astype(str).unique().tolist()
+    )
+
+    st.session_state.selected_route = st.sidebar.selectbox(
+        "Select Route to Highlight",
+        options=["All"] + route_options,
+        index=(["All"] + route_options).index(st.session_state.selected_route)
+        if st.session_state.selected_route in (["All"] + route_options)
+        else 0,
+        key="route_selector",
+    )
+
+    # -----------------------------
+    # Apply filters (w/ fallback)
+    # -----------------------------
+    df_filtered = df.copy()
+
+    # Start filter
+    if st.session_state.selected_start != "All":
+        df_filtered_start = df_filtered[
+            df_filtered["start_station"].astype(str) == st.session_state.selected_start
+        ].copy()
+    else:
+        df_filtered_start = df_filtered.copy()
+
+    # End filter
+    df_filtered_end = df_filtered_start.copy()
+    if (
+        st.session_state.selected_start != "All"
+        and st.session_state.selected_end != "All"
+    ):
+        df_filtered_end = df_filtered_end[
+            df_filtered_end["end_station"].astype(str) == st.session_state.selected_end
+        ].copy()
+
+    # Fallback if invalid start/end combo → use df_filtered_start
+    if df_filtered_end.empty:
+        df_after_stations_final = df_filtered_start.copy()
+    else:
+        df_after_stations_final = df_filtered_end.copy()
+
+    # Route filter
+    if st.session_state.selected_route != "All":
+        df_route = df_after_stations_final[
+            df_after_stations_final[route_name_col].astype(str)
+            == st.session_state.selected_route
+        ].copy()
+        # Fallback: if route doesn’t exist for that start/end → ignore route filter
+        if df_route.empty:
+            df_final = df_after_stations_final.copy()
+        else:
+            df_final = df_route.copy()
+    else:
+        df_final = df_after_stations_final.copy()
+
+    # -----------------------------
+    # Use df_final for your map / table
+    # -----------------------------
+    df = df_final
+    
+    # -----------------------------
 
     #make black and white folium map
+    
     m = folium.Map(location=[47.5, 14.5], zoom_start=7,tiles= 'CartoDB positron')
 
     #make all color markers small red dots
@@ -279,7 +401,7 @@ def main():
     save_csv = highlighted_segments_df.to_csv(index=False).encode('utf-8')
     
 
-    st_folium(m, width="100%", height=map_height)
+    st_folium(m, width="100%", height=750)
     
     expander = st.expander("Show Highlighted Segments", expanded=False)
     with expander:
