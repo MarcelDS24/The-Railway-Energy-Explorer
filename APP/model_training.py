@@ -92,9 +92,9 @@ print(results.to_string(index=False))
 # -----------------------------
 # Save all models
 # -----------------------------
-os.makedirs("../models", exist_ok=True)
-joblib.dump(lin_model, "../models/epi_predictor_linear.pkl")
-joblib.dump(rf_model, "../models/epi_predictor_rf.pkl")
-joblib.dump(xgb_model, "../models/epi_predictor_xgb.pkl")
+os.makedirs("./models", exist_ok=True)
+joblib.dump(lin_model, "./models/epi_predictor_linear.pkl")
+joblib.dump(rf_model, "./models/epi_predictor_rf.pkl")
+joblib.dump(xgb_model, "./models/epi_predictor_xgb.pkl")
 
-print("\n Models saved to ../models/")
+print("\n Models saved to ./models/")
